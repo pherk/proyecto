@@ -1,0 +1,498 @@
+/* Adapted from: history.state.gov/css/styles.css 
+   Assumes base blueprint css is imported first */
+
+/* ====General Stuff==== */
+/*
+   ==== COlor spanish flag ====
+   rgb 168 12 27  #a80c1b
+   rgb 255 179 0  #ffb300
+*/
+body {
+    background: #ffb300 url(resources/images/background.gif) repeat-x;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: black;
+    margin: 0 25px 0 25px;
+}
+.container, .document {
+    background: #F5F5F5;
+    border-top: 1px solid #DDDDE8;
+    border-left: 1px solid #DDDDE8;
+    border-right: 1px solid #DDDDE8;
+    border-bottom: 1px solid #DDDDE8;
+    margin-top: 15px;
+    padding: 0px 20px 20px 20px;
+    -moz-border-radius:1ex;
+    -webkit-border-radius:1ex;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight:900;
+    font-size: 150%;  /* h2 default */
+    color: #911625;
+}
+h3 {
+    font-weight:900;
+    font-size: 120%;  /* h3 default */
+    line-height: 1.2;
+}
+a, a:visited {
+    color: #496690;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #a80c13;
+  text-decoration: none;
+}
+a.Art {
+  font-weight:900;
+  font-size: 66%;	
+  color : green;
+  float :right;
+  clear :right;
+}
+a.Pro {
+  font-weight:900;
+  font-size: 66%;	
+  color : red;
+  float :right;
+  clear : right;
+}
+hr {
+    margin: 7px;
+}
+label {
+    color: #444444;
+}
+label span {
+    color: #999999;
+    font-size: smaller;
+}
+label.hidden {
+    display: none;
+}
+ul {
+    list-style-type: disc;
+}
+p img.bordered {
+    padding: 4px;
+    border: 1px solid #DDDDE8;
+    margin: 0px 9px 5px 0;
+}
+.bordered {
+    margin: 5px 0px 0px 0px;
+    border: 1px solid #DDDDE8;
+    padding: 10px;
+    -moz-border-radius:1ex;
+    -webkit-border-radius:1ex;
+}
+.inner-right {
+    padding: 0px 15px 0px 0px;
+}
+.inner-left {
+    padding: 0px 0px 0px 15px;
+}
+.inner {
+    margin-left: -30px;
+    padding: 0 15px 0 15px;
+}
+
+/* ====Breadcrumbs====*/
+#breadcrumbs ul {
+    list-style-type: none;
+}
+#breadcrumbs ul li {
+    display: inline;
+}
+
+/* blockquote */
+blockquote {
+display: block;
+padding: 0 100px;
+width: 350px;
+}
+
+blockquote:before, blockquote:after {
+color: #69c;
+display: block;
+font-size: 200%;
+width: 50px;
+}
+
+blockquote:before {
+content: '=?';
+height: 0;
+margin-left: -2em;
+}
+
+blockquote:after {
+content: '=';
+height: 30px;
+margin-top: -50px;
+margin-left: 370px;
+}
+
+.previous {
+    color : black;
+}
+.following {
+    color : black;
+}
+/* ===NavBar=== */
+.paddy {
+    margin-right: 50px;
+}
+/* ====Banner====*/
+
+.banner {
+    background: #a80c00
+}
+.banner.inner-left{
+    padding: 30px 0px 0px 20px
+}
+.banner h3 {
+    color : white;
+}
+.banner.inner-right{
+    color : white;
+    margin: 30px 0px 0px -50px;
+    padding: 0px 80px 0px 0px;
+}
+
+/* ====Footer====*/
+#footer {
+    background : #a80c1b;
+    clear: both;
+    width: 960px;
+    margin: 0 auto; 
+    height: 30px; 
+}
+
+#footer ul { float: left; width: 640px; margin: 4px 0 0 0; }
+#footer ul li { display: inline; color: #F3F3F3; }
+#footer ul li a { padding: 2px 4px; color: #F3F3F3; }
+#footer ul li a:hover { background: #333; }
+
+#copyright ul { float: right; width: 50px;  margin: 0 0 0 0;}
+#copyright ul li { display: inline;  color: #F3F3F3; }
+#copyright ul li a { padding: 2px 4px; color: #F3F3F3; }
+#copyright ul li a:hover { background: #333; }
+#copyright ul li img { margin: 6px 0 0 -6px; }
+
+/* ====Search====*/
+.searchbox {
+    margin-top: 20px;
+}
+.ssearch {
+    width : 80px;
+}
+.isearch {
+    width: 110px;
+}
+.hi {
+    font-weight: bold;
+    color: #911625;
+}
+
+/* ==== TEI ==== */
+
+.glyph {
+    font-size: 0.83em;
+    vertical-align:super;
+}
+
+.lg {
+    text-align : center;
+    margin: 0 0 1em 0;
+}
+
+.l {
+    font-size: 150%;    /* h2 */
+    font-weight:900;
+    line-height: 1.2;
+}
+
+.pagenumber {
+	float: left;
+	clear: left;
+	width: 3em;
+	margin: -1px 2px 0 -5em;
+	background-color: #ffe;
+	border-color: #bb8;
+}
+
+.articulo .pagenumber {
+	margin: -1px 2px 0 -5em;
+}
+.leftnote {
+	float: left;
+	clear: left;
+	width: 14em;
+	margin: -1px 2px 0 -15em;	/* the -1px top margin is to hide the 
+					   double border when two notes are 
+					   stacked on top of each other */
+    padding :0;
+	background-color: #ffe;
+	border-color: #bb8;
+}
+
+.articulo .leftnote {
+	margin: -1px 2px 0 -17em;	/* the -1px top margin is to hide the 
+					   double border when two notes are 
+					   stacked on top of each other */
+}
+ 
+span.leftnote p {
+    padding : 0;
+    margin : 1em 2px 2px 1em;
+}
+
+.titulo h2 {
+    text-align : center;
+}
+
+.capitulo h2 {
+    text-align : center;
+}
+
+.articulo h2 {
+    text-align : center;
+}
+
+.articulo p, .articulo ul {
+    margin: 0 3em 1em 3em;
+    padding: 0 1em;
+    border: solid 1px #999;
+    list-style-type: none;
+}
+
+.artitem h2 {
+    text-align : center;
+}
+
+.artitem p {
+    margin: 0px 3em 1em 3em;
+    padding: 0 1em;
+    border: solid 1px #999;
+}
+.arthead h2 {
+    text-align : center;
+}
+
+.arthead p {
+    margin: 0px 3em 1em 3em;
+    padding: 0 1em;
+    border: solid 1px #999;
+}
+
+#rs {
+    text-align: right;
+    font-style: italic;
+    font-weight:900; 
+}
+
+.unclear {
+    color: magenta;
+}
+
+/* === Tooltip === */
+.tooltip {
+  position:relative;
+  text-decoration:none;
+  font-weight:900;
+  font-size: 66%;	
+  color : green;
+  float :right;
+  clear : right;
+}
+
+.tooltip:before, .tooltip:after {
+  bottom:0;
+  display:none;
+  position:absolute;
+  z-index:1000;
+  font-weight:300;
+  font-size: 100%;
+}
+
+.tooltip:after {
+  background-color:#0099ff; 
+  background-color: rgba(28, 28, 28, 0.9);
+  border-radius:7px;
+  color:white;
+  content:attr(data-tptitle) ": \A" attr(data-tpcontent);
+  left: -400px;
+  margin-bottom:1.5em;
+  padding:5px 15px;
+  white-space:pre-wrap;
+  width : 400px;
+  min-width : 500%;
+}
+.tooltip:before {
+  border-top:.6em solid #09f;
+  border-left:7px solid transparent;
+  border-right:7px solid transparent;
+  content:"";
+  left: -10px;
+  margin-bottom:1.2em;
+}
+.tooltip:hover:after {
+    bottom: 100%;
+}
+.tooltip:hover:before {
+    bottom: 70%;
+}
+.tooltip:hover:after, .tooltip:hover:before {
+    display: block;
+}
+.searchtp {
+  position:relative;
+  text-decoration:none;
+  font-weight:900;
+  font-size: 100%;	
+  color : blue;
+  margin-right:50px;
+  padding-right:50px;
+}
+.searchtp:before, .searchtp:after {
+  bottom:0;
+  display:none;
+  position:absolute;
+  z-index:1000;
+  font-weight:300;
+  font-size: 100%;
+}
+
+.searchtp:after {
+  background-color:#0099ff;
+  background-color: rgba(28, 28, 28, 0.9);
+  border-radius:7px;
+  color:white;
+  content: attr(data-tpcontent);
+  left: -100px;
+  margin-bottom:1.5em;
+  padding:5px 15px;
+  white-space:pre-wrap;
+  width : 100px;
+  min-width : 500%;
+}
+.searchtp:before {
+  border-top:.6em solid #09f;
+  border-left:7px solid transparent;
+  border-right:7px solid transparent;
+  content:"";
+  left: -10px;
+  margin-bottom:1.2em;
+}
+.searchtp:hover:after {
+    bottom: 100%;
+}
+.searchtp:hover:before {
+    bottom: 70%;
+}
+.searchtp:hover:after, .searchtp:hover:before {
+    display: block;
+}
+
+/* ===CSS Treeview === */
+.css-treeview ul,
+.css-treeview li
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.css-treeview input
+{
+	position: absolute;
+	opacity: 0;
+}
+.css-treeview
+{
+	font: normal 11px "Segoe UI", Arial, Sans-serif;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			user-select: none;
+    white-space : nowrap;
+}
+.css-treeview a
+{
+	color: #00f;
+	text-decoration: none;
+}
+.css-treeview a:hover
+{
+	text-decoration: underline;
+}
+.css-treeview input + label + ul
+{
+	margin: 0 0 0 22px;
+}
+.css-treeview input ~ ul
+{
+	display: none;
+}
+.css-treeview label,
+.css-treeview label::before
+{
+	cursor: pointer;
+}
+.css-treeview input:disabled + label
+{
+	cursor: default;
+	opacity: .6;
+}
+.css-treeview input:checked:not(:disabled) ~ ul
+{
+	display: block;
+}
+.css-treeview label,
+.css-treeview label::before
+{
+	background: url("/exist/apps/proyecto/resources/images/icons.png") no-repeat;
+}
+.css-treeview label,
+.css-treeview a,
+.css-treeview label::before
+{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;,
+	vertical-align: middle;
+}
+.css-treeview label
+{
+	background-position: 18px 0;
+}
+.css-treeview label::before
+{
+	content: "";
+	width: 16px;
+	margin: 0 22px 0 0;
+	vertical-align: middle;
+	background-position: 0 -32px;
+}
+.css-treeview input:checked + label::before
+{
+	background-position: 0 -16px;
+}
+/* webkit adjacent element selector bugfix */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.css-treeview 
+	{
+		-webkit-animation: webkit-adjacent-element-selector-bugfix infinite 1s;
+	}
+	
+	@-webkit-keyframes webkit-adjacent-element-selector-bugfix 
+	{
+		from 
+		{ 
+			padding: 0;
+		} 
+		to 
+		{ 
+			padding: 0;
+		}
+	}
+}

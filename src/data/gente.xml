@@ -1,0 +1,1178 @@
+<TEI xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5" xsi:schemaLocation="http://www.tei-c.org/ns/1.0  http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hombres de la Comision</title>
+                <author>La Comision</author>
+                <respStmt>
+                    <resp>Encoded by </resp>
+                    <name xml:id="HA">Hans Artz and </name>
+                    <name xml:id="PH">Peter Herkenrath</name>
+                </respStmt>
+                <principal>Hans Artz</principal>
+                <sponsor>Cádiz Heritage Language Technologies</sponsor>
+                <funder>PH</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012-08-03</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace>Cádiz, Spain</pubPlace>
+                <publisher>Cádiz Heritage Language Technology</publisher>
+                <address>
+                    <addrLine>Hans Artz</addrLine>
+                    <addrLine>1101 Cádiz, Jose de Torro 6, 2nd A</addrLine>
+                    <addrLine>Spain</addrLine>
+                    <addrLine>url:http://www.clht.es</addrLine>
+                </address>
+                <date>2012-10-31</date>
+             <availability status="restricted">
+                    <p>Available under a CC-BY-NC-ND license</p>
+             </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>La Comision, d. 1811</author>
+                        <title type="main">Actas de la Comision nombrada</title>
+                        <title type="subordinate">para<lb/>la formación del proiecto de Constitucion.</title>
+                        <edition>Ed. facsimile</edition>
+                        <imprint>
+                            <pubPlace>Cádiz</pubPlace>
+                            <publisher>unknown</publisher>
+                            <date>2 de Marco 1811</date>
+                        </imprint>
+                        <extent>??? p. (1 vols) ; ?? cm.</extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+          <projectDesc>
+            <p>Originally prepared for personal use. 
+               The bibliographic data were extensively checked and revised for 
+               digital edition of the Manuscripts concerning the spanish constitucion from 1812.</p>
+          </projectDesc>
+          <editorialDecl>
+          <correction>
+            <p>name variants are recorded, if uncertain.</p>
+          </correction>
+          </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es">Espanol</language>
+            </langUsage>
+            <particDesc>
+                <listPerson xml:id="list-persons">
+                    <person sex="1" role="comision diputado" xml:id="Ala01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename/>
+                            <surname type="padre">de Alava</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebeliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Arg01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Agustin</forename>
+                            <surname type="padre">Argüelles</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Aro01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename/>
+                            <surname type="padre">Arostegui</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Bar01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Francisco</forename>
+                            <surname type="padre"> Rodriguez de la Barcena</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor01">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Don</roleName>
+                            <forename>Fernando</forename>
+                            <genName>7.º</genName>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbon</surname>
+                        </persName>
+                        <birth when="1800-01-01">14 de octubre de 1784<placeName>
+                                <settlement type="city">San Lorenzo de El Escorial</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death when="1833-09-29">29 de septiembre de 1833<placeName>
+                                <settlement type="city">Madrid</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure>
+                          <figDesc>Retrato de Fernando VII con uniforme de capitán general, por Vicente López Portaña (c. 1814-1815).
+                                   Óleo sobre lienzo, 107,5 x 82,5 cm.
+                                   Museo del Prado (Madrid).
+                          </figDesc>
+                          <graphic url="Fernando_VII_Vicente-Lopez.jpg" width="150px"/>
+                          </figure>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>llamado el Deseado o el Rey Felón, fue rey de España entre marzo y mayo de 1808 y,
+                                tras la expulsión del «rey intruso» José I Bonaparte,
+                                nuevamente desde diciembre de 1813 hasta su muerte,
+                                exceptuando un breve intervalo en 1823,
+                                en que fue destituido por el Consejo de Regencia.</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor02">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Infanta Doña</roleName>
+                            <forename>Carlota Joaquina</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbon</surname>
+                            <roleName type="nobility">Princesa del Brasil</roleName>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor03">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Infante Don</roleName>
+                            <forename>Francisco</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Paula</surname>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>   
+                            <nameLink>y</nameLink>
+                            <surname type="dynasty">Borbón-Parma</surname>              
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor04">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Doña</roleName>
+                            <forename>Maria Luisa</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>
+                            <roleName type="nobility">Reyna viuda de Etruria</roleName>
+                        </persName>
+                        <birth when="1782-07-06"> 6 de julio de 1782<placeName>
+                                <settlement type="city">La Granja de San Ildefonso</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death when="1824-03-13">13 de Marzo de 1824<placeName>
+                                <settlement type="city">Roma, Estados Pontificios</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor05">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Carlos</forename>
+                            <genName>4.º</genName>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>
+                        </persName>
+                        <birth when="1748-11-11">11 de noviembre de 1748<placeName>
+                                <settlement type="city">Portici, Nápoles</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death when="1819-01-20">20 de enero de 1819<placeName>
+                                <settlement type="city">Roma</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor06">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Don</roleName>
+                            <forename>Pedro Carlos</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Braganza</surname>
+                        </persName>
+                        <birth when="1786-06-18">18 de junio de 1786<placeName> 
+                                <settlement type="city">Aranjuez</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death when="1812-07-04">4 de julio de 1812<placeName>
+                                <settlement type="city">Boa Vista</settlement>
+                                <country key="BR">Brasil</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor07">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Infante Don</roleName>
+                            <forename>Antonio Pasqual</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Sajonia</surname>
+                        </persName>
+                        <birth when="1755-12-31">31 de diciembre de 1755<placeName>
+                                <settlement type="city">Caserta</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death when="1817-04-20">20 de abril de 1817<placeName>
+                                <settlement type="city">San Lorenzo de El Escorial</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor08">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Infante Don</roleName>
+                            <forename>Gabriel</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Sajonia</surname>
+                        </persName>
+                        <birth when="1800-01-01">12 de mayo de 1752<placeName>
+                                <settlement type="city">Portici</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death when="1788-11-23">23 de noviembre de 1788<placeName>
+                                <settlement type="city">San Lorenzo de El Escorial</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor09">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Doña</roleName>
+                            <forename>Maria Isabel</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>
+                            <roleName type="nobility">Princesa de las dos Sicilias</roleName>
+                        </persName>
+                        <birth when="1789-07-06">6 de julio de 1789<placeName>, 
+                                <settlement type="city">Madrid</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death when="1848-09-13">13 de septiembre de 1848<placeName>
+                                <settlement type="city">Portici</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor10">
+                        <persName confidence="1" xml:lang="es">
+                            <roleName type="nobility">Infanta Doña</roleName>
+                            <forename>Maria Luisa</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="dynasty">Borbón</surname>
+                            <roleName type="nobility">Emperatriz consorte del Sacro Imperio Romano Germánico (1790-1792)</roleName>
+                        </persName>
+                        <birth when="1745-11-24">24 de noviembre de 1745<placeName>( - 
+                                <settlement type="city">Portici</settlement>
+                                <country key="IT">Italiaa</country>
+                            </placeName>
+                        </birth>
+                        <death when="1792-05-15">15 de mayo de 1792<placeName>
+                                <settlement type="city">Viena</settlement>
+                                <country key="AU">Austria</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Bor11">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Fernando</forename>
+                            <genName>IV.º</genName>
+                            <nameLink>de</nameLink>
+                            <surname type="padre">Borbón</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Sajonia</surname>
+                            <roleName type="nobility">Rey de las Dos Sicilias</roleName>
+                        </persName>
+                        <birth when="1751-01-12">12 de enero de 1751<placeName>,  - , 
+                                <settlement type="city">Nápoles</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death when="1825-01-04">4 de enero de 1825<placeName>
+                                <settlement type="city">Nápoles</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Borr01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename/>
+                            <surname type="padre">Borrull</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Cal01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename/>
+                            <surname type="padre">Josef Pablo Caliente</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Cas01">
+                        <persName confidence="0" xml:lang="es">
+                            <forename>Evaristo</forename>
+                            <surname type="padre">Perez de Castro</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Colomera (y Brito)</surname>
+                        </persName>
+                        <birth when="1778">1778<placeName>
+                                <settlement type="city">Valladolid</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death when="1848">1848<placeName>
+                                <settlement type="city">Madrid</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation>
+                            <roleName>Diputado</roleName> en las
+	                    <orgName>Cortes</orgName> de
+	                    <region>Cádiz</region>
+                        </affiliation>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality>español</nationality>
+                        <occupation>Diplomático</occupation>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1811-03-01"><p>Secretario de la Comision</p></event>
+                        <event>
+                           <p xml:lang="es">Fue secretario de Estado (1820-1821) y presidente del Consejo de Ministros (1838-1840),
+	                      Gran Cruz de la Orden de Carlos III.</p>
+                           <p xml:lang="es">Fue diputado en las Cortes de Cádiz tuvo un papel activo en reclamar la soberanía nacional para las mismas tras la invasión napoleónica. Como primer secretario de las mismas, suscribió el célebre Decreto de constitución de Cortes de 24 de septiembre de 1810, donde aquéllas se reclamaban depositarias de la misma.
+           Fue enviado extraordinario en Lisboa en 1809-10, y la junta de gobierno le comisionó para que pasara a Bayona para entrevistarse con Fernando VII, cautivo de Bonaparte. Fue diputado a Cortes en 1814, y de 1817 a 1820, ministro de España en las ciudades hanseáticas. Ministro de Gracia y Justicia durante el Trienio Liberal (18 de marzo de 1820 - 2 de marzo de 1821), fue quien decretó la amnistía del 23 de abril de 1820, que permitió el regreso a España de los afrancesados que se habían exiliado como consecuencia de la represión y persecución ejercida contra ellos por Fernando VII. Tras la década ominosa, volvió a la diplomacia a la muerte del rey.
+           Con la promulgación de la Constitución de 1837 evolucionó hacia posturas moderadas. En momentos particularmente turbulentos, la reina regente María Cristina le llamó para encomendarle la presidencia del Consejo de Ministros, al frente de un gabinete que combinaba a moderados y progresistas. Estuvo un año y medio al frente del gobierno (9 de diciembre de 1838 - 20 de julio de 1840), con dos reorganizaciones en noviembre del 39 y marzo del 40. Bajo su mandato Baldomero Espartero firmó en su nombre y en el de la regente el Convenio de Oñate que puso fin a la Primera Guerra Carlista.
+           El gobierno de Pérez de Castro promulgó una ley electoral que creaba pequeños distritos (favorables a los moderados) y usó de la iniciativa legislativa para presentar ante las Cortes la Ley de Ayuntamientos (1840), que preconizaba un modelo centralista de corte francés, con la designación de los alcaldes por parte del gobierno. La aprobación de esta ley dividió a la sociedad política de la época y terminaría con la renuncia de la regente María Cristina, por no avenirse ésta a negar su sanción a esa ley. Con Espartero encumbrado como regente, Pérez de Castro emigró a Francia y no regresó hasta su caída en 1843.
+           Realizó la edición de Una correspondencia de Godoy con la reina María Luisa (Madrid, 1814) y fue uno de los principales protectores de Francisco de Goya, que le inmortalizó en un retrato, así como a su sobrina Sabasa García.</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Cañ01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Alonso</forename>
+                            <surname type="padre">Cañedo</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Vigil</surname>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation>
+                            <roleName>Diputado</roleName>por la
+	  <orgName>Junta superior</orgName> de
+	  <region>Astúrias</region>, Es admitido y jura como Diputado el
+	  <date when="1810-10-28">28.10.1810</date>
+                        </affiliation>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation>Eclesiástico</occupation>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Mor01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Vicente José</forename>
+                            <surname type="padre">Morales</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Duarez</surname>
+                        </persName>
+                        <birth when="1757-01-24">24 de enero de 1757<placeName>
+                                <settlement type="city">Lima</settlement>
+                                <country key="PE">Peru</country>
+                            </placeName>
+                        </birth>
+                        <death when="1812-04-02">2 de abril de 1812<placeName>
+                                <settlement type="city">Cádiz</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Esp01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Josef</forename>
+                            <surname type="padre">Espiga</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Gadea</surname>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation>Bischof von Sevilla</occupation>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Junta Superior de Observación y Defensa de Cataluña
+
+Diputado por la Junta Superior de Observación y Defensa de Cataluña. Arcediano de Benasque, era canónigo de la catedral de Lérida, capellán de honor de Carlos IV y auditor del tribunal de la rota.
+
+Vocal de la Junta, fue elegido el 5 de febrero de 1810 en las Casas Consistoriales de la ciudad de Manresa. Aquel mismo día se le otorgó su poder, jurando su cargo en las Cortes y tomando posesión el 29 de octubre.
+
+Participó en la comisión encargada de elaborar el proyecto de Constitución y, muy activamente, junto con Argüelles, en los debates sobre el artículo 1º (La nación española es la reunión de todos los españoles de ambos hemisferios) y, a punto estuvo de contradecirle, cuando dijo: no han debido definir la nación como constituida, aunque lo esté; sino que ha sido necesario considerarla en aquel estado en que, usando de los grandes derechos de establecer las leyes fundamentales, esté constituyéndose).
+
+Elaboró, junto con el diputado por la Habana, Andrés Jáuregui, el decreto sobre las elecciones de los nuevos ayuntamientos, ante las quejas de los diputados americanos sobre su escasa representación política. Partidario de mantener las grandes divisiones administrativas vigentes en América, mostró su desacuerdo ante los intentos de crear nuevas divisiones que consideraba como excesivas.
+
+Tachado de jansenista, era hombre de amplia cultura, fácil palabra y gran claridad expositiva. Efectivamente, pudo ser el gran orador de las Cortes si no fuera porque Argüelles pronto adquirió esa categoría. Formó parte de la comisión encargada de elaborar el Proyecto de Constitución y fue elegido miembro de la diputación permanente de las Cortes por 108 votos a favor, y tres días después, el 9 de septiembre, Presidente de la misma. Vivía en Cádiz en la calle de la Cruz de la Verdad, núm. 72, volviendo a ser diputado , suplente, por Cataluña en las Cortes Ordinarias de 1813. Entre 1820 y 1822 fue arzobispo de Sevilla y desde 1823 miembro de la sección de Ciencias Morales y Políticas de la Academia Nacional. </p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Gal01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Juan Nicasio</forename>
+                            <surname type="padre">Gallego</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Hernández del Crespo</surname> 
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>(1777 - 1853)
+Zamora
+
+Conocido poeta de la escuela salmantina, nació en Zamora el 14 de diciembre de 1777. Con estudios en Filosofía y Derecho Civil y Canónigo fue ordenado sacerdote en 1804, y al año siguiente marchó a Madrid, donde Carlos IV le nombró director eclesiástico del Real Colegio de Pajes, siendo a partir de aquí conocido por sus dotes poéticas, con obras tales como A Quintana, por su oda al combate de Trafalgar, A la muerte de Garcilaso, A la muerte de la reina de España, doña Isabel de Braganza, El día 2 de mayo, El Conde de Saldaña y, también, una que se atribuye, dedicada a Wellington, que tuvo gran circulación en Cádiz.
+
+Con la invasión napoleónica huyó a Sevilla y de allí a Cádiz donde se le nombró canónigo racionero de la catedral de Murcia y electo chantre de la Metropolitana de la isla de Santo Domingo.
+
+Liberal moderado de clara intencionalidad reformista, fue diputado suplente por la provincia de Zamora formando parte de varias comisiones, entre ellas la creada para elaborar el proyecto de libertad de imprenta o la de Inspección del Diario de Cortes.
+
+Con la reacción absolutista de Fernando VII, pasó dieciocho meses encarcelado y recluido por cuatro años en la cartuja de Jerez, donde escribió su elegía A la muerte del Duque de Fernandina. A la caída del Trienio fue de nuevo perseguido, debiendo refugiarse en Barcelona y luego en Montpellier.
+
+Volvería a Madrid, en 1833, donde fue nombrado supernumerario de la Rota de la Nunciatura, elegido miembro y secretario perpetuo de la Real Academia Española y condecorado con la Gran Cruz de Isabel la Católica. Murió en Madrid, el 9 de enero de 1853.</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Hue01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Francisco</forename>
+                            <surname type="padre"> Gutierrez de la Huerta</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Abogado de los Reales Consejos, era natural de Salinas del Rocío y
+                        vecino de Madrid. Considerado comúnmente como un destacado jurista de opiniones muy conservadoras,
+                        fue elegido diputado suplente por la provincia de Burgos,
+                        formando parte de varias comisiones como encargada de la elaboración del Reglamento de las Cortes y la de la elaborar la Constitución.
+                        También perteneció a la comisión especial para estudiar el restablecimiento de la Inquisición.</p>
+                        <p>Ya como miembro del Tribunal de las Cortes, presentó su renuncia del mismo,
+                        al no estar de acuerdo con el proceder de dicho Tribunal,
+                        siendo sustituido por el diputado Ramón Utgés.
+                        Precisamente ese mismo día fue elegido Vicepresidente de las Cortes.
+                        Sobre la división territorial propugnada por los liberales,
+                        estuvo de acuerdo con ella, argumentando que era necesaria por lo complicado
+                        que resultaba la administración de la justicia y la recaudación de las rentas. Posteriormente,
+                        fue elegido diputado propietario el 15 de julio de 1813, pero las Cortes anularon esta elección por múltiples defectos de forma.
+                        En la sesión del día 12 de septiembre de 1813,
+                        las Cortes le concedieron licencia para regresar a Burgos. Con la reacción absolutista, en 1814,
+                        fue nombrado Fiscal del Consejo Real y de la Cámara por las provincias de la Corona de Aragón, hasta 1820.</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Jau01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Andres</forename>
+                            <surname type="padre">Jauregui</surname>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Nacido en la Habana, en el seno de una familia criolla de ricos propietarios, era alguacil mayor y teniente regidor de su Ayuntamiento, cuando en 1810 fue elegido diputado por dicha ciudad, llegando a Cádiz el día 18 de febrero de 1811 en el navío inglés Implacable. Sus poderes fueron aprobados por las Cortes en la sesión del día 27 de febrero de 1811, en la que juró también su cargo y tomó posesión del mismo, sustituyendo así a Joaquín Santacruz. Representante de la oligarquía cubana, vivía cómodamente en Cádiz, en compañía de su secretario, dos esclavos y tres criados. Perteneció a la comisión de trece diputados encargada de elaborar el Proyecto de Constitución. Asimismo, participó en otras comisiones como la de Honor, Comercio de negros y la del consulado de Méjico. Junto con el diputado catalán, Espiga, fue uno de los redactores del decreto de 23 de mayo de 1812 sobre la elección de nuevos ayuntamientos. Presidente de las Cortes en septiembre de 1812, formó parte también de la comisión de siete diputados encargada de negociar con Inglaterra su mediación en el conflicto armado con los insurgentes, así como en el tratado de libre comercio con ellos. Abogó por las nuevas intendencias de Santiago y Puerto Príncipe, que permitirían una mejor y más eficaz fiscalidad. Firmante de la Constitución. Una vez clausuradas las Cortes Extraordinarias, regresó a Cuba, abandonando toda actividad política. En 1818 fue nombrado prior del Real Consulado, cargo que desempeñó hasta su muerte en 1838.</p></event>
+                    </person>
+                    <person sex="1" role="diputado" xml:id="Lei01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Joaquin Fernandez</forename>
+                            <nameLink>de</nameLink>
+                            <surname type="padre">Leiva</surname>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Hijo de comerciante, nació en Santiago de Chile en 1775, y realizó sus estudios en la Universidad de San Felipe, donde obtuvo el doctorado en Cánones y Leyes. Después en España estando representando al Cabildo ante el Gobierno en sus peticiones sobre ayudas al desarrollo industrial y comercial de su provincia, al mismo tiempo que resolvía ciertos pleitos familiares, fue elegido diputado suplente en Cádiz por la Capitanía General de Chile. Formó parte de la comisión de diez diputados encargada de informar a las provincias de Ultramar del proceso de instalación de las Cortes; de las comisiones de Justicia y de la encargada de elaborar el proyecto de Constitución, así como de la comisión de Hacienda. Defendió el derecho de que las provincias formaran sus propias juntas hasta que se determinara el definitivo sistema de gobierno de aquéllas. Pidió que para evitar abusos, junto con el jefe político hubiera dos adjuntos, nombrados por la Diputación Provincial, y que se creara para América tres ministerios propios: Hacienda, Justicia e Interior y Guerra y Marina. Pidió licencia para viajar a Lima, pretextando problemas económicos, para trasladarse a su destino de Alcalde de la Audiencia, lo que hizo al poco tiempo de jurar la Constitución, haciendo escala previa en Chile. Murió el 11 de junio de 1814.</p></event>
+                    </person>
+                    <person sex="1" role="diputado" xml:id="Lop01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename/>
+                            <surname type="padre">Lopez</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Men01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Mariano</forename>
+                            <surname type="padre">Mendiola</surname>
+                            <surname type="madre">Velaverde</surname>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Abogado de las Audiencias de Méjico y Guadalajara, fue elegido diputado por Querétaro, Virreinato de Nueva España, el 8 de agosto de 1810 por los ocho electores correspondientes. Las Cortes aprobaron sus poderes el 15 de enero de 1811, jurando y tomando posesión ese mismo día, en sustitución de Lucas Centeno, que había renunciado a su cargo. Formó parte tanto de la comisión encargada de elaborar el proyecto de Constitución como del Tribunal de las Cortes. Junto con otros diputados americanos, propuso un voto particular sobre el artículo 373 de la Constitución, exigiendo mayores garantías ante la posibilidad de que surgieran objeciones a su legitimidad o validez, de forma paralela a un escrito, en el que pedía la revisión de la Constitución antes de adquirir validez legal, condición sin la cual se opondría al principio de soberanía nacional y de representación. Mostró su rechazo a que se pagara de los fondos hacendísticos las retribuciones eclesiásticas, decantándose a favor de suplir estos gastos directamente del diezmo que recibía la iglesia. Por lo general, atacó en diversas ocasiones el sistema colonial español y optó porque se crearan instituciones, como la Diputaciones Provinciales, que fueran capaces de representar los intereses de todos los grupos sociales.
+Firmante de la Constitución, se mostró partidario de que las Cortes Extraordinarias prolongaran su duración al menos, hasta que se consolidaran las nuevas instituciones. Fue elegido para formar parte de la Diputación permanente de las Cortes, por 122 votos. Volvió a ser diputado en las Cortes Ordinarias de ese mismo año, en las que, votó en contra de los liberales. Aún así, fue denunciado por Gárate cuando la reacción absolutista. De vuelta en América, fue vicedirector de la Sociedad Patriótica de Guadalajara y diputado en el Congreso Nacional en 1822. </p></event>
+                    </person>
+                    <person sex="1" role="familiaReal" xml:id="Nap01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename/>
+                            <surname type="padre">Napoleon</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Oli01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Antonio</forename>
+                            <surname type="padre">Olivieros</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Provincia de Extremadura
+
+Canónigo de la colegiata de San Isidro de Madrid, fue elegido el día 23 de julio de 1810 diputado por la provincia de Extremadura, por veintiún votos. Tres días después se le otorgó su poder, que le fue aprobado por el Consejo de Regencia el 15 de septiembre de 1810.
+
+Figura entre los liberales más destacados y tuvo una participación activa muy intensa, interviniendo en muchas y muy variadas cuestiones. Planteó el traslado de las Cortes a Cádiz, preguntando si se ha de elegir la casa de San Felipe Neri para salón de sesiones y demás oficinas, a lo que las Cortes accedieron. Fue uno de los primeros diputados, junto con Espiga y Muñoz Torrero, en proponer una Constitución, formando parte de la comisión que se creó para elaborar un Proyecto de Constitución Política de la Monarquía.
+
+Formó parte de la comisión de Sanidad Pública, así como de la comisión encargada de examinar los poderes de los parlamentarios que se iban incorporando, aunque ya había sido nombrado con anterioridad, para este cometido, por la propia Regencia. Intervino varias veces en los debates a favor del decreto de libertad de imprenta presentado por Argüelles.
+
+Respecto a América, pidió que hubiera en las Cortes el mismo número de representantes de Ultramar que de la Península e Islas Adyacentes. Fue elegido Secretario de las Cortes el día 24 de junio de 1811. Firmante de la Constitución, durante su estancia en Cádiz vivió en la calle Doblones núm.37. Varón ilustrado, tolerante, de bella y candorosa condición, según el Conde de Toreno, con la reacción absolutista de 1814, fue detenido en su domicilio de la calle del Burro, siendo desterrado por espacio de cuatro años en el convento de la Cabrera. </p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Per01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Antonio Joaquin</forename>
+                            <surname type="padre">Perez</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Martinez Robles</surname>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>(1763 - 1829)
+Diputado por el Virreinato de Nueva España
+
+Nacido en Puebla de los Angeles (Virreinato de Nueva España), aunque de ascendencia gaditana, fue elegido diputado por su tierra natal el 26 de junio de 1810, jurando su cargo el 23 de diciembre. Su labor como diputado fue muy destacada, terciando en muchos debates, como la Reforma de Ultramar, el Plan de Hacienda, la Libertad de Comercio, Organización Territorial, Inquisición. Formó parte de varias comisiones, como la que redactó el proyecto de Constitución, Bellas Artes, establecimiento del Consejo de la Inquisición; y fue elegido para la Presidencia de las Cortes en la sesión del día 24 de enero de 1811.
+
+Absolutista moderado, volvió a ser diputado en las Cortes Ordinarias de 1813, siendo Presidente de las mismas cuando fueron disueltas por el Rey, lo cual no fue óbice para que cuando éste anuló la Constitución, no solo no se opuso, sino que renegó de su acta de diputado, siendo uno de los doce americanos que firmó el llamado Manifiesto de los Persas. En recompensa fue nombrado Obispo de Puebla el 19 de diciembre 1814. No obstante, con la revolución de 1820 volvió a mostrarse partidario de la Constitución. Fue de nuevo diputado pero, acusado de simpatizar con los revolucionarios mejicanos, el Gobierno español decretó en 1821 su deportación, la cual no pudo llevarse a cabo por amotinarse el pueblo contra los que estaban encargados de cumplir la orden. Una vez que se proclamó la independencia de Méjico, de cuya acta fue firmante, apoyó a Agustín de Itúrbide, formando parte de la Junta Provisional. Murió en 1829. </p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Ric01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Pedro Maria</forename>
+                            <surname type="padre">Rich</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Procurador síndico, fue elegido el día 4 de diciembre de 1812 Diputado por la ciudad de Sevilla según la Instrucción de 1º de enero y el decreto de las Cortes de 19 de septiembre de 1812.
+
+No perteneció a ninguna comisión y solamente participó en cuatro debates, supresión de la Dirección de Provisiones, Gobierno de provincias, Fomento de la industria y Traslado de las Cortes a Madrid. Ante los ataques contra la Administración y la burocracia, defendió la permanencia de la Dirección General de Provincias, que consideraba un mal necesario, y que justificaba al decir que de ella dependía la existencia del Ejército. Se mostró, asimismo, contrario a las prerrogativas fiscales de los jefes políticos, pues consideraba que debían pasar a las Diputaciones.
+
+Junto con otros diputados absolutistas, como Blas Ostolaza o Francisco Borrull, fue varias veces insultado en las calles de Cádiz por elementos liberales. Mostró su voto particular, contrario a la resolución de las Cortes, del día anterior, en la que se aprobó separar de la provincia de Sevilla y agregar a la de Cádiz, el partido de Sanlúcar de Barrameda.
+
+Fue nombrado para formar parte de la comisión de Ultramar, en sustitución del diputado por Cádiz, Pedro Antonio Aguirre y, las Cortes le concedieron licencia para que pudiera regresar a Sevilla, con el objeto de recobrar su salud, aunque le denegaron que pudiera votar para reemplazar a un regidor del Ayuntamiento de dicha ciudad, alegando que ningún diputado puede desempeñar otro destin. Entre 1819 y 1823 fue comisario ordenador honorario. </p></event>
+                    </person>
+                    <person sex="1" role="comision invitado" xml:id="Rom01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Antonio</forename>
+                            <surname type="padre">Ranz </surname>
+                            <surname type="madre">Romanillos</surname>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p> (Barcones, Soria, 13 de junio de 1759 - Madrid, 30 de diciembre de 1830), helenista, jurista, humanista español.
+Biografía
+
+Era hijo de Manuel Ranz y de Ana Romanillos, estudió al mismo tiempo en el Seminario y en la Universidad de Sigüenza, en donde el 13 de febrero de 1778 alcanzó el grado de bachiller en Artes. En Zaragoza recibió el grado de bachiller en Leyes el 25 de abril de 1778 y en Cánones el 24 de abril de 1780. Fue nombrado sustituto en la Universidad de Zaragoza y en 1781 opositó a una canonjía en Osma y al año siguiente a otra de Zaragoza; aunque aprobó la primera, prefirió dedicarse a la abogacía. Ingresó como académico honorario de San Fernando, y fue ministro del crimen y oidor de la Audiencia de Aragón entre 1790 y 1800. Supernumerario de la Academia de la Lengua y de la de Historia en 1802, y numerario de esta última en 1807 merced al prólogo que compuso a la edición de Las Siete Partidas. Ese mismo año se casó con Josefa del Castillo y Falcón. Caballero de la orden de Carlos III en 1808.
+
+Actuó después como secretario de la Junta de Bayona, y fue el tercero en firmar la Constitución tras José I y Urquijo. José I le nombró consejero de Estado y de Hacienda. En el éxodo josefino prefirió quedarse en Esquivias, por lo cual el gobierno josefino le embargó los bienes. El caso es que jugaba a dos barajas, ya que la Junta Central le confió una misión en Londres en 1809 tras la cual fue rehabilitado el cuatro de mayo de 1809, por lo que podrá tomar parte en la redacción de la Constitución de Cádiz. El 6 de febrero de 1812 ocupa la cartera de Hacienda hasta el 22 de abril, en que es nombrado Consejero de Estado hasta mayo de 1814. El 16 de octubre es nombrado consejero de Hacienda otra vez. Entre 1817 y 1819 está en Córdoba y vuelve al Consejo de Estado el 2 de abril de 1820, cargo en el que permanece durante todo el Trienio liberal, 1820-1823. En 1823 se traslada con el gobierno a Sevilla; sin embargo, no lo siguió hasta Cádiz y sigue en Sevilla en 1825. Está en Lebrija entre 1828 y 1829. Muere en Madrid en 1830.
+Obras
+
+Tradujo La religión de Louis Racine en 1786 y escribió el Desengaño de malos traductores, del mismo año. Tradujo Las oraciones y cartas del padre de la elocuencia Isócrates, Madrid, 1789. Poco antes de morir completó su traducción íntegra de las Vidas paralelas de Plutarco, Madrid, 1821-183</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Tor01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Diego</forename>
+                            <surname type="padre">Muñoz Torrero</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre">Ramírez Moyano</surname>
+                        </persName>
+                        <birth when="1761-01-21">21 de enero de 1761<placeName> , Portugal, 
+                                <settlement type="city">Cabeza del Buey, Badajoz</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death when="1829-03-16">16 de marzo de 1829<placeName>
+                                <settlement type="city">Oeiras e São Julião da Barra</settlement>
+                                <country key="PO">Portugal</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>beliebiger Text zum Beispiel Biographie</p></event>
+                    </person>
+                    <person sex="1" role="comision diputado" xml:id="Val01">
+                        <persName confidence="1" xml:lang="es">
+                            <forename>Josef Pablo</forename>
+                            <surname type="padre">Valiente</surname>
+                            <nameLink>y</nameLink>
+                            <surname type="madre"/>
+                        </persName>
+                        <birth when="1800-01-01">1800??<placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
+                                <settlement type="city">Cadiz??</settlement>
+                                <country key="ES">España</country>
+                            </placeName>
+                        </death>
+                        <affiliation/>
+                        <age/>
+                        <education/>
+                        <faith/>
+                        <langKnowledge><langKnown tag="es">español</langKnown></langKnowledge>
+                        <nationality/>
+                        <occupation/>
+                        <residence/>
+                        <figure/>
+                        <event type="asd" when="1800-01-01"><p>Daten oder Ereignisse der Person</p></event>
+                        <event type="bio"><p>Sevilla
+
+Diputado suplente por Sevilla. Natural de Cumbres Mayores y vecino de Madrid, pertenecía a la Junta Suprema de Sanidad y Ministro del Supremo Consejo de España e Indias. Elegido en Cádiz por nueve votos de los otros tantos electores el día 20 de septiembre de 1810, según la Instrucción de 1º de enero de 1810, la Real Orden de 18 de agosto y el Real Decreto de 8 de septiembre de 1810. Se le otorgó su poder por el 22 de septiembre de 1810 , jurando su cargo el día 24.
+
+Absolutista, era uno de los pocos diputados peninsulares que conocían bien la realidad de América, llegando a presidir las juntas americanas para la elección de diputados. Cuando se planteó el problema de buscar representantes a las provincias rebeldes, consideró la conveniencia de dotarlas de suplentes para que tuviera representación la parte sana de la población. Opuesto al sistema de elección popular en América, se mostró, en cambio, partidario de los diputados elegidos por las capitales de provincia, aunque negó cualquier concesión de derechos a los indígenas, de los que tenía un concepto muy peyorativo.
+
+Formó parte de la comisión creada el 23 de diciembre de 1810 para elaborar el Proyecto de Constitución, aunque luego se negó a firmarlo, alegando su oposición a la abolición de los señoríos. También perteneció a la comisión de cinco diputados encargada de estudiar el restablecimiento de la Inquisición. Contrario al traslado de las Cortes fuera de la Isla de León, apostó por una mayor coordinación entre las Cortes y la Regencia, pidiendo mejoras en la defensa y mayores garantías de seguridad. Fue Presidente de las Cortes desde el 24 de julio al 24 de agosto de 1811. Partidario de la institución monárquica como el mejor para la sociedad de los hombres, si bien con el mínimo de limitaciones. Defendió la libertad de imprenta como un derecho inherente a la libertad del hombre, aunque matizando que su aplicación no debía ser inmediata, dadas las circunstancias del momento. Durante su estancia en Cádiz se alojó en la calle del Vestuario, núm. 84). Fue, junto con Inguanzo, uno de los redactores de la alocución que la Universidad de Sevilla dirigió a Fernando VII cuando pasó a felicitarlo en Madrid tras su vuelta de Francia. </p></event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-11-20" who="#PH">[ed] added names of "Actas"</change>
+            <change when="2012-11-24" who="#PH">[ed] expanded TEI header to include more information</change>
+            <change when="2012-12-09" who="#PH">[ed] changes to teiHeader</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    <body>
+        <p><ref target="#list-Persons">the list of names occurring in Actas</ref></p>
+    </body>
+    </text>
+</TEI>

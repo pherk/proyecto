@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0
+  http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Diario de Sesiones</title>
+            <title level="a">Febrero 1812</title>
+            <author>Cortes</author>
+            <respStmt>
+              <resp>Encoded by </resp>
+                <name xml:id="HA" type="editor">Hans Artz and </name>
+                <name xml:id="PH" type="editor">Peter Herkenrath</name>
+            </respStmt>
+            <principal>Hans Artz</principal>
+            <sponsor>Cádiz Heritage Language Technologies</sponsor>
+            <funder>PH</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2013-01-10</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+           <pubPlace>Cádiz, Spain</pubPlace>
+           <publisher>Constitucion Consortium</publisher>
+           <address>
+             <addrLine>Hans Artz</addrLine>
+             <addrLine>1101 Cádiz, Jose de Torro 6, 2nd A</addrLine>
+             <addrLine>Spain</addrLine>
+             <addrLine>url:http://www.constitution.org</addrLine>
+           </address>
+           <date>2012-10-31</date>
+             <availability status="restricted">
+                    <p>Available under a CC-BY-NC-ND license</p>
+             </availability>
+         </publicationStmt>
+         <sourceDesc>
+           <biblStruct>
+             <monogr>
+               <author>Cortes, d. 1811</author>
+               <title type="main">Diario de Sesiones</title>
+               <title type="subordinate"></title>
+               <edition>Ed. facsimile</edition>
+               <imprint>
+                 <pubPlace>Cádiz</pubPlace>
+                 <publisher>unknown</publisher>
+                 <date>2 de Marco 1811</date>
+               </imprint>
+               <extent>xx? p. (xx vols) ; xx cm.</extent>
+             </monogr>
+           </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+           <p>Originally prepared for personal use. 
+              Later this text was extensively checked and revised for the
+              digital edition of Manuscripts concerning the spanish constitucion from 1812.</p>
+         </projectDesc> 
+         <editorialDecl>
+            <correction status="high" method="silent">
+              <p>The following errors have been corrected:
+              <list>
+              <item>p. 13 l. 7 errors errors </item>
+              </list>
+              </p>
+            </correction>
+            <quotation marks="all">
+              <p>All double quotation marks rendered with ", all single quotation marks with apostrophe. </p>
+            </quotation>
+            <hyphenation eol="none">
+            <p>Hyphenated words that appear at the end of the line have been reformed.
+               Words spanning a page break are hyphenated.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Original punctuation conventions in the manuscript have been retained as much as possible</p>
+            </normalization>
+            <normalization method="silent">
+              <p>Margin notes are included in the running text as much as possible marked by editorial footnote</p>
+            </normalization>
+           <normalization method="silent">
+             <p>Common abbreviations are coded as abbr elements, the special character as g elements</p>
+           </normalization>
+           <interpretation>
+             <p>Each day is coded as div element</p>
+             <p>Persons, Places and Dates are coded as name, place and date elements</p>
+             <p>Articles are referenced by titulo, capitulo, articulo from the pamphlet which was read in the inner margin
+                and by article number of Constiitucion in the outer margin</p>
+           </interpretation>
+         </editorialDecl>
+         <refsDecl>
+           <refState unit="colloquium"/>
+           <refState unit="topic"/>
+         </refsDecl>
+         <classDecl>
+           <taxonomy xml:id="lcsh">
+             <bibl>Library of Congress Subject Headings</bibl>
+           </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+           <language ident="es">Espanol</language>
+         </langUsage>
+         <textClass>
+           <keywords scheme="#lcsh">
+             <list type="simple">
+               <item>Dialogues, Espanol (Medieval and modern)</item>
+               <item>Folly -- Early works to 1800</item>
+             </list>
+           </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+            <change when="2013-01-10" who="#PH">[ed] added text relating to Art.22</change>
+        </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">
+<hi rend="huge">Diario</hi><lb/>
+<hi rend="big">de Sesiones</hi>
+</titlePart>
+</docTitle>
+<docImprint>
+  <docDate>Empezó la Comision sus Sesiones<lb/>el dia dos de Marzo<lb/>de 1812,<lb/></docDate>
+  <pubPlace>en Cadiz</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<body xml:lang="es">
+<div xml:id="Diario-1812-02" type="mes">
+<div type="dia" xml:id="Diario-479-1812-02-01">
+  <head type="sesion">Sesion del dia <date when="1812-02-01">1.º de Febrero</date>.</head>
+    <p>Continuando la discusion sobre el art. 283 de la Constitucion, dijo</p>
+  <div type='discurso' xml:id='dc1812-02-01-01' corresp='constitucion.xml#art-05-02-285 proyecto.xml#pro-p2-05-02-283'>
+    <p>El Sr. <name  ref="gente.xml#CREUS" type="orador">CREUS</name>: Señor, yo no puedo apartarme de lo que manifesté cuando se discutia el artículo. He oido varias razones de los que aprueban el dictámen de la comision, que á mi entender confirman mi modo de pensar. Si la justicia en la decision pende, no del número, sino de la rectitud y cualidades del juez; si á todo litigante se le obliga á acudir en primera instancia al juez ordinario, no entiendo por qué la sentencia de este juez no ha de formar estado, y por lo mismo por qué su sentencia y otra conforme del Tribunal Superior no deba fenecer el pleito. Si dos sentencias de dicho tribunal, conformes, causan ejecutoria, y no se quieren más que tres sentencias cuando la última revocase las primeras y debiese ejecutoriarse dejaria á una de las partes sin el derecho de supliacion, lo que es grave inconveniente. Me parece, pues, que debe decirse que dos sentencias conformes fenezcan todo pleito.</p>
+  </div>
+  <div type='discurso' xml:id='dc1812-02-01-02' corresp='constitucion.xml#art-05-02-285 proyecto.xml#pro-p2-05-02-283'>
+    <p>El Sr. <name  ref="gente.xml#ANÉR" type="orador">ANÉR</name>: Señor, la materia de que trata el artículo que ahora discutimos, se ha hecho problemática sin serlo en mi concepto. Siempre que se ha tratado de los términos en que la comision presenta su dictámen, y de la doctrina en que lo apoya, no he podido menos de oponerle á él, porque lo juzgo contrario á la razon y á la justicia de los litigantes, y á los verdaderos principios de nuestra legislacion. Los señores que han perorado en favor del artículo en el modo que está concebido, han tratado de manifestar su absoluta conformidad con nuestras leyes, y aun se ha querido probar que no hay ley alguna en nuestros Códigos por la que se autoricen más de tres instancias. He sentado por principio de mi oposicion al artículo, que la doctrina que contiene es contrária á la razon natural, á la justicia de los litigantes, y á los veraderos principios de nuestra legislacion. Contraria á la razon natural, porque esta dicta que dos que litigan una cosa sean igualmente atendidos, y que entrambos gocen de los mismos beneficios, como, por ejemplo, si por derecho natural se permite la apelacion, este beneficio deben tenerlo ambos litigantes, lo que no se verificaria si se admitiese la doctrina del artículo. Contraria á la justicia de los litigantes: esta consiste en darle á cada uno lo que es suyo, y en cuanto sea posible, es preciso hacer palpable á los litigantes la justicia ó injusticia de la causa. Es preciso, en cuanto sea posible, remover todas las dudas, y hasta el minimo escrúpulo que pueda tener la parte que ha sido condenada. Ultimamente, es preciso dar tal peso á la sentencia que ha de ejecutoriarse, que la parte contra quien recae esté asegurada de que se ha administrado justicia; pero nada de esto se verifica en el sistema de la comision, pues que propone que la tercera sentencia revocatoria de las dos primeras cause ejecutoria, dándose con ella por terminado el negocio. Ultimamente, contraría á los verdaderos principios de nuestra legislacion. La ley 25, título XXIII de la Partida 3.ª, que en mi concepto debe reputarse por fundamental es la materia que se discute, es enteramente opuesta al artículo de la comision, como puede verse por las siguientes palabras de la ley: “Dos veces se puede home alzar de un mismo juicio que sea dado contra él su razon de alguna cosa, ó de algún fecho; mas si despues fueren confirmados estos dos juicios por el judgador del alzada, no se puede alzar la tercera vegada la parte contra quien fué dada la sentencia: ca tenemos quel pleito que es juzgado et esmerado por tres sentencias es derecho; et que grave cosa seria haber home á esperar sobre una mesma cosa la cuarta sentencia. Mas si por aventura el juez del alzada revocase los dos juicios primeros diciendo que non fueron dados derechamente, entonces bien se puede alzar la parte contra quien revocase los juicios.” Esta ley tan terminante y tan justa en mi concepto, abraza todos los principios que he sentado, y óbvia todas las dificultades que pueden ocurrir. Al legislador le pareció contrario á la razon que permitiéndose á la una parte apelar hasta dos veces, no se le permitiese á la otra apelar siquiera una vez. Le parece tambien injusto en mi concepto, que habiendo obtenido Pedro dos sentencias á su favor, una tercera dada á favor de Juan fuese bastante para revocar las dos anteriores, y producir por ella sola ejecutoria. Aunque las palabras de esta ley no necesitan interpretacion, sin embargo, si se consultase á la razon que tuvo el legislador, hallaríamos que no fué otra que el favorecer á las partes con la igualdad, y apurar la verdad de la cosa en términos que los litigantes quedasen satisfechos de que se les había administrado justicia. Ahora bien: cotejemos el espíritu de esta ley con la que se trata de sancionar. En la primera se permite á las dos partes apelar, y en la segunda no se permite, de que resulta una desigualdad tan notable, que ella sola me retrae de aprobar el artículo. Dice la comision que todo negocio se dé por terminado con tres instancias y tres sentencias, de que se siguen los dos inconvenientes anunciados. Primero, que á Pedro, que ha sido condenado en el tribunal inferior, se le permite apelar al tribunal territorial ó colegiado, y condenado por éste, se le permite apelar segunda vez al mismo tribunal en distinta Sala, por la razon de las tres instancias que permite la comision; pero si en la tercera instancia obtuviese Pedro sentencia favorable contra Juan, no podrá éste apelar de aquella sentencia, sin embargo de ser única contra él, lo que en mi concepto envuelve una notoria injusticia. Para obviar á todos los inconve-nientes, dice la comision que en la tercera instancia sea mayor el número de jueces; pero además de que esto nada salva la injusticia que se hace á Juan en no permitirle apelar jamás, esta tercera sentencia podrá tener tal carácter de autoridad y verdad, que comparada con las dos anteriores no deje motivo d las partes para desconfiar de su justicia; además de que el tribunal no reune en sí la calidad de Sér Supremo. Dice la comision que de otro modo se hacen interminables los pleitos; si esta razón convenciese, deberia decirse que todos los pleitos se terminasen con una sentencia.
+      El legislador no solo debe procurar abreviar los pleitos, sino que estos se decidan con la mayor justicia posible; debe disponer los juicios de modo que sin ser extraordinaria-mente costosos á los litigantes, los aquiete con el fallo que pone término á la contienda. 
+V. M. ha consultado suficientemente al interés de los litigantes, disponiendo que todos los juicios se terminen en las provincias respectivas; pero V. M. debe ahora consultar á la justicia de los litigantes, ordenando los juicios de modo que jamás les pueda quedar desconfianza ó escrúpulo de que no se les ha administrado justicia. Es demasiado sagrada la propiedad de los bienes para que el ciudadano no la pierda sino por el rigor de la justicia. A mí me parecia que para evitar todos los inconvenientes que se ofrecen le adoptar el artículo que presenta la comision, y confirmarnos en parte con la ley de Partida arriba citada, se podria decir: “Que todo negocio, cualquiera que sea su
+garantia; quedará terminado con dos sentencias conformes del tribunal territorial, dejando á las leyes el determinar los negocios en que sin necesidad de estas dos sentencias se causará ejecutoria.” De este modo se logra dar á los juicios toda la autoridad necesaria, y se consulta á la justicia de las partes sin notable aumento de gastos. La última parte del artículo irroga perjuicios todavía mayores á las partes. Cuando se trató la primera vez del articulo los expuse, por lo cual omito ahora reproducir las razones de entonces; solo sí deseo que no se pierda de vista la ley 13, titulo XXII, Partida 3.ª, en le que se expresan los casos en que un juicio, despues de ejecutoriado, puede abrirse de nuevo. En vista de todo, me opongo formalmente á todo el contenido del artículo que presenta la comision, y en caso de no aprobarse, sustituyo: primero, que todo negocio, cualquiera que sea su cuantía, se dé por fenecido con dos sentencias conformes del tribunal territorial ó colegiado, dejando á las leyes el determinar la clase de negocios en que sin necesidad de las dos sentencias conformes del tribunal colegiado, se den por  fenecidos. 
+      Segundo. Que en donde dice “y no podrá volverse é arbrir por ningun pretesto,“ se diga: sino en los casos que señalen las leyes, y con las prevenciones que las mismas determinan.</p>
+  </div>
+  <div type='discurso' xml:id='dc1812-02-01-03' corresp='constitucion.xml#art-05-02-285 proyecto.xml#pro-p2-05-02-283'>
+    <p>El. Sr. <name  ref="gente.xml#DUEÑAS" type="orador">DUEÑAS</name>: Dijo muy bien el Sr. <name ref="gente.xml#Anér" type="person">Anér</name> que saber las leyes, no es decorar sus palabras, sino profundizar y entender su espíritu; y por esto cuando hablé ya otra vez sobre esta materia, manifesté cuán conforme habia estado á mi parecer la comision con nuestras leyes, proponiendo que tres sentencias definitivas determinen y fenezcan irremisiblemente los litigios. Este es el espíritu y la verdadera inteligencia que se debe dar á las leyes de Partida y Recopiladas, y esta es es la prática en lo general de los tribunales de España; por manera, que cuando se presente, como ahora, alguna ley aislada que parezca exigir para todos los pleitos más de tres sentencias, deberá confrontarse con la historia de nuestros juzgados, teniendo á la vista el órden que se observaba en las alzadas por aquellos tiempos, en que se interponian de un juez á otro igual, ó para ante el mayoral de la tierra, ó el cabildo, con las variaciones que se han observado también sobre este punto en algunos tribunales superiores; mas para la cuestion del dia basta decir que en estos generalmente se ha observado que no haya más de dos sentencias que llamamos de vista y de revista. De esta práctica se desentiende el Sr. <name ref="gente.xml#Anér" type="person">Anér</name> cuando entra á examinar, qué es lo que deba ahora establecerse, prescindiendo de lo que se halle establecido; y tomando por principio que la justicia debe dar á cada uno lo que sea suyo, infiere que el interés de la sociedad sobre esta materia es que las, leyes concedan á los litigantes todas las instancias que sean necesarias para que los jueces demarquen escrupulosa y detenidamente lo que á cada uno pertenece. Yo, conviniendo con el mismo principio, creo que el verdadero interés de la sociedad es que los litigantes tengan el tiempo suficiente para aclarar sus derechos, y esto pueden hacerlo en tres instancias, y nada más: “porque grave cosa seria, como dice una ley de Partida, haber de esperar sobre un mismo pleito la cuarta instancia.” Si para que los jueces pesasen escrupulosamente, como en una balanza para diamantes, que dijo el Sr. <name ref="gente.xml#Dou" type="person">Dou</name>, lo que pertenecia á cada uno de los litigantes, se hubiera de conceder á estos otras instancias posteriores, vendria á suceder que por el deseo de que ninguno perdiese la más pequeña parte, vendrian ambas partes á perder el todo, porque la cosa litigiosa se consumiria en los gastos del pleito, como ahora sucede muchas veces.
+      Ya dijo el Sr. <name ref="gente.xml#Giraldo" type="person">Giraldo</name> que los pleitos son eternos en los tribunales eclesiásticos, porque en ellos se requieren tres sentencias conformes de toda conformidad. ¿Y puede decirse que sea interés de la sociedad que duren tanto los pleitos? Pues que sean dos conformes de tribunal superior, que en esto no puede haber inconveniente, dice el Sr. <name ref="gente.xml#Anér." type="person">Anér.</name> Es cierto que así se practica en Cataluña; pero yo creo que aquella misma práctica prueba la opinion de que haya solo tres instancias, y que de generalizarse se seguirian graves inconvenientes y perjuicios. En el tribunal superior de aquella provincia, si la sentencia de revista es confirmatoría de la de vista, ya no se admite más instancia, porque hay dos sentencias conformes de tribunal superior; pero si la de revista  fuese revocatoria, se suplica y llaman á este grado tercera instancia; y nómbrase así, porque suponen los autores prácticos de aquella provincia que la sentencia definitiva del inferior no causa instancia, que es lo mismo que decir que la sentencia del inferior nada vale, y que los litigantes perdieron en su juzgado el tiempo y el dinero: de manera que pasan allí por este grave inconveniente, y sufren este perjuicio por tal de sostener sus dos sentencias conformes del tribunal superior, y hacerlas compatible con el principio que reconocen de que tres instancias y tres sentencias definitivas causen ejecutoria.
+      Además del inconveniente que acabo de indicar, resultarían otros. Para que haya dos sentencias conformes  de tribunal superior, han de pronunciarse por lo menos tres en el mismo tribunal de la provincia, porque los pleitos deben fenecerse dentro de ella, segun establece la Constitucion: ella manda tambien que los magistrados que fallaren el pleito en vista no puedan sentenciarle en revista luego si se diese otra instancia en el mismo tribunal, los jueces de ésta deberian tambien ser distintos de aquellos que habian fallado en vista y revista. Por manera que en la menor de las Audiencias habria de haber tres Salas completas para los negocios civiles, sin contar con los que habian de fallar en los criminales. 
+      Y un número tan excesivo de ministros, ¿no seria un grave perjuicio á la sociedad? El artículo de la Constitucion que dice sean siete á lo menos los ministros de las Audiencias, deberia decir sean 15 á lo menos.
+      Matemáticamente pudiera demostrarse tambien otro inconveniente. En los tribunales superiores se fenecen ahora con dos sentencias los pleitos, y para llevarlos á este último término se emplean en toda la provincia 2.000 curiales, por ejemplo; luego si se diesen tres sentencias en el tribunal superior, se emplearian 3.000. Lo mismo puede decirse del tiempo y del dinero que consumen los pleitos. ¿Y es posible que siendo ahora tan excesivo el número de curiales, y tantas las familias arruinadas por los pleitos, y tanto el tiempo que estos quitan á ocupaciones útiles, se hayan de aumentar en una tercera parte nada más que por satisfacerla terquedad de los litigantes?
+      Ultimamente, los litigantes que pierdan nunca quedarían contentos ni con cuatro instancias ni con 40; y si no, dígaseme de buena fé si los litigantes que pierden en los tribunales eclesiásticos, ó en el principado de Cataluña, quedan más tranquilos despues de haber sufrido más sentencias. Yo estoy convencido de la sabiduría del artículo en cuestion, y creo que si se variase en los términos que quiere el Sr. <name ref="gente.xml#Anér" type="person">Anér</name>, reaultarian los males que teme de su aprobacion: por tanto, me conformo con él en todas sus partes.</p>
+  </div>
+  <p>Suspendida esta discusión.</p> 
+</div>
+<div type="dia" xml:id="Diario-479-1812-02-03">
+  <head type="sesion">Sesion del dia <date when="1812-02-03">3.º de Febrero</date>.</head>
+  <p>Siguió la discusion del art. 283 de la Constitucion, con cuyo motivo dijo</p>  
+  <div type='discurso' xml:id='dc1812-02-02-01' corresp='constitucion.xml#art-05-02-285 proyecto.xml#pro-p2-05-02-283'>
+    <p>El Sr. <name  ref="gente.xml#MENDIOLA" type="orador">MENDIOLA</name>: Hay dos opiniones, entre sí contrarias, sobre el modo en que habrá de entenderse este artículo: unos quieren, con el Sr. <name ref="gente.xml#Gallego" type="person">Gallego</name>, que dos sentencias conformes causen ejecutoria: otros, con el señor <name ref="gente.xml#Anér" type="person">Anér</name>, que haya tercera instancia, y aun cuarta en el caso de revocarse las dos sentencias conformes, segun la ley de Partida que ha citado. Añade que, aun despues de ejecutoriado un pleito, no podrá cerrarse la puerta al que perdió, como parece se hace en el artículo que propone la comision, sino que conforme á las mismas leyes que ha leido, podrá revocarse la misma ejecutoria  siempre que aparezca que fué ganada en contra de la verdad. Manifestaré que dos sentencias no pueden causar ejecutoria sino en casos particulares que designará la ley; que son inadmisibles cuatro instancias, ó por lo menos que debe preferirse lo que propone la comision. Por último, que nada innova ésta de lo dispuesto por las leyes de Partida en órden á los casos en que por nuevo pleito, nueva accion ó descubrimiento posterior de la verdad se pueden alzar las ejecutorias, ó por mejor decir, declararse que la excepción de cosa juzgada no tiene lugar en el distinto estado que aparece por nuevos imprevistos descubrimientos.
+      Los tribunales en sus juicios dan á cada uno lo que es suyo, ó por medio del conocimiento de la verdad, ó si ésta no se deja descubrir, por el de la probabilidad; así que las pruebas en los pleitos se distinguen gradualmente en instrumentales de testigos, ya de cierta ciencia, ya de oidas, ya conformes, ya disconformes, y en conjeturales ó de indicios que recaban más ó menos el asenso judicial. Si hubiéramos de establecer el principio constitucionalmente de que dos sentencias conformes causasen ejecutoria, confundiríamos lo claro ó verdadero con lo oscuro y lo improbable, lo notorio con lo cuestionable, y no habría diferencia de que se perdiese un pleito en segunda instancia con condenacion en costas, á que se perdiese lisa y llanamente sin esta calidad. Muchas veces acontese que  aunque el tribunal colegiado confirme la sentencia del inferior, no todos los votos se conformen en una misma opinion; otras se remite el pleito á mayor número de votos; en algunas la discordancia versa, no tanto sobre la misma sentencia, cuanto sobre que se amplíen tales y cuales pruebas ó documentos para mejor proveer ó dar más luz al negocio, y sin recibirse estas pruebas se procede á la confirmacion de la primera sentencia por la pluralidad. Es indudable que en todos estos casos, usuales y muy frecuentes, hay esperanza de que si se admite la tercera instancia, podrá variar el estado de la cuestion, pasando á ser verdad lo que pareció probable; á documentarse lo que solo habian dicho los testigos, ó ampliarse las pruebas que se extrañaron en la instancia segunda, y sobre todo, á examinarse si opinaron con más acierto los menos vocales que discordaron. Y si esto es así, como se está mirando, no sé yo cómo se pueda establecer que dos sentencias conformes hagan ejecutoria, á pesar de confesarse y palparse que así la ejecutoria es ó debe, ser hermana genuina de la verdad, como las dos sentencias tocar muchas veces en solo la esfera de la duda y de la probabilidad. Tambien se percibe que si las dos sentencias tocaren tan de lleno en la deseada verdad, que se vea que nada más se puede adelantar; que todos los jueces están conformes, y que la temeridad del que apela es manifiesta, ningun inconveniente hay para que causen ejecutoria, pero que sea en los casos que explique la ley, como lo propone la comision, y como es necesario para evitar la arbitrariedad. Estos casos bien podrian reducirse á  ciertas reglas; pero serian muchas y varias, que por lo mismo son objeto de las leyes, hijas de las circunstancias, cuanto ajenas de la sencillez de la Constitucion, que debe ser invariable cuanto más se pueda: por ejemplo, hay pleitos en que cada una de las partes forma las pruebas á su modo y segun su respectiva contraria intencion; y otros, como son los criminales, en que no solo las partes, sino tambien los jueces inquieren de oficio la verdad de los motivos; forman los méritos del proceso, y examinan por sí mismos la materia ú objeto de la cuestion. En los primeros, como que las pruebas son siempre divergentes, no es fácil encontrar la verdad tan brevemente como en los segundos;  y consiguientemente en los unos podria admitirse la opinion de que se ejecutoriasen con dos sentencias conformes, sin que tenga cabida en los otros, como distintos, en razon contraria del modo de buscarse la verdad, y de esta suerte pudieran proponerse otros ejemplos.
+      Supuesto que dos sentencias conformes no causen ejecutoria por regla general, digo que lo que propone la comsion para que la cause la tercera, sin embargo de que evoque á las dos conformes, es más adaptable que no el extremo dilatorio é inusitado de admitirse cuatro instancias: lo primero, porque admitidas estas cuatro instancias podria suceder que ni la tercera ni la cuarta sentencia fuese conforme con las dos primeras; y entonces, ó habia de ejecutoriarse el pleito por una sola, que es lo mismo que se huye, ó habíamos de admitir tantas instancias bastasen á contrapesar la autoridad de las dos conformes. Lo segundo, que poniendo tres Salas en cada Audiencia, y una Audiencia en cada provincia, aumentaríamos sobre las fuerzas de su poblacion en tanto  número los curiales, que precisamente gravitarian sobre el Estado; y este mal, segun lo hasta ahora experimentado, seria mucho mayor que el bien que se deja de satisfacer á una parte quejosa por haber perdido en la tercera instancia. Lo tercero y último, que lo mismo es admitir la cuarta instancia para que se vea el pleito por mayor número de ministros que los que revocaron las dos sentencias, que el que en la tercera Sala se aumenten los mismos ministros, de modo que los votos que revoquen sean mayor número que los que pronunciaron las dos primeras sentencias: de esta suerte no se aumentan los curiales de que necesitaria la cuarta Sala; tampoco hay la dilacion de una cuarta instancia, que califica de muy gravosa la misma ley citada por el Sr. <name ref="gente.xml#Anér" type="person">Anér</name>, y la autoridad de las dos instancias se desvanece, pues que solo son dos en el nombre ó en el sonido, mas en la realidad son más en número de votos de los que revocan, y tambien más autorizados , como más experimentados, según  el órden gradual que para la provision de estas plazas habrá de observar el Gobierno. Juntamente con lo dicho se percibe que siendo el artículo muy conforme al sistema de juzgar de las leyes de Partida, que suponen las tres instancias, ya no tiene lugar la excepcion de que la tercera revoque las  dos conformes, para que, como dice otra ley, se admita en este solo caso cuarta instancia, pues esta ley, según su texto, habla á la letra en la práctica antiquísima de que el juez que revocaba fuese uno solo, así como los que habian pronunciado las anteriores; mas en el proyecto se supone que la tercera haya de pronunciarse por tribunal colegiado, y que conste de mayor número que sus inferiores; es decir, que si la ley requeria dos solos jueces, el uno para la tercera y el otro para la cuarta instancia, el artículo requiere lo menos cinco para la tercera, siempre que haya de juzgarse de dos sentencias conformes.
+      Por último, las demás leyes citadas por el Sr. <name ref="gente.xml#Anér" type="person">Anér</name>, que hablan de la revocacion de las mismas ejecutorias, son tan racionales y bien recomendadas, que basta decir que ellas quedan en su fuerza y vigor, sin que se alteren en cosa alguna por el artículo en cuestion. Habla éste de las ejecutorias lo mismo que hablaban nuestras antiguas leyes; de las ejecutorias, que ponen fin á los pleitos, así por la Constitucion como por las antiguas leyes. Y si con estas han sido y sonn compatibles las que tratan de enervar la excepcion de cosa juzgada que ellas producen, también en el día queden compatibles con lo que ahora se llama ejecutoria ó finiquito de los pleitos. Más claro: supóngase que por el hallazgo de la verdad superviniente á la  ejecutoria se trata de entablar de nuevo el pleito, y supóngase que el que obtuve opone la excepcion de cosa juzgada; ¿cuál será aquí el oficio del juez? No es otro sino examinar si el estado de la cuestion de el mismo número que se ejecutorió, en cuyo caso debe sentenciar á favor del que produce la exepcion; pero si es diverso; Si la misma verdad que sobrevino está arrojando el desengaño, y si ya la ejecutoria recibió su cumplimiento, ¿cómo habrá de sentenciar que el caso nuevo es el mismo que se ejecutorió, y que obsta la cosa juzgada? Esto es imposible, y es puntualmente en contra de lo que decide la ley citada por el Sr. <name ref="gente.xml#Anér" type="person">Anér</name>; que, como se ve, no nos obsta, pues que en rigor no habla de lo ejecutoriado, sino de un caso nuevo, y que por lo mismo no es ejecutoriado.
+      Puede por conclusión aprobarse el artículo en todas sus partes.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-02-02' ana='aprobado' corresp='constitucion.xml#art-05-02-285 proyecto.xml#pro-p2-05-02-283'>
+    <p>Declaróse con efecto suficientemente discutido; y puesto á votacion, fué aprobado en los términos que lo propuso la comision.</p>
+  </div>
+</div>
+<div type="dia" xml:id="Diario-479-1812-02-07">
+  <head type="sesion">Sesion del dia <date when="1812-02-07">7.º de Febrero</date>.</head>
+  <div type='resultat' xml:id='dc1812-02-07-01r' ana='aprobado??' corresp='constitucion.xml#art-05-01-262 proyecto.xml#pro-p2-05-01-261'>
+    <p>Sobre la proposicion que hizo en 15 de Enero último el Sr. <name ref="gente.xml#Uria" type="person">Uria</name> (Véase la sesión de este dia), dió la misma comisión el siguiente dictámen, que tambien fué aprobado:</p>
+    <p>“Se ha pasado á la comision de Constitucion la proposicion del Sr. <name ref="gente.xml#Uria" type="person">Uria</name> sobre que “se establezca en la capital de Guadalajara de la América septentrional un tribunal de Acordada con las mismas facultades que el de Méjico.” La comision supone que esta proposicion no se le habrá pasado para que diga su dictámen sobre si deberá hablarse de esto en la Constitucion, sino para que exponga su opinion sobre si convendrá ó no formar este establecimiento. En esta inteligencia opina la comision que será conveniente decir á la Regencia que examine si conviene proceder á este establecimiento; y si se encuentra que sí, que lo avise para determinar lo que convenga. Lo mismo cree la comision que debe decirse en cuanto á la Junta de Hacienda que propone el mismo señor, persuadida de que este punto pertenece al exámen y descernimiento del Gobierno.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-07-02r' ana='aprobado' corresp='constitucion.xml#art-06-01-315 proyecto.xml#pro-p3-06-01-313'>
+    <p>La Comision de constitucion presentó su dictámen sobre varias adiciones de algunos Sres. Diputadors, y comenzando por la que el Sr. <name ref="gente.xml#Borrull" type="person">Borrull</name> hizo al art. 313, reducida á “que haya dos síndicos en todos los pueblos y uno de ellos sea el síndico personero del comun,” decia:</p>
+    <p> “La comision es de parecer que siendo por el sistema de Constitucion de libre eleccion de los pueblos todos los empleos de ayuntamiento, hasta un síndico personero, en quien se refunden las funciones del síndico procurador general, que á veces era un oficio enajenado. Solo la mayor poblacion deberá ser causa, en sentir de la comision, para que se elijan dos síndicos, como lo propone el proyecto. Así opina la comision que no debe hacerse alteración alguna.”</p> 
+    <p>Se aprobó el dictámen de la comision.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-07-03r' ana='aprobado' corresp='constitucion.xml#art-06-02-321 proyecto.xml#pro-p3-06-02-319'>
+    <p>Sobre las adiciones del Sr. <name ref="gente.xml#Arispe" type="person">Arispe</name>, reducida a una á  que despues de la facultad cuarta de los ayuntamientos en el art. 319, se añadiese la de designar fondos para propios en los pueblos que no los tuviesen, ó fuesen muy ténues;” y la otra que se añadiese entre las facultades de los ayuntamientos “la de repartir, vender ó administrar las tierras, baldíos y realengos de sus respectivos territorios,” opinaba la comision, con respecto á la primera, que en ningun caso fuera conducente que el ayuntamiento designase los propios que habia de pertenecerle, debiendo á lo más hacer presentes sus necesidades, lo que no debia indicarse en la Constitucion, y que en tal caso tocaria á las Diputaciones provinciales informarse de estas necesidades, y a la autoridad superior del Gobierno remediarlas segun conviniera, por lo cual creia la comision que no debia hacerse novedad alguna en el artículo, como tampoco por lo que tocaba á la segunda adicion, pues solo á las Córtes pertenecia mandar repartir ó vender los baldíos, quedando todo lo relativo á la administracion sujete á las reglas que estableciesen las leyes ó reglamentos particulares, tanto más que por lo respectivo á la administracion se contenia en la tercera facultad de los ayuntamientos lo mismo que deseaba el Sr. <name ref="gente.xml#Arispe." type="person">Arispe.</name> Aprobóse el dictámen de la comision.  
+      En cuanto á la proposicion del Sr. <name ref="gente.xml#Alonso y Lopez" type="person">Alonso y Lopez</name>, reducida á que fuese la “quinta facultad la de los ayuntamientos para los alistamientos para el reemplazo y aumento de la fuerza militar del Estado, segun las reglas que para ello se prescriban, opinaba la comision que no había para qué fijar esta regla en la Constitucion, en la que no era posible señalar todo lo que tendrian que hacer los ayuntamientos; añadiendo que el modo de verificar el reemplazo fuese por los ayuntamientos ó por otro medio, debía ser señalado por las leyes, que arreglarian esta materia, por lo cual decia el art. 365 del proyecto: “las Córtes fijarán anualmente el númro de tropas, etc.”
+      Púsose á votacion el dictámen de la comision, y quedó aprobado, como igualmente el que presentó sobre las proposiciones que el mismo Sr. <name ref="gente.xml#Alonso y Lopez" type="person">Alonso y Lopez</name> hizo en 11 de Enero antepróximo (Véase la sesion de aquel dia), reducido á la siguiente:  
+      La una dice: “proteger la mendicidad, etc.” La comision cree que no debe hablarse de esto en la Constitucion, bien segura de que con costumbres y buenas leyes no habrá mendigos. 
+      Otra dice: “proteger las quejas de los indios J de los esclavos, etc.” Opina la comision que las leyes deben proveer y han provisto siempre á estos particulares, de que de ningun modo debe ocuparse con el pormenor que se desea una Constitucion que ha abrazado todos estos puntos con la generalidad conveniente, diciendo cuando habla de las facultades de los ayuntamientos que les toca proteger las personas y las propiedades. 
+      Otra dice: “contener la expatriacion voluntaria de los pueblos, etc., etc.” Nada es en sentir de la comision más delicado que este punto. Las leyes proveerán de remedio conveniente cuándo y cómo parezca oportuno. Pero impedir de una vez, y por un artículo constitucional que los vecinos de un pueblo no pasen á establecerse á otra parte, seria el mayor ataque á la libertad individual.</p>
+    <p>Es, pues, de sentir la comision que no deben aprobarse estas proposiciones.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-07-04r' ana='aprobado' corresp='constitucion.xml#art-06-02-326 proyecto.xml#pro-p3-06-02-326'>
+    <p>Sobre la adicion del Sr. <name ref="gente.xml#Larrazabal" type="person">Larrazabal</name> al art. 324, reducida “á que ni el presidente ni el intendente tenga voto sino en caso de empate para dirimir, que se le concede solo al primero,” decia la comision que cuando propuso que las Diputaciones se compusiesen de siete indivíduos elegidos por los pueblos, y además del presidente é intendente, y las Córtes cuando habian aprobado el artículo, habian entendido en la palabra compondrán, que estos nueve individuos debian deliberar y hacer acuerdos de tomar resolu-ciones, y por consiguiente votar. Ni podia de otro modo pensar entonces la comision que veria en lo que se proponia un manifiesto desaire de la autoridad de Gobierno tan inconducente como perjudicial .
+      Aprobóse este dictámen, como el siguiente que sobre las proposiciones que hicieron los Sres. Larrazabal, Avila y Castillo en 14 de Enero último (Véase la sesión de aquel dia)  presentó la misma comision, concebido en esto términos:
+      “Cree la comision que seria un proceder infinito e descender á todos estos porme-nores en una Constitucion cuando alguna de estas ideas aun pareceria prolija en un reglamento, como la de que el presidente no quite la libertad á los regidores. Sabido es que lo que las leyes existentes concedan á los ayuntamientos, como no esté derogado por otra ley, les debe pertenecer, fuera de que los términos generales en que están concebidos los artículos del proyecto que tratan de estos puntos lo comprenden todo, y puden deben servir de base para las leyes que pueda convenir hacer en lo sucesivo.
+      Cree, pues, la comision que estos pensamientos no deben tener lugar en la Constitucion.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-07-05r' ana='aprobado' corresp='constitucion.xml#art-06-02-337 proyecto.xml#pro-p3-06-01-335'>
+    <p>A continuacion presentó el expresado Sr. <name ref="gente.xml#Larrazabal" type="person">Larrazabal</name> las siguientes adiciones, que se mandaron, pasar á la Comision de Constituaion:</p>
+    <p>????</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-07-06r' ana='aprobado' corresp='constitucion.xml#art-06-02-335 proyecto.xml#pro-p3-06-02-333'>
+    <p>Adiciones al art. 333 sobre las facultades de la Diputacion provinciual de Ultramar.</p>
+    <list>
+      <item>Primera. En caso de fallecimiento del jefe superior, tendrá facultad de nombrarlo, ínterin que el Rey, á quien dará cuenta, provee de propietario.</item>
+      <item>Segunda. Tendrá intervencion en los asuntos concernientes á todos los ramos y objetos de policía, hacienda y guerra.</item>
+      <item>Tercera. Nombrará peritos para hacer una división exacta de la provincia en partidos, ciudades, villas y pueblos de sus respectivos distritos, sin que haya hacienda, labor, ni caserío que no esté comprendida en la demarcación correspondiente.</item>
+      <item>Cuarta. Informará el Consejo de Estado de las personas aptas y distinguidas por su méríto para la provision de los empleos.</item>  
+      <item>Quinta. Presentará á las Córtes, por medio de la Diputacion permanente, las ideas de los que juzgue conducentes para la legislacion de los Códigos civil y criminal, político y económico y municipal ó particular de la provincia, exponiendo las razones en que se funde.</item>
+      <item>Sexta. En caso que el establecimiento de alguna ley sea dañoso á. la provincia, podrá por medio de la diputacion permanente representarlo á las Córtes y pedir su suspensión.</item>
+      <item>Sétima. Aunque la obligacion de promover la felicidad general incluye la de todas las clases del Estado, será una de sus primeras atenciones promover por todos los medios posibles la instruccion y fomento de indios.</item>
+    </list>
+  </div>
+</div>
+<div type="dia" xml:id="Diario-479-1812-02-16">
+  <head type="sesion">Sesion del dia <date when="1812-02-16">16.º de Febrero</date>.</head>
+  <div type='resultat' xml:id='dc1812-02-16-01r' ana='aprobado' corresp='constitucion.xml#art-04-01-171 proyecto.xml#pro-p1-04-01-171'>
+    <p>Se aprobó una proposicion de la comision de Constitucion, la cual, habiendo notado en la correccion del original de su proyecto, que al hablar de las facultades del Rey no se habia expresado la esencialísima de conceder distinciones y honores, cosa que indudable-mente debe pertenecer al Jefe supremo del Estado, pero con arreglo á las leyes, á quienes toca determinar ciertas calidades en las peraanas ó ciertos requisitos para su concesion, proponia que esta facultad ae expresase á continuacion de la del núm. 6, en los términos siguientes:</p> 
+    <p>“Sétima. Conceder honores y distinciones de toda clase con arreglo á las leyes.”</p>
+  </div>
+</div>
+<div type="dia" xml:id="Diario-479-1812-02-18">
+  <head type="sesion">Sesion del dia <date when="1812-02-18">18.º de Febrero</date>.</head>
+  <div type='resultat' xml:id='dc1812-02-18-01r' ana='aprobado' corresp='constitucion.xml#art-05-01-232 proyecto.xml#pro-p2-05-01-231'>
+    <p>La misma comision, con presencia de la exposicion del Sr. <name ref="gente.xml#Caneja" type="person">Caneja</name> que se le pasó en 5 de este mes (Véase la sesión de aquel dia), manifestaba el siguiente dictámen, que también fué aprobado:
+      La comision creyó que los términos en que babia concebido su artículo, tenian una inteligencia sencilla, reducida á llamar al Concejo de Estado aquellas personas que hayan dado pruebas relevantes de sus conocimientos é ilustracion en alguna de las principales carreras de la administracion pública, pruebas que, generalmente hablando,no son bastante calificadas cuando no provienen de servicios señalados hechos al Estado. Jamás creyó la comision que los primeros grados en una carrera, aunque sean desem-peñados con merecimiento, deban habilitar á una persona para que desde ellos pase al Consejo de Estado; ni pudo imaginar que el no admitir á sugetos poco probados ó calificados por sus buenos servicios, deba mirarse como un desaire, pues á nadie queda cerrada la puerta para señalarse y adelantar. Pero si se quiere presentar la idea con alguna mayor generalidad, que evite interpretaciones ó dudas odiosas, podrá concebirse en estos términos, á juicio de la comision:
+      Art. 231. Estos serán precisamente en la forma siguiente, á saber: cuatro eclesiás-ticos, y no más, de conocida y probada ilustracion y merecimiento, de los cuales dos serán Obispos: cuatro grandes de España, y no más, adornados de las virtudes, talento y conocimientos necesarios; y los restantes serán elegidos de entre los sujetos que más se hayan distinguido por su ilustracion  y conocimientos, ó por sus señalados servicios en alguno de los principales ramos de la administracion y gobierno del Estado.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-18-02r' ana='aprobado' corresp='constitucion.xml#art-06-02-335 proyecto.xml#pro-p3-06-02-333'>
+    <p>Se aprobó el dictámen de la comision de Constitucion, la cual, en vista de las proposiciones ó adiciones que el Sr. <name ref="gente.xml#Larrazabal" type="person">Larrazabal</name> presentó y se pasaron en la sesion de 7 del corriente, opinaba que estando todas esencialmente excluidas por lo que ya habia sancionado el Congreso, no debian ser admitidas.</p>
+  </div>
+</div>
+<div type="dia" xml:id="Diario-479-1812-02-19">
+  <head type="sesion">Sesion del dia <date when="1812-02-19">19.º de Febrero</date>.</head>
+  <div type='resultat' xml:id='dc1812-02-19-01r' ana='aprobado' corresp='constitucion.xml#art-04-02-180 proyecto.xml#pro-p1-04-02-180'>
+    <p>La comision de Constitucion presentó reformado el art. 7.º del capítulo II, que trata de la sucesion á la Corona, el cual se le habia mandado pasar para este efecto en la sesion secreta de 11 del corriente, y lo concebia en estos términos:</p>
+    <p>Art. 7.º   A falta de la descendencia legítima de Don <name ref="gente.xml#Fernando VII de Borbon" type="person">Fernando VII de Borbon</name>, sucederán en el trono las personas contenidas en sus líneas trasversales, por el órden establecido en los artículos precedentes; debiendo ser excluidas por las Córtes las que sean incapaces para gobernar, ó hayan hecho cosa por que merezcan perder la Corona. Si llegaren á extinguirse todas las líneas, las Córtes harán nuevos llamamientos, segun crean que más conviene á la Nacion.</p>  
+    <p>Despues de haber hablado varios Sres. Diputados sobre este asunto, se suspendió la discusion, y levantó el Sr. <name ref="gente.xml#Presidente" type="person">Presidente</name> la sesion.</p>
+  </div>
+</div>
+<div type="dia" xml:id="Diario-479-1812-02-23">
+  <head type="sesion">Sesion del dia <date when="1812-02-23">23.º de Febrero</date>.</head>
+    <div type="resultat" xml:id="dc1812-02-23-01r" ana="modificado" corresp="constitucion.xml#art-01-01-03 proyecto.xml#pro-p1-01-01-03">
+      <p>El Sr. Secretario <name ref="gente.xml#Som" type="person">Sombiela</name> hizo presente al Congreso que con arreglo á lo resuelto,
+         la Secretaría habia pasado copia de la Constitucion á la comision que entendió en su trabajo para que lo examinase de nuevo, y rectificase el lenguaje;
+         y que habiéndola esta devuelto con las variaciones que le han parecido convenientes,
+         creia de su deber la Secretaria presentarlas á S. M. para que recayese sobre ellas su soberana aprobacion.</p>
+       <p>En seguida se leyeron dichas variaciones que quedaron aprobadas, y son las  siguíentes:</p>
+       <p>Art. 3.º  Decia: “y por lo mismo le pertenece;”, dice ahora: “y por lo mismo pertenece á ésta.”</p>
+    </div>
+    <div type="resultat" xml:id="dc1812-02-23-02r" ana="modificado" corresp="constitucion.xml#art-01-01-04 proyecto.xml#pro-p1-01-01-05">
+      <p>Número 2 del art. 5.º   Decia: “por las Córtes;” dice ahora: “de las Córtes.”</p>
+      <p>Id. Decia: “carta de naturaleza de las Córtes;” dice ahora: “de las Córtes carta de naturaleza.”</p>
+    </div>
+  <div type='resultat' xml:id='dc1812-02-23-03r' ana='modificado' corresp='constitucion.xml#art-03-01-30 proyecto.xml#pro-p1-03-01-30'>
+    <p>Art. 30. Decia: “más auténtíco que haya;” dice ahora: “los censos más auténticos entre los últimamente formados.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-04r' ana='modificado' corresp='constitucion.xml#art-03-02-34 proyecto.xml#pro-p1-03-02-34'>
+    <p>Art. 34.   Decia: “en Córtes;” dice: “de Córtes.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-05r' ana='modificado' corresp='constitucion.xml#art-03-03-46 proyecto.xml#pro-p1-03-03-46'>
+    <p>Art. 46.   Decia: “por el regidor, alcalde ó juez;”  dice: “por el jefe político ó el alcalde de la ciudad .“</p> 
+    <p>Id.   Decia:  “ presidirá una el corregidor ó alcalde y los regidores, etc.; “  dice: “presidirá una el jefe político ó alcalde y otra el otro alcalde.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-06r' ana='modificado' corresp='constitucion.xml#art-03-05-81 proyecto.xml#pro-p1-03-05-81'>
+    <p>Art. 81.   Decia: “por el magistrado político;”   dice: “por el jefe político.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-07r' ana='modificado' corresp='constitucion.xml#art-03-05-85 proyecto.xml#pro-p1-03-05-85'>
+    <p>Art. 85.  Decia: “por defecto de algunas de las calidades requeridas;” dice: “por defecto de alguna de las calidades requeridas.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-08r' ana='modificado' corresp='constitucion.xml#art-03-05-100 proyecto.xml#pro-p1-03-05-100'>
+    <p>Art. 100,  Decia: “fueron electos, por Diputados en ellas;” dice: “fueron electos por Diputados para ellas. “</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-09r' ana='modificado' corresp='constitucion.xml#art-03-06-103 proyecto.xml#pro-p1-03-06-103'>
+    <p>Art. 103.   Decia: “á excepcion de lo que se previene en el art. 326;  dice: “de lo que previene el art. 327.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-10r' ana='modificado' corresp='constitucion.xml#art-03-06-104 proyecto.xml#pro-p1-03-06-104'>
+    <p>Art. 104.   Decia:  “y en un edificio;”  dice: “en edificio.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-11r' ana='modificado' corresp='constitucion.xml#art-03-06-112 proyecto.xml#pro-p1-03-06-112'>
+    <p>Art. 112.    Decia:  “individuos de ella;” dice: “individuos  que la componen.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-12r' ana='modificado' corresp='constitucion.xml#art-03-06-113 proyecto.xml#pro-p1-03-06-113'>
+    <p>Art. 113.   Decia: “para que examine los de la comision de cinco;”  dice: “para  que examine los de estos cinco individuos de la comision.“</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-13r' ana='modificado' corresp='constitucion.xml#art-03-06-123 proyecto.xml#pro-p1-03-06-123'>
+    <p>Art. 123.   Decia:  “el  Rey hará un discurso, en el que propondrá á las Cortes lo que crea conveniente, y sé le contestará en términos generales por el Presidente;” dice:  “el  Rey hará un discurso, en el que propondrá á las Córtes lo que crea conveniente, y al que el Presidente contestará en términos generales.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-14r' ana='modificado' corresp='constitucion.xml#art-03-06-125 proyecto.xml#pro-p1-03-06-125'>
+    <p>Art. 125.   Decía:  “cuando los Secretarios del Despacho;”   dice: “en los casos en que los Secretarios del Despacho.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-15r' ana='modificado' corresp='constitucion.xml#art-03-06-128 proyecto.xml#pro-p1-03-06-128'>
+    <p>El Sr. <name ref="gente.xml#Sombiela" type="person">Secretario Sombiela</name> hizo presente al Congreso que con arreglo á lo resuelto, la Secretaría habia pasado copia de la Constitucion á la comision que entendió en su trabajo para que lo examinase de nuevo, y rectificase el lenguaje; y que habiéndola esta devuelto con las variaciones que le han parecido convenientes, creia de su deber la Secretaria presentarlas á S. M. para que recayese sobre ellas su soberana aprobacion. En seguida se leyeron dichas variaciones que quedaron aprobadas, y son las  siguientes:</p>
+    <p>Art. 128.  Decia:  “demandados por pleitos civiles ni ejecutivos;”   dice: “deman-dados civilmente, ni ejecutados por deudas.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-16r' ana='modificado' corresp='constitucion.xml#art-03-07-131 proyecto.xml#pro-p1-03-07-131'>
+    <p>Facultad 8.  Art. 131.  Decia:  “permitir ó prohibir;”  dice: “conceder ó negar.”</p> 
+    <p>Facultad 25 del mismo artículo.   Decia:  “de los Secretarios de Estado y del Despacho;”   dice: “de los Secretarios del Despacho.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-17r' ana='modificado' corresp='constitucion.xml#art-03-08-150 proyecto.xml#pro-p1-03-08-150'>
+    <p>Arte 150.   Decia:  “por el mismo hecho so entenderá dada;”  dice “por esto mismo se entenderá dada.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-18r' ana='modificado' corresp='constitucion.xml#art-03-11-162 proyecto.xml#pro-p1-03-11-162'>
+    <p>Núm. 1.º del art. 162.  Decia:  “cuando  vacare el Reino;”;  dice: “cuando vacare la Corona.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-19r' ana='modificado' corresp='constitucion.xml#art-04-03-190 proyecto.xml#pro-p1-04-03-190'>
+    <p>Art. 190.  Decia: “que sea más  antiguo en el órden de su elección  para la diputacion indicada;”  dice:  “que sea primer nombrado en ella.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-20r' ana='modificado' corresp='constitucion.xml#art-04-05-218 proyecto.xml#pro-p1-04-05-218'>
+    <p>Art. 218.  Decia:  “las Córtes señalarán los alimentos que hayan de darse á la Reina viuda;”  dice:  “las Cortes señalarán los alimentos anuales que hayan de darse, etc. “</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-21r' ana='modificado' corresp='constitucion.xml#art-04-06-222 proyecto.xml#pro-p1-04-06-222'>
+    <p>Art. 222.  Empezaba:  “los Secretarios;” y concluia: “ciudanos;”  ahora concluye: “exijan;”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-22r' ana='modificado' corresp='constitucion.xml#art-04-06-224 proyecto.xml#pro-p1-04-06-223'>
+    <p> y empieza el art. 223: “para ser,” y concluyce:  ·ciudadanos.” En este artículo decia: “se necesita;”  dice: “se requiere.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-23r' ana='modificado' corresp='constitucion.xml#art-04-06-228 proyecto.xml#pro-p1-04-06-227'>
+    <p>Art. 227.    Decia:  “de la causa;”  dice:  “de causa.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-24r' ana='modificado' corresp='constitucion.xml#art-05-01-251 proyecto.xml#pro-p2-05-01-250'>
+    <p>Art. 250.   Decia: “es necesario;”  dice: “se requiere.”</p>
+    <p>Idem.     Decia:   “las demás calidades que respectivamente deban tener;”  dice: “deban estos tener.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-25r' ana='modificado' corresp='constitucion.xml#art-05-01-254 proyecto.xml#pro-p2-05-01-253'>
+    <p>Art. 254. Decia:  “la prevaricacion de los jueces;”  dice:  “de los magistrados y  jueces.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-26r' ana='modificado' corresp='constitucion.xml#art-05-01-256 proyecto.xml#pro-p2-05-01-255'>
+    <p>Art. 255. Decia: “magistrados y jueces;”  dice: “y jueces de letras.“</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-27r' ana='modificado' corresp='constitucion.xml#art-05-01-264 proyecto.xml#pro-p2-05-01-263'>
+    <p>Art. 263.   Decia: “de jueces;”  dice: “los magistrados.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-28r' ana='modificado' corresp='constitucion.xml#art-05-01-268 proyecto.xml#pro-p2-05-01-267'>
+    <p>Art. 267.   Decia:  “conocer de los recursos extraordinarios;  dice: “de los recursos de nulidad. “</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-29r' ana='modificado' corresp='constitucion.xml#art-06-01-322 proyecto.xml#pro-p3-06-01-320'>
+    <p>Facultad 8. Art. 320.  Decia: “y manifestarlas á las Córtes;” dice: “y presentarlas á las Córtes.”</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-02-23-30r' ana='modificado' corresp='constitucion.xml#art-07-01-339 proyecto.xml#pro-p3-07-01-337'>
+    <p>Art. 336.  Decia: “prestarán juramento aquellos en manos del alcalde que fuese primer nombrado;“  dice: “en manos del jefe político donde lo hubiere, ó en su defecto del alcalde que fuere primer nombrado.”</p>
+  </div>
+</div>
+</div> <!-- mes     -->
+</body>
+</text>
+</TEI>

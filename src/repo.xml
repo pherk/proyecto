@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Constitucion de la Monarquia Española</description>
+    <author>Peter Herkenrath</author>
+    <website>http://constitucion.org</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>proyecto</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <deployed>2013-08-12T19:02:45.715+02:00</deployed>
+</meta>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue xml:lang="es">
+    <msg key="welcome">Bienvenido</msg>
+    <msg key="search:">Buscar:</msg>
+    <msg key="text">texto</msg>
+    <msg key="article">articulo</msg>
+    <msg key="speaker">orador</msg>
+    <msg key="name">apellido</msg>
+    <msg key="place">lugar</msg>
+    <msg key="submit">enviar</msg>
+</catalogue>

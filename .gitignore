@@ -1,0 +1,7 @@
+build
+node_modules
+.idea
+.exist-secrets.json
+.env
+**/.DS_Store
+dist

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0
+  http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Diario de Sesiones</title>
+            <title level="a">Marzo 1812</title>
+            <author>Cortes</author>
+            <respStmt>
+              <resp>Encoded by </resp>
+                <name xml:id="HA" type="editor">Hans Artz and </name>
+                <name xml:id="PH" type="editor">Peter Herkenrath</name>
+            </respStmt>
+            <principal>Hans Artz</principal>
+            <sponsor>Cádiz Heritage Language Technologies</sponsor>
+            <funder>PH</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2013-01-10</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+           <pubPlace>Cádiz, Spain</pubPlace>
+           <publisher>Constitucion Consortium</publisher>
+           <address>
+             <addrLine>Hans Artz</addrLine>
+             <addrLine>1101 Cádiz, Jose de Torro 6, 2nd A</addrLine>
+             <addrLine>Spain</addrLine>
+             <addrLine>url:http://www.constitution.org</addrLine>
+           </address>
+           <date>2012-10-31</date>
+             <availability status="restricted">
+                    <p>Available under a CC-BY-NC-ND license</p>
+             </availability>
+         </publicationStmt>
+         <sourceDesc>
+           <biblStruct>
+             <monogr>
+               <author>Cortes, d. 1811</author>
+               <title type="main">Diario de Sesiones</title>
+               <title type="subordinate"></title>
+               <edition>Ed. facsimile</edition>
+               <imprint>
+                 <pubPlace>Cádiz</pubPlace>
+                 <publisher>unknown</publisher>
+                 <date>2 de Marco 1811</date>
+               </imprint>
+               <extent>xx? p. (xx vols) ; xx cm.</extent>
+             </monogr>
+           </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+           <p>Originally prepared for personal use. 
+              Later this text was extensively checked and revised for the
+              digital edition of Manuscripts concerning the spanish constitucion from 1812.</p>
+         </projectDesc> 
+         <editorialDecl>
+            <correction status="high" method="silent">
+              <p>The following errors have been corrected:
+              <list>
+              <item>p. 13 l. 7 errors errors </item>
+              </list>
+              </p>
+            </correction>
+            <quotation marks="all">
+              <p>All double quotation marks rendered with ", all single quotation marks with apostrophe. </p>
+            </quotation>
+            <hyphenation eol="none">
+            <p>Hyphenated words that appear at the end of the line have been reformed.
+               Words spanning a page break are hyphenated.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Original punctuation conventions in the manuscript have been retained as much as possible</p>
+            </normalization>
+            <normalization method="silent">
+              <p>Margin notes are included in the running text as much as possible marked by editorial footnote</p>
+            </normalization>
+           <normalization method="silent">
+             <p>Common abbreviations are coded as abbr elements, the special character as g elements</p>
+           </normalization>
+           <interpretation>
+             <p>Each day is coded as div element</p>
+             <p>Persons, Places and Dates are coded as name, place and date elements</p>
+             <p>Articles are referenced by titulo, capitulo, articulo from the pamphlet which was read in the inner margin
+                and by article number of Constiitucion in the outer margin</p>
+           </interpretation>
+         </editorialDecl>
+         <refsDecl>
+           <refState unit="colloquium"/>
+           <refState unit="topic"/>
+         </refsDecl>
+         <classDecl>
+           <taxonomy xml:id="lcsh">
+             <bibl>Library of Congress Subject Headings</bibl>
+           </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+           <language ident="es">Espanol</language>
+         </langUsage>
+         <textClass>
+           <keywords scheme="#lcsh">
+             <list type="simple">
+               <item>Dialogues, Espanol (Medieval and modern)</item>
+               <item>Folly -- Early works to 1800</item>
+             </list>
+           </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+            <change when="2013-01-10" who="#PH">[ed] added text relating to Art.22</change>
+        </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">
+<hi rend="huge">Diario</hi><lb/>
+<hi rend="big">de Sesiones</hi>
+</titlePart>
+</docTitle>
+<docImprint>
+  <docDate>Empezó la Comision sus Sesiones<lb/>el dia dos de Marzo<lb/>de 1812,<lb/></docDate>
+  <pubPlace>en Cadiz</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<body xml:lang="es">
+<div xml:id="Diario-1812-03" type="mes">
+<div type="dia" xml:id="Diario-479-1812-03-17">
+  <head type="sesion">Sesion del dia <date when="1812-03-17">17.º de Marzo</date>.</head> 
+  <div type='resultat' xml:id='dc1812-03-17-x01' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-174 proyecto.xml#pro-p1-04-02-174'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+    <lg><l>CAPlTULO II.</l>
+       <l>De la sucesión de la Corona.</l>
+    </lg>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-02a' corresp='constitucion.xml#art-04-02-174 proyecto.xml#pro-p1-04-02-174'>
+    <p>Art. 174. El Reino de las Españas es indivisible, solo se sucederá en el Trono perpétuamente, desde la promulgacion de la Constitucion, por el órden regular de primogenitura y representacion entre los descendientes legítimos varones y hembras de las líneas que se expresarán.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-03r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-175 proyecto.xml#pro-p1-04-02-175'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-04a' corresp='constitucion.xml#art-04-02-175 proyecto.xml#pro-p1-04-02-175'>
+    <p>Art. 175. No pueden ser Reyes de las Españas sino los que sean hijos, legítimos habidos en constante y legítimo matrimonio.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-05r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-176 proyecto.xml#pro-p1-04-02-176'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-06a' corresp='constitucion.xml#art-04-02-176 proyecto.xml#pro-p1-04-02-176'>
+    <p>Art. 176. En el mismo grado y línea los varones prefieren á las hembras, y siempre el mayor al menor; pero las hembrss de mejor línea ó de mejor grado, en la misma línea, prefieren á los varones de línea ó grado posterior.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-07r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-177 proyecto.xml#pro-p1-04-02-177'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-08a' corresp='constitucion.xml#art-04-02-177 proyecto.xml#pro-p1-04-02-177'>
+    <p>Art. 177.    El hijo ó hija del primogénito del Rey en el caso de morir su padre sin haber entrado en la sucesion del Reino, prefiere á los tios y sucede inmediatamente al abuelo por derecho de representacion.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-09r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-178 proyecto.xml#pro-p1-04-02-178'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-10a' corresp='constitucion.xml#art-04-02-178 proyecto.xml#pro-p1-04-02-178'>
+    <p>Art. 178.  Mientras no se extingue la línea en que está radicada la sucesion, no entra la inmediata.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-11r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-179 proyecto.xml#pro-p1-04-02-179'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-12a' corresp='constitucion.xml#art-04-02-179 proyecto.xml#pro-p1-04-02-179'>
+    <p>Art. 179.   El Rey de las Españas es el Sr. <name ref="gente.xml#D. Fernando VII" type="person">D. Fernando VII de Borbon</name> que actual-mente reina.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-13r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-180 proyecto.xml#pro-p1-04-02-180'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-14a' corresp='constitucion.xml#art-04-02-180 proyecto.xml#pro-p1-04-02-180'>
+    <p>Art. 180.  A falta del Sr. <name ref="gente.xml#D. Fernando VII" type="person">D. Fernando VII de Borbon</name> sucederán sus descendientes legítimos, así varones como hembras: á falta de éstos sucederián sus hermanos y tios, hermanos de su padre, así varones como hembras, y los descendientes legítimos de éstos, por el órden que queda prevenido, guardando en todos el derecho de representacion y la preferencia de las líneas anteriores á las posteriores.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-15r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-181 proyecto.xml#pro-p1-04-02-181'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-16a' corresp='constitucion.xml#art-04-02-181 proyecto.xml#pro-p1-04-02-181'>
+    <p>Art. 181.  Las Córtes deberán excluir de la sucesión aquella persona ó personas que sean incapaces para gobernar, ó hayan hecho cosa por que merezcan perder la Corona.</p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-17r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-182 proyecto.xml#pro-p1-04-02-182'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-18a' corresp='constitucion.xml#art-04-02-182 proyecto.xml#pro-p1-04-02-182'>
+    <p></p>
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-19r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-183 proyecto.xml#pro-p1-04-02-183'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-20a' corresp='constitucion.xml#art-04-02-183 proyecto.xml#pro-p1-04-02-183'>
+    <p>Art. 183.  Cuando la Corona haya de recaer inmediatamente ó haya racaido en hembra, no podrá ésta elegir marido sin consentimiento de las Córtes; y si lo contrario hiciere, se entiende que abdica la Corona.</p> 
+  </div>
+  <div type='resultat' xml:id='dc1812-03-17-21r' ana='leido > aprobado' corresp='constitucion.xml#art-04-02-184 proyecto.xml#pro-p1-04-02-184'>
+    <p>Se leyó el capítulo II de la Constitucion, que trata de la sucesion de la Corona, segun lo aprobaron las Córtes en la sesion secreta de 28 de Febrero próximo, y su contenido es el siguiente:</p>
+  </div>
+  <div type='articulo' xml:id='dc1812-03-17-22a' corresp='constitucion.xml#art-04-02-184 proyecto.xml#pro-p1-04-02-184'>
+    <p>Art. 184.   En el caeo de que llegue á reinar una hembra, su marido no tendrá autoridad ninguna respecto del Reino, ni parte alguna en el gobierno.</p>
+  </div>
+</div> <!-- dia     -->
+</div>
+</body>
+</text>
+</TEI>

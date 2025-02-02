@@ -1,0 +1,3034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0
+  http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+<teiHeader>
+  <fileDesc>
+         <titleStmt>
+            <title>Constitucion politica de la Monarquia Española.</title>
+            <author>La Comision</author>
+            <respStmt>
+              <resp>Encoded by </resp>
+                <name xml:id="HA">Hans Artz and</name>
+                <name xml:id="PH">Peter Herkenrath</name>
+            </respStmt>
+            <principal>Hans Artz</principal>
+            <sponsor>Cádiz Heritage Language Technologies</sponsor>
+            <funder>PH</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2012-08-03</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <pubPlace>Cádiz, Spain</pubPlace>
+            <publisher>Constitucion Consortium</publisher>
+            <address>
+             <addrLine>Hans Artz</addrLine>
+             <addrLine>1101 Cádiz, Jose de Torro 6, 2nd A</addrLine>
+             <addrLine>Spain</addrLine>
+             <addrLine>url:http://www.constitution.org</addrLine>
+            </address>
+            <date>2012-12-15</date>
+             <availability status="restricted">
+                    <p>Available under a CC-BY-NC-ND license</p>
+             </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+             <monogr>
+               <author>La Comision, d. 1811</author>
+               <title type="main">Proyecto de Constitucion politica de la Monarquia Española.</title>
+               <title type="subordinate">presentado a las Córtes Generales y Extraordinatias por su Comision de Constitucion.</title>
+               <edition>Ed. facsimile</edition>
+               <imprint>
+                  <pubPlace>Cádiz</pubPlace>
+                  <publisher>Imprenta Real</publisher>
+                  <date>1811</date>
+               </imprint>
+               <extent>xx? p. (1 vols) ; xx cm.</extent>
+             </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Originally prepared for personal use. 
+              Later this text was extensively checked and revised for the
+              digital edition of Manuscripts concerning the spanish constitucion from 1812.</p>
+         </projectDesc> 
+         <editorialDecl>
+            <correction status="high" method="silent">
+              <p>The following errors have been corrected:
+              <list>
+              <item>p. 13 l. 7 errors errors </item>
+              </list>
+              </p>
+            </correction>
+            <quotation marks="all">
+              <p>All double quotation marks rendered with ", all single quotation marks with apostrophe. </p>
+            </quotation>
+            <hyphenation eol="none">
+              <p>Hyphenated words that appear at the end of the line have been reformed.</p>
+              <p>Words spanning a page break are hyphenated.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Original punctuation conventions in the manuscript have been retained as much as possible</p>
+            </normalization>
+            <normalization method="silent">
+              <p>Margin notes are included in the running text as much as possible marked by editorial footnote</p>
+            </normalization>
+            <normalization method="silent">
+             <p>Common abbreviations are coded as abbr elements, the special character as g elements</p>
+            </normalization>
+            <interpretation>
+             <p>Each day is coded as div element</p>
+             <p>Persons, Places and Dates are coded as name, place and date elements</p>
+             <p>Articles are referenced by titulo, capitulo, articulo from the pamphlet which was read in the inner margin
+                and by article number of Constiitucion in the outer margin</p>
+            </interpretation>
+         </editorialDecl>
+         <refsDecl>
+            <refState unit="colloquium"/>
+            <refState unit="topic"/>
+         </refsDecl>
+         <classDecl>
+            <taxonomy xml:id="lcsh">
+             <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Espanol</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#lcsh">
+             <list type="simple">
+               <item>Dialogues, Espanol (Medieval and modern)</item>
+               <item>Folly -- Early works to 1800</item>
+             </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+            <change when="2013-01-01" who="#PH">[ed] added structure of "Proyecto"</change>
+      </revisionDesc>
+</teiHeader>
+<facsimile>
+  <graphic xml:id="con1811mss_002" url="con1811mss_002.png"/>
+</facsimile>
+<text>
+<front>
+<pb n="0" xml:id="con1811mss_002"/>
+  <titlePage>
+  <docTitle>
+  <titlePart type="main">
+  <lg>
+   <l rend="center"><hi rend="huge">Constitucion Politica</hi></l>
+   <l rend="center">de la</l>
+   <l rend="center"><hi rend="huge">Monarquía Española</hi></l>
+  </lg>
+  </titlePart>
+  </docTitle>
+  </titlePage>
+</front>
+<body>
+<pb n="1" xml:id="con1811mss_003"/>
+  <div type="prologo" xml:id="art-00">
+    <head>prologo</head>
+      <p>En el nombre de Dios Todo-poderos, Padre, Hijo, y Espiritu Santo,
+               Autor y Supremo Legislador de la Sociedad.</p>
+      <p>Las Cortes generales y extraordinarias de la Nacion Española bien convencidas,
+               despues del mas detenido exâmen, y madura deliberacion, de que
+               las antigas leyes fundamentales de esta Monarquia, acompañadas de las
+               oportunas providencias y precauciones que aseguren de un modo
+               estable y permanente su entero cumplimiento,
+               podrán llenar debidamente el grande obgeto de promover la gloria,
+               la prosperidad, y el bien de toda la Nacion, decretan la siguente
+               Constitucion politica para el buen gobierno, y recta administracion
+               del Estado.</p>
+  </div>
+  <div type="titulo" xml:id="art-01">
+    <head>De la Nacion Española y de los Españoles.</head>
+  <div type="capitulo" xml:id="art-01-01">
+    <head>De la Nacion Española.</head>
+        <div type="articulo" xml:id="art-01-01-01"><head>Articulo 1.</head> 
+      <p>La Nacion Española es la reunion de todos los Españoles
+         de ambos Hemisferios.</p>
+    </div>
+    <div type="articulo" xml:id="art-01-01-02"><head>Articulo 2.</head> 
+      <p>La Nacion Española es libre é independiente, 
+         y no es ni puede ser patrimonio de ninguna familia, ni persona.</p>
+    </div>
+<pb n="2"/>
+    <div type="articulo" xml:id="art-01-01-03"><head>Articulo 3.</head>   
+      <p>La soberanía reside esencialmente en la Nacion, y por lo mismo
+      pertenece á esta exclusivamente el derecho de  establecer sus  leyes
+      fundamentales.</p>
+    </div>
+    <div type="articulo" xml:id="art-01-01-04"><head>Articulo 4.</head>
+      <p>La  Nacion está obligada á conservar y proteger por leyes sabias y
+      justas la libertad civil, la propiedad, y  los  demás derechos legitimos
+      de todos los Individuos, que la componen..</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-01-02">
+    <head>De los Españoles.</head>
+        <div type="articulo" xml:id="art-01-02-05"><head>Articulo 5.</head> 
+        <p>Son Españoles:</p>
+        <list>
+          <item>1.º.. Todos los Hombres libres nacidos y avecindados en
+                    los dominios de las Españas y los hijos de estos.</item> 
+          <item>2.º.. Los Extrangeros que hayan obtenido de las Córtes
+              	    carta de naturaleza.</item>
+          <item>3.º.. Los que sin ella lleven diez años de vecindad ganada,
+                    segun la ley en qualquier Pueblo de la Monarquía.</item>
+          <item>4.º.. Los libertos desde que adquieren la libertad en las
+                    Españas.</item>        
+        </list>
+    </div>
+    <div type="articulo" xml:id="art-01-02-06"><head>Articulo 6.</head> 
+       <p>  El amor de la Patria es una de las principales obligaciones 
+       de todos los Españoles,  y asimismo el ser justos y benéficos.</p>
+<pb n="3"/>
+    </div><div type="articulo" xml:id="art-01-02-07"><head>Articulo 7.</head> 
+       <p>Todo Español está obligado á ser fiel a la Constitucion,
+          obedecer las leyes, y respetar las Autoridades establecidas.</p>
+    </div><div type="articulo" xml:id="art-01-02-08"><head>Articulo 8.</head>
+       <p>Tambien está obligado todo Español, sin distincion alguna, á contribuir
+          en proporcion de sus haberes para los gastos del Estado.</p>
+    </div><div type="articulo" xml:id="art-01-02-09"><head>Articulo 9.</head>
+       <p>Está asimismo obligado todo Español á defender la Patria con
+          las armas quando sea llamado por la ley.</p>
+    </div>
+  </div>
+  </div> <!-- titulo -->
+  <div type="titulo" xml:id="art-02">
+    <head>Del territorio de las Españas, su religion y Gobierno,
+y de los Ciudadanos Españoles.</head>
+  <div type="capitulo" xml:id="art-02-01">
+    <head>Del territorio de las Españas.</head>
+      <div type="articulo" xml:id="art-02-01-10"><head>Articulo 10.</head> 
+      <p>El  territorio Español comprehende en la Peninsula con  sus posesiones
+      é Islas adyacentes, Aragon, Asturias, Castilla la Vieja, Castilla la Nueva,
+      Cataluña,  Cordoba,  Extremadura, Galicia, Granada, Jaen, Leon, Molina,
+      Murcia, Navarra, Provincias Vascongadas, Sevilla y Valencia, las Islas 
+      Baleares y las Canarias con las demas posesiones de Africa. En la América 
+      Septentrional, Nueva-España  con la Nueva Galicia y <pb n="4"/>Península de Yucatan, 
+      Goatemala, Provincias internas de Oriente,  Provincias internas de Occidente, 
+      isla de Cuba  con  las dos Floridas, la parte Española  de la Isla de 
+      Santo Domingo, y la Isla de Puerto Rico con las demas  adyacentes á 
+      estas y al Continente en uno y otro Mar. En la América Meridional
+      la Nueva Granada, Venezuela, el Perú, Chile, Provincias del Rio de
+      la Plata,  y  todas las Islas adyacentes en el Mar Pacifico y en el 
+      Atlántico. En el Asia, las Islas Filipinas, y las que dependen de
+      su Gobierno.</p>
+    </div>
+  <div type="articulo" xml:id="art-02-01-11"><head>Articulo 11.</head> 
+      <p>Se hará una division mas conveniente del territorio Español,
+         por una ley Constitucional, luego que las circunstancias politicas
+         de la Nacion lo permitan.</p>
+    </div> 
+  </div>
+  <div type="capitulo" xml:id="art-02-02">
+    <head>De la Religion.</head>
+    <div type="articulo" xml:id="art-02-02-12"><head>Articulo 12.</head>
+      <p>La religion de la Nacion Española es y será perpetuamente la católica,
+      apostólica romana, única verdadera. La Nacion la protege por leyes
+      sabias y justas, y prohibe el exercicio de qualquiera otra.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-02-03">
+    <head>Del Gobierno.</head>
+     <div type="articulo" xml:id="art-02-03-13"><head>Articulo 13.</head>
+      <p>El objeto del Gobierno es la felicidad de la Nacion,
+         puesto<pb n="5"/> que el fin de toda sociedad politica no es otro
+         que el bien estar de los Individuos que la componen.</p>
+    </div>   
+     <div type="articulo" xml:id="art-02-03-14"><head>Articulo 14.</head>
+      <p>El Gobierno de la Nacion Española es una Monarquia
+         moderada hereditaria.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-03-15"><head>Articulo 15.</head>
+      <p>La potestad de hacer las leyes reside en las Córtes con el Rey.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-03-16"><head>Articulo 16.</head>
+      <p>La potestad de hacer executar las leyes reside en el Rey.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-03-17"><head>Articulo 17.</head>
+      <p>La potestad de aplicar las leyes en las causas civiles y criminales
+         reside en los Tribunales establecidos por la ley.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-02-04">
+    <head>De los Ciudadanos Españoles.</head>
+        <div type="articulo" xml:id="art-02-04-18"><head>Articulo 18.</head>
+      <p>Son Ciudadanos aquellos Españoles que por ambas lineas traen
+         su origen de los dominios Españoles de ambos Hemisferios,
+         y estan avecindados en qualquier Pueblo de los mismos dominios.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-04-19"><head>Articulo 19.</head> 
+        <p>Es tambien Ciudadano el Extrangero que gozando ya de los derechos
+           de Español, obtuviere de las Córtes carta especial de Ciudadano.</p>
+    </div>
+<pb n="6"/>
+    <div type="articulo" xml:id="art-02-04-20"><head>Articulo 20.</head> 
+        <p>Para que el Extrangero pueda obtener de las Córtes esta carta,
+           deberá estar casado con Española y haber traido ó fixado en las Españas
+           alguna invencion ó industria apreciable, ó adquirido bienes raices
+           por los que pague una contribucion directa, ó establecidose en el
+           Comercio con un capital propio y considerable á juicio de las mismas
+           Córtes, o hecho servicios señalados en bien y defensa de la Nacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-04-21"><head>Articulo 21.</head> 
+        <p>Son asimismo Ciudadanos los hijos legitimos de los extrangeros
+           domiciliados en las Españas, que habiendo nacido en los dominios
+           Españoles, no hayan salido nunca fuera sin licencia del Gobierno,
+           y teniendo veinte y un años cumplidos, se hayan avencindado en un
+           Pueblo de los mismos dominios, exerciendo en él alguna profesion,
+           oficio, ó industria útil.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-04-22"><head>Articulo 22.</head>
+       <p>A los Españoles que por qualquier línea son  habidos y reputados
+          por originarios del Africa, les queda abierta la puerta de virtud
+          y del merecimiento para ser Ciudadanos: en su conseqüencia las Córtes
+          concederán carta de Ciudadano á los que hicieren servicios calificados
+          á la Patria, ó á los que se distingan por su talento, aplicacion y
+          conducta, con la condicion de que sean hijos de legitimo matrimonio
+          de padres<pb n="7"/> ingenuos; de que esten casados con muger ingenua, y 
+          avecindados en los dominios de las Españas, y de que exerzan alguna
+          profesion, oficio ó industria útil con un capital propio.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-04-23"><head>Articulo 23.</head>  
+      <p>Solo los que sean Ciudadanos podrán obtener empleos municipales
+         y elegir para ellos en los casos señalados por la ley.</p>
+    </div>
+    <div type="articulo" xml:id="art-02-04-24"><head>Articulo 24.</head>
+      <p>La calidad de Ciudadano Español se pierde:</p>
+         <list rend="runon" type="ordered">
+            <item n="1">1.º..Por adquirir naturaleza en Pais extranjero.</item>
+            <item n="2">2.º..Por admitir empleo de otro Gobierno.</item>
+            <item n="3">3.º..Por sentencia  en que se impongan penas aflictivas
+                        ó infamantes, si no  se obtiene  rehabilitacion.</item>
+            <item n="3">4.º..Por haber residido diez años consecutivos 
+                      fuera del territorio Español sin comision ó licencia
+                      del Gobierno.</item>
+         </list>
+    </div>
+    <div type="articulo" xml:id="art-02-04-25"><head>Articulo 25.</head>
+      <p>El exercicio de los mismos derechos se suspende:</p>
+         <list rend="runon" type="ordered">
+           <item n="1">1.º.. En virtud de interdiccion judical por
+                     incapacidad fisica o moral.</item>
+           <item n="2">2.º.. Por el estado de deudor quebrado, ó de deudor
+                     á los caudales públicos.</item> 
+           <item n="3">3.º.. Por el estado de sirviente doméstico.</item>
+           <item n="4">4.º.. Por no tener empleo, oficio, ó modo de vivir
+                     conocido.</item>
+           <item n="5">5.º.. Por  hallarse procesado criminalmente.</item> 
+           <item n="6">6.º.. Desde el año de mil ochocientos treinta deberán
+                     saber leer<pb n="8"/>
+                     y escribir los que de  nuevo entren en el exercicio
+                     de los derechos de Ciudadano.</item>  
+         </list>
+    </div>
+    <div type="articulo" xml:id="art-02-04-26"><head>Articulo 26.</head> 
+      <p>Solo por las causas señaladas en los dos articulos precedentes
+         se pueden perder, o suspender los derechos de Ciudadano, y no por otras.</p>
+    </div>
+  </div>
+  </div> <!-- titulo -->
+  <div type="titulo" xml:id="art-03">
+    <head>De las Córtes.</head>
+  <div type="capitulo" xml:id="art-03-01">
+    <head>Del modo de formarse las Córtes.</head>
+        <div type="articulo" xml:id="art-03-01-27"><head>Articulo 27.</head>
+      <p>Las Córtes son la reunion de todos los Diputados que representan
+         la Nacion, nombrados por los Ciudadanos en la forma que se dirá.</p>
+    </div><div type="articulo" xml:id="art-03-01-28"><head>Articulo 28.</head>
+      <p>La base para la representacion nacional es la misma en ámbos Hemisferios.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-01-29"><head>Articulo 29.</head> 
+      <p>Esta base es la poblacion compuesta de los naturales que por ámbos
+         líneas sean originaríos de los dominios Españoles; y de aquellos que
+         hayan obtenido de las Córtes carta de cuidadano,
+         como tambien de los comprehendidos en el Artículo 21.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-01-30"><head>Articulo 30.</head> 
+      <p>Para el cómputo de la poblacion de los dominios Europeos<pb n="9"/> servirá
+         el ultimo censo del año de mil setecientos noventa y siete, hasta que
+         pueda hacerse otro nuevo; y se formará el correspondiente para el
+         cómputo de la poblacion de los de Ultramar, sirviendo entre tanto
+         los censos mas auténticos entre los últimamente formados.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-01-31"><head>Articulo 31.</head>
+      <p>
+         Por cada setenta mil almas de la poblacion compuesta como
+         queda dicho en el articulo 29, habrá un Diputado de Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-01-32"><head>Articulo 32.</head>
+      <p>
+         Distribuida la poblacion por las diferentes Provincias,
+         se resultase en alguna el exceso de mas de treinta y cinco mil almas,
+         se elegirá un Diputado mas, como si el número llegase á setenta mil;
+         y si el sobrante no exediese de treinta y cinco mil, no se contará
+         con el.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-01-33"><head>Articulo 33.</head>
+      <p>Si hubiese alguna Provincia cuia poblacion no llegue á setentaa mil 
+         almas, pero que  no baxe de sesennta mil, elegirá por sí un Diputado; y
+         si baxáre de este número, se unirá á la inmediata para ompletar el de
+         setenta mil requerido. Exeptúase de esta regla la isla de Santo Domingo,
+         qe nombrará Diputado, qualquiera que sea su poblacion.</p>
+    </div>
+  </div>
+<pb n="10"/>
+  <div type="capitulo" xml:id="art-03-02">
+    <head>Del nombramentento de Diputados en Córtes.</head>
+    <div type="articulo" xml:id="art-03-02-34"><head>Articulo 34.</head>
+      <p>Para la eleccion de los Diputados de Córtes se celebrarán Juntas
+         electorales de Parroquia, de Partido, y de Provincia.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-03">
+    <head>De las Juntas electorales de Parroquia.</head>
+    <div type="articulo" xml:id="art-03-03-35"><head>Articulo 35.</head>
+        <p>Las Juntas electorales de Parroquia se compondrán de todos los
+           Ciudadanos avencindados y residentes en el territorio de la Parroquia
+           respectiva, entre los que se comprehenden los Eclesiásticos seculares.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-36"><head>Articulo 36.</head>
+        <p>Estas Juntas se celebrán siempre en la Peninsula  é Islas
+           y posesiones adyacentes, el primer Domingo del mes de Octubre
+           del ano anterior al de la celebración de las Córtes.</p>
+    </div>
+        <div type="articulo" xml:id="art-03-03-37"><head>Articulo 37.</head>
+        <p>En las Provincias de Ultramar se celebrarán el primer Domingo
+           del mes de Diciembre, quince meses ántes de la celebración
+           de las  Córtes, con aviso que para unas y otras hayan
+           de dar anticipadamente las Justicias. </p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-38"><head>Articulo 38.</head>
+        <p>En las Juntas de Parroquia se nombrará por cada doscientos vecinos
+           un lector parroquial.</p>
+    </div>
+<pb n="11"/>
+    <div type="articulo" xml:id="art-03-03-39"><head>Articulo 39.</head>
+        <p>Si el número de vecinos de la Parroquia excediese de trescientos,
+           aunque no llegue á quatrocientos, se nombrarán dos electores;
+           si excediese de quinientos, aunque no llegue á seiscientos, se
+           nombrarán tres, y asi progresivamente.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-40"><head>Articulo 40.</head>
+        <p>En las Parroquias, cuyo número de vecinos no llegue á doscientos,
+           con tal que tengan ciento cinqüenta, se nombrará ya un elector,
+           y en aquellas en que no haya este número se reunirán los vecinos
+           á los de otra inmediata para nombrar el elector ó electores que les
+           corresponda.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-41"><head>Articulo 41.</head>
+      <p>La Junta parroquial elegirá á pluralidad de votos once compromisarios,
+         para que estos nombren el elector parroquial.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-42"><head>Articulo 42.</head>
+      <p>Si en la Junta parroquial hubieren de nombrarse dos electores
+         parroquiales, se elegirán veinte y un compromisaríos; y si tres, 
+         treinta y uno; sin que en ningun caso se pueda exceder de este número
+         de compromisarios, á fin de evitar confusion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-43"><head>Articulo 43.</head>
+      <p>Para consultar la mayor commodidad de las poblaciones pequeñas,
+         se observará que aquella Parroquia que llegare á tener veinte vecinos,
+         eligirá un compromisario; la que<pb n="12"/>
+         llegare á tener de treinta á quarenta,
+         elegirá dos; la que tuviere de  cinqüenta á sesenta, tres y asi
+         progresivamente. Las Parroquias que tubieren menos de veinte vecinos 
+         se unirán con las mas inmediatas para elegir compromisario.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-44"><head>Articulo 44.</head>
+      <p>Los compromisarios de las Parroquias de poblacion pequeñas asi elegidos
+         se reunirán entre si en el Pueblo mas á proposito, y en componiendo el
+         número de once, ó á lo menos de nueve, nombrarán un elector Parroquial;
+         y si compusieren el número de veinte y uno, ó á lo menos de diez y siete,
+         nombrarán dos electores parroquiales; y si fueron treinta y uno, y se
+         reunieren á lo menos veinte y cinco, nombrarán tres electores, ó los
+         que correspondan.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-45"><head>Articulo 45.</head>
+      <p>Para ser nombrado elector parroquial se requiere ser Ciudadano,
+         mayor de veinte  y cinco años, vecino y residente en la Parroquia.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-46"><head>Articulo 46.</head>  
+      <p>Las Juntas de Parroquia serán presididas por el Gefe politico,
+         ó el Alcalde de la Ciudad, Villa ó Aldea en que se congregaren;
+         con asistencia del Cura párroco para mayor solemnidad del acto;
+         y si en un mismo Pueblo por razon del número de sus Parroquias
+         se tubieren dos ó mas Juntas, presidirá una el Gefe político ó el
+         Alcalde, otra el otro Alcalde,<pb n="13"/>
+         y los Regidores por suerte presidiran las demas.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-47"><head>Articulo 47.</head>
+      <p>Llegada la hora de la reunion, que se hara en las Casas consistoriales,
+         ó en el lugar donde lo tengan de costumbre, hallándose juntos los
+         Ciudadanos que hayan concurrido, pasarán á la Parroquia con su Presidente,
+         y en ella se celebrará una misa solemne de Espítitu Santo por el Cura
+         parroco, quien hará un discurso correspondiente á las circunstancias.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-48"><head>Articulo 48.</head>
+      <p>Concluida la misa, volverán al lugar de donde salieron, y en él se dará
+         principio á la Junta, nombrando dos escrutadores y un Secretario de
+         entre los Ciudadanos presentes, todo á puerta abierta.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-49"><head>Articulo 49.</head>
+      <p>En seguida preguntará el Presidente si algun Ciudadano tiene
+         que exponer alguna queja relativa á cohecho o soborno para
+         que la eleccion recayga en determinada persona; y si la hubiere, deberá
+         hacerse justificacion pública y verbal en el mismo acto. Siendo cierta
+         la acusacion, serán privados de voz activa y pasiva los que hubieren
+         cometido el delito. Los calumniadores sufrirán la misma pena; y de este
+         juicio no se admitirá recurso alguno.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-50"><head>Articulo 50.</head>
+      <p>Si se suscitasen dudas sobre si en alguno de los presentes<pb n="14"/>
+         concurran las calidades requeridas para poder votar, la misma Junta decidirá en
+         el acto lo que la parezca; y lo que decidiere se executará sin recurso
+         alguno por esta vez y para este solo efecto.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-51"><head>Articulo 51.</head>
+      <p>Se procederá inmediatamente al nombramiento de los compromisarios;
+         lo que se hará designando cada Ciudadano un número de personas igual al  
+         de los compromisarios, para lo que se acercará a la mesa donde se
+         hallen el Presidente, los escrutadores y el Secretario, y este las
+         escribirá en una lista á su presencia; y en este y en los demas
+         actos de eleccion nadie podrá votarse á si mismo, baxo la pena de
+         perdder el derecho de votar.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-52"><head>Articulo 52.</head>
+      <p>Concluido este acto, el Presidente, Escrutadores, y Secretario
+         reconocerán las listas, y aquel publicará en alta voz los nombres de
+         los Ciudadanos que hayan sido elegidos compromisarios por haber
+         reunido mayor numero de votos.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-53"><head>Articulo 53.</head>
+      <p>Los compromisarios nombrados se retirarán á un lugar separado
+         antes de disolverse la Junta; y conferenciando entre sí, procederán
+         á nombrar el elector ó electores de aquella Parroquia, y quedarán 
+         elegidas la apersona ó personas que reunan mas de la mitad de votos.
+         En seguida se publicará en la Junta el nombramiento.</p>
+    </div>
+<pb n="15"/>
+    <div type="articulo" xml:id="art-03-03-54"><head>Articulo 54.</head>
+      <p>El Secretario extenderá el acta que con él firmarán el Presidente
+         y los compromisarios, y se entregará copia de ella firmada por los
+         mismos, á la persona ó personas elegidas para hacer constar su
+         nombramiento.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-55"><head>Articulo 55.</head>
+      <p>Ningun Ciudadano podrá excusarse de estos encargos por motivo ni pretexto
+         alguno.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-56"><head>Articulo 56.</head>
+      <p>En la Junta parroquial ningún Ciudadano se prepresentará con armas.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-03-57"><head>Articulo 57.</head>
+      <p>Verificado el nombramiento de electores, se disolverá inmediatamente 
+     	 la Junta, y qualquier otro acto en que intente mezclarse, será nulo</p>
+    </div>	
+    <div type="articulo" xml:id="art-03-03-58"><head>Articulo 58.</head>
+      <p>Los Ciudadanos que han compuesto la Junta se trasla-darán a la Parroquia,
+      	donde se cantará un solemne Te Deum, llevando al elector ó electores 
+      	entre el Presi-dente, los escrutadores y el Secretario</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-04">
+    <head>De las Juntas electorales de Partido.</head>
+    <div type="articulo" xml:id="art-03-04-59"><head>Articulo 59.</head>
+      <p>Las Juntas electorales de Partido se compondrán de los<pb n="16"/>
+         electores parroquiales, que se congregarán en la cabeza de cada Partido, á fin
+      	de nombrar el elector ó electores que han de concurrir á la Capital
+      	de la Provincia para elegir los Diputados de Córtes </p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-60"><head>Articulo 60.</head>
+       <p>Estas Juntas se celebrarán siempre, en la Peninsula é islas
+          y posesiones adyacentes, el primer Domingo del mes de Noviembre del
+          año anterior al en que han de celebrarse las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-61"><head>Articulo 61.</head>
+       <p>En las Provincias de Ultramar se celebrarán el primer Domingo
+          del mes de Enero próximo siguiente al de Diciembre en
+          que se hubieren celebrado las Juntas de Parroquia.</p>
+    </div>    
+    <div type="articulo" xml:id="art-03-04-62"><head>Articulo 62.</head>
+      <p>Para venir en conocimiento del número de electores que haya de nombrar
+         cada Partido, se tendrán presentes las siguientes reglas.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-63"><head>Articulo 63.</head>
+      <p>El numero de electores de Partido será triple al de los Diputados que 
+         se han de elegir.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-64"><head>Articulo 64.</head> 
+      <p>Si el número de Partidos de la Provincia fuere mayor que el de los
+         electores que se requieren por el artículo precedente para el 
+         nombramiento de los Diputados que le correspondan, se nombrará 
+         sin embargo un elector por cada Partido.</p>
+    </div>
+<pb n="17"/>
+    <div type="articulo" xml:id="art-03-04-65"><head>Articulo 65.</head>
+      <p>Si el numero de Partidos fuere menor que el de los electores,
+         que deban nombrarse, cada uno de los Partidos elegirá uno, dos ó mas,
+         hasta completar el número que se requiera; pero si faltase aun un
+         elector, le nombrará el Partido de mayor poblacion; si todavia faltase
+         otro le nombrará el que se siga en mayor poblacion; y asi sucesivamente.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-66"><head>Articulo 66.</head>
+       <p>Por lo que queda establecido en los articulos 31, 32 y 33, y en los
+          tres artículos precedentes, el censo determina quantos Diputados 
+          corresponden á cada Provincia, y quantos electores á cada uno de sus
+          Partidos.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-67"><head>Articulo 67.</head>
+       <p>Las Juntas electorales de Partido serán presididas por el Gefe
+          político, ó el Alcalde primero del Pueblo cabeza de Partido,
+          á quien se presentarán los electores parroquiales con el documento
+          que acredite su elección, para que sean anotados sus nombres en el
+          libro en que han de extenderse las actas de la Junta.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-68"><head>Articulo 68.</head>
+      <p>En el dia señalado se juntarán los electores de Parroquia con el
+         Presidente en las Salas consistoriales á puerta abierta,
+         y comenzarán por nombrar un Secretario y dos escrutadores de entre
+         los mismos electores.</p>
+    </div>
+<pb n="18"/>
+    <div type="articulo" xml:id="art-03-04-69"><head>Articulo 69.</head>
+      <p>En seguida presentarán los electores las certificaciones
+         de su nombramiento para ser examinadas por el Secretario
+         y escrutadores, quienes deberán al dia siguiente informar se estan
+         ó no arregladas. Las certificaciones del Secretario y escrutadores
+         serán examinadas por una comision de tres Individuos de la Junta,
+         que se nombrará al efecto, para que informe tambien en el siguiente
+         dia sobre ellas.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-70"><head>Articulo 70.</head>
+      <p>En este dia, congregados los electores parroquiales, se leerán
+         los informes sobre las certificaciones; y si se hubiere hallado reparo
+         que oponer á alguna de ellas, ó á los electores por defecto de alguna
+         de las calidades requeridas, la Junta resolverá definitivamente
+         y acto continuo lo que la parezca, y lo que resolviere se executará
+         sin recurso.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-71"><head>Articulo 71.</head>
+      <p>Concluido este acto, pasarán los electores parroquiales
+         con su Presidente á la Iglesia mayor, en donde se cantará
+         una misa solemne del Espiritu Santo por el eclesiástico
+         de mayor dignidad, el que hará un discurso propio de las circunstancias.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-72"><head>Articulo 72.</head>
+      <p>Despues de este acto religioso se restituirán á las Casas
+         consistoriales, y ocupando los electores sus asientos sin preferencia
+         alguna, leerá el Secretario este capítulo de la Constitucion,
+         y en seguida hará<pb n="19"/>
+         el Presidente la misma pregunta que se contiene en el
+         artículo 49, y se observará todo quanto en el se previene.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-73"><head>Articulo 73.</head>
+      <p>Inmediatamente despues se procederá al nombramiento del elector
+         ó electores de Partido, elegiéndolos de uno en uno, y por escrutineo
+         secreto, mediante cédulas en que esté escrito el nombre de la persona
+         que cada uno elige.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-74"><head>Articulo 74.</head>
+        <p>Concluida la votacion, el Presidente, Secretario,
+           y escrutadores harán la regulacion de los votos, y
+           quedará elegido el que haya reunido á lo menos la mitad
+           de los votos y uno mas, publicando el Presidente cada eleccion.
+           Si ninguno  hubiere tenido la pluralidad absoluta de votos,
+           los dos que hayan tenido el mayor número entrarán en segundo
+           escrutinio, y quedará elegido el que reuna el mayor número de votos.
+           En caso de empate, decidirá  la suerte.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-75"><head>Articulo 75.</head>
+      <p>Para ser elector de Partido se requiere ser Ciudadano que se halle en
+         el exercicio de sus derechos; mayor de veinte y cinco años,
+         y vecino y residente en el Partido; ya sea de estado seglar
+         ó del eclesiástico secular; pudiendo recaer la eleccion en
+         los Ciudadanos que componen la Junta, ó en los de fuera de ella.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-76"><head>Articulo 76.</head>
+      <p>El Secretario extenderá el acta que con el firmarán el Presidente
+         y escrutadores, y se entregará copia de ella firmada por los mismos<pb n="20"/>
+         a la persona ó personas elegidas para hacer constar su nombramiento.
+         El Presidente de esta Junta remitirá otra copia firmada por él y por
+         el Secretario al Presidente de la Junta de Provincia,
+         donde se hará notoria la eleccion en los papeles públicos.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-04-77"><head>Articulo 77.</head>
+      <p>En las Juntas electorales de Partido se observará todo lo que se
+         presviene para las Juntas electorales de Parroquia en los articulos 
+         55, 56, 57 y 58.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-05">
+    <head>De las Juntas electorales de Provincia.</head>
+    <div type="articulo" xml:id="art-03-05-78"><head>Articulo 78.</head>
+       <p>Las Juntas electorales de Provincia se compondrán de los electores
+          de todos los Partidos de ella, que se congregarán en la capital
+          á fin de nombrar los Diputados que le correspondan para asistir
+          á las Córtes como representantes de la Nacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-79"><head>Articulo 79.</head>
+       <p>Estas Juntas se celebrarán siempre en la Peninsula é Islas adyacentes
+          el primer Domingo del mes de Diciembre del año anterior á las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-80"><head>Articulo 80.</head>
+       <p>En las Provincias de Ultramar se celebrarán en el Domingo segundo
+          del mes de Marzo del mismo año en que se celebraron las Juntas
+          de Partido.</p>
+    </div>
+<pb n="21"/>
+    <div type="articulo" xml:id="art-03-05-81"><head>Articulo 81.</head>
+       <p>Serán presididas estas Juntas por el Gefe político de la Capital de la
+          Provincia, á quien se presentarán los electores de Partido con el
+          documento de su eleccion, para que sus nombres se anotan en el libro
+          en que han de extenderse las actas de la Junta.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-82"><head>Articulo 82.</head>
+      <p>En el dia señalado se juntarán los electores de Partido con el
+         Presidente en las casas consistoriales, ó en el Edificio que se tenga
+         por mas á propósito para un acto tan solemne, á puerta abierta,
+         y comenzarán por nombrar á pluralidad de votos un Secretario
+         y dos escrutadores de entre los mismos electores.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-83"><head>Articulo 83.</head>
+       <p>Si á una Provincia no le cupiere  mas  que  un Diputado, concurrirán
+          á lo menos cinco electores para su nombramiento;
+          distribuyendo este numero entre los Partidos en que estubiere
+          dividida, ó formando Partidos para este solo efecto. </p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-84"><head>Articulo 84.</head>
+      <p>Se leerán los quatro Capítulos de esta Constitucion que tratan de las
+         elecciones. Despues se leerán la certificacion de las actas de las
+         elecciones hechas en las cabezas de Partido, remitida por los
+         respectivos Presidentes; y asimismo presentarán los electores las
+         certificaciones de su nombramiento para ser examiadas por el Secretario
+         y escrutadores, quienes deberán al dia siguiente informar si están ó no
+         arregladas. Las certificaciones del<pb n="22"/> Secretario y escrutadores serán
+         examinadas por una comision de tres Individuos de la Junta, que se
+         nombrarán al efecto, para que informen tambien sobre ellas en el
+         siguiente dia.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-85"><head>Articulo 85.</head>
+      <p>Juntos en él los electores de Partido, se leerán los informes sobre las
+         certificaciones, y si se hubiere hallado reparo que oponer á alguna de
+         ellas, ó á los electores por defecto de alguna de las calidades
+         requeridas, la Junta resolverá definitvamente, y acto continuo lo que
+         la parezca, y lo que resolviere se executará in recurso.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-86"><head>Articulo 86.</head>
+      <p>En seguida se dirigirán los electores de Partido con su Presidente
+         á la Catedral ó Iglesia mayor, en donde se cantará una misa solemne
+         de Espíritu Santo, y el Obispo, ó en su defecto el eclesiástico
+         de mayor dignidad hará un discurso propio de las circunstancias.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-87"><head>Articulo 87.</head>
+      <p>Concluido  este  acto religioso, volverán al lugar de donde salieron,
+         y á puerta abierta, ocupando los electores sus asientos
+         sin preferencia alguna, hara el Presidente la misma pregunta
+         que se contiene en el artículo 49, y se observará todo quanto en él se
+         previene.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-88"><head>Articulo 88.</head>
+        <p>Se procederá en seguida por los electores que se hallen presen<pb n="23"/>tes,
+           á la eleccion del Diputado ó Diputados, y se elegirán de uno en uno,
+           acercándose á la mesa donde se hallen el Presidente, los
+           escrutadores, y Secretario, y este escribirá en una lista á su
+           presencia el nombre de la persona que cada uno elige. El
+           Secretario y los escrutadores serán los primeros que voten.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-89"><head>Articulo 89.</head>
+        <p>Concluida la votacion, el Presidente, Secretario, y escrutadores
+           harán la regulacion de los votos, y quedará elegido aquel
+           que haya reunido á lo menos la mitad de los votos y uno mas.
+           Si ninguno hubiere reunido la pluridad absoluta de votos,
+           los dos que hayan tenido el mayor número, entrarán en segundo
+           escrutinio, y quedará elegido el que reuna la pluralidad.
+           En caso de empate decidirá la suerte, y hecha la eleccion de cada
+           uno, la publicará el Presidente.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-90"><head>Articulo 90.</head>
+        <p>Despues de la eleccion de Diputados se procederá á la de suplentes
+           por el mismo método y forma; y su numero sera en cada Provincia
+           la tercera parte de los Diputados que la correspondan.
+           Si á alguna Provincia no le tocare elegir mas que uno
+           ó dos Diputados, elegirá sin embargo un Diputado suplente.
+           Estos concurrirán á las Córtes siempre que se verifique la muerte
+           del propietario, ó su imposibilidad, á juicio de las mismas,
+           en qualquier tiempo que uno ú otro accidente se verifique despues
+           de la eleccion.</p>
+    </div>
+<pb n="24"/>    
+    <div type="articulo" xml:id="art-03-05-91"><head>Articulo 91.</head> 
+      <p>Para ser Diputado de Córtes se requiere ser Ciudadano
+         que esté en el exercicio de sus derechos, mayor de veinte y cinco años,
+         y que haya nacido en la Provincia, ó esté avencindado en ella con
+         residencia al menos de siete años, bien sea del estado seglar ó del
+         eclesiástico secular; pudiendo recaer la eleccion en los Ciudadanos
+         que componen la Junta, ó en los de fuera de ella.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-92"><head>Articulo 92.</head>
+      <p>Se requiere ademas, para ser elegido Diputado de Córtes,
+         tener una renta anual proporcionada, procedente de bienes propios.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-93"><head>Articulo 93.</head>
+      <p>Suspéndese la disposicion del artículo precedente hasta que las Córtes
+         que en adelante han de celebrarse, declaren haber llegado ya el tiempo
+         de que pueda tener efecto, señalando la quota de la renta y la calidad
+         de los bienes de que haya de provenir; y lo que entonces resolvieren 
+         se tendrá por constitucional, como si aquí se hallara expresado.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-94"><head>Articulo 94.</head>
+       <p>Si sucediere que una misma persona sea elegida por la Provincia
+          de su naturaleza y por la en que está avecindado, substitira la
+          eleccion pro razon de la vecindad, y por la Provincia de su
+          naturaleza vendrá á las Córtes el suplente á quien correponda.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-95"><head>Articulo 95.</head>
+       <p>Los Secretarios del Despacho, los Consejeros de Estado, y los que
+          sirven empleos de la Casa Real, no podrán ser elegidos Diputados de
+          Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-96"><head>Articulo 96.</head>
+       <p>Tampoco podrá ser elegido Diputado de Córtes ningún extranjero,
+          aunque haya obtenido de las Córtes carta de Ciudadano.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-97"><head>Articulo 97.</head>
+       <p>Ningun empleado público, nombrado por el Gobierno,
+          podrá ser elegido Diputado de Córtes por la Provincia en
+          que exerce su cargo.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-98"><head>Articulo 98.</head>
+       <p>El Secretario extenderá el acta de las elecciones, que con él firmarán
+          el Presidente y todos los electores.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-99"><head>Articulo 99.</head>
+       <p>En seguida otorgarán todos los electores sinn excusa alguna á todos y
+          á cada uno de los Diputados poderes ámplios segun la formula
+          siguiente, entregándose á cada Diputado su corespondiente poder para
+          representarse en las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-100"><head>Articulo 100.</head>
+       <p>Los poderes estarán concebidos en estos términos:</p>
+       <p>En la ciudad, ó villa de …… á …… dias del mes
+          de …… del año de …… en las salas de …… hallándose congregados los
+          señores (aquí se pondrán los nombres del Presidente y de los electores
+          de Partido que forman la Junta electoral de la<pb n="26"/> Provincia), dixeron
+          ante mí el infrascrito escribano y testigos al efecto convocados, que
+          habíéndose procedido, con arreglo á la Constitucion política de la
+          Monarquía Española, al nombramiento de los electores Parroquiales y de
+          Partido con todas las solemnidades prescritas por la misma Constitucion,
+          como constaba de las certificaciones que originales obraban en el
+          expediente, reunidos los expresados electores de los Partidos de la
+          Provincia de… en el dia de… del mes de… del presente año, habían
+          hecho el nombramiento de los Diputados que en nombre y representación
+          de esta Provincia han de concurrir á las Córtes, y que fueron electos
+          por Diputados en ellas por esta Provincia los señores N.N.N., como
+          resulta del acta extendida y firmada por N.N.; que en su consecuencia
+          les otorgan poderes ámplios á todos juntos, y á cada uno de por sí,
+          para cumplir y desempeñar las augustas funciones de su encargo,
+          y para que con los demas Diputados de Córtes, como representantes de
+          la Nacion Española, puedan acordar y resolver quanto entendieren
+          conducente al bien general de ella en uso de las facultades que la
+          Constitucion determina, y dentro de los límites que la misma prescribe,
+          sin poder derogar, alterear ó variar en manera alguna ninguno de sus
+          artículos baxo ningun pretexto; y que los otorgantes se obligan por sí
+          mismos y á nombre de todos los vecinos de esta Provincia en virtud de
+          las fa<pb n="27"/>cultades que les son concedidas como electores nombrados para
+          este acto, á tener por válido, y obedecer y cumplir quanto como tales
+          Diputados de Córtes hicieren, y se resolviere por estas con arreglo á
+          la Constitucion política de la Monarquia Española. Así lo expresaron y
+          otorgaron, hallándose presentes como testigos N.N., que con los señores
+          otorgantes lo firmaron: de que doy fe.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-101"><head>Articulo 101.</head>
+       <p>El Presidente, escrutadores y Secretario remitiran inmediatamente
+          copia firmada por los mismos del acta de las elecciones á la
+          Diputacion permanente de las Córtes, y harán que se publiquen las
+          elecciones por medio de la imprenta, remitiendo un exemplar á cada
+          Pueblo de la Provincia.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-102"><head>Articulo 102.</head>
+      <p>Para la indemnizacion de los Diputados se les asistirá por sus
+         respectivas Provincias con las dietas que las Córtes en el segundo año
+         de cada diputacion general señalaren para la diputacion que ha de
+         suceder; y á los Diputados de Ultramar se les abonará ademas
+         la que parezca necesario á juicio de sus respectivas Provincias
+         para los gastos del viaje de ida y vuelta.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-05-103"><head>Articulo 103.</head>
+       <p>Se observará en las Juntas electorales de Provincia todo lo
+          que se prescrive en los articulos 55, 56, 57, y 58;
+          á excep<pb n="28"/>cion de lo que previene el artículo 328.</p>
+     </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-06">
+    <head>De la celebracion de las Córtes.</head>
+    <div type="articulo" xml:id="art-03-06-104"><head>Articulo 104.</head>
+      <p>Se juntarán las Córtes todos los años y en la Capital de Reyno, en
+      edificio destinado á este solo obgeto.</p>
+    </div><div type="articulo" xml:id="art-03-06-105"><head>Articulo 105.</head>
+      <p>Quando tubieren por conveniente trasladarse á otro lugar, podrán
+         hacerlo con tal que sea á Pueblo que no diste de la Capital mas
+         que doce leguas, y convengan en la traslacion las dos terceras partes
+         de los Diputados presentes.</p>
+    </div><div type="articulo" xml:id="art-03-06-106"><head>Articulo 106.</head>
+      <p>Las sesiones de las Córtes en cada año durarán tres meses
+         consecutivos, dando principio el dia primero del mes de Marzo.</p>
+    </div>  
+    <div type="articulo" xml:id="art-03-06-107"><head>Articulo 107.</head>
+      <p>Las Córtes podrán prorrogar sus sesiones quando mas por otro mes
+         en solo dos casos: Primero, á peticion del Rey: Segundo si las Córtes
+         lo creyeren necesario por una resolucion de las dos terceras partes
+         de los Diputados.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-108"><head>Articulo 108.</head>
+      <p>
+         Los Diputados se renovarán en su totalidad cada dos años.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-109"><head>Articulo 109.</head>
+      <p>
+         Si la Guerra ó la ocupacion de alguna parte del teritorio<pb n="29"/> de la
+         Monarquia por el enemigo, impedieren que se presenten á tiempo
+         todos Diputados de una ó mas Provincias, seran splidos los que
+         falten por los anteriores Diputados de las respectivas Provincias,
+         sorteando entre sí hasta completar el numero que les corresponda.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-110"><head>Articulo 110.</head>
+      <p>Los Diputados no podrán volver á ser elegidos, sino mediando otra
+         Diputacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-111"><head>Articulo 111.</head>
+      <p>Al llegar los Diputados á la Capital se presentarán á la Diputacion
+         permanente de Córtes, la que hará sentar sus nombres, y el de la
+         Provincia que los ha elegido, en un registro en la Secretaria de las
+         mismas Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-112"><head>Articulo 112.</head>
+      <p>En el año de la renovacion de los Diputados se celebrará el
+         dia quince de Febrero á puerta  abierta la primera Junta preparatoria, 
+         haciendo de Presidente el que lo sea de la Diputacion permanente,
+         y de Secretarios y escrutadores los que nombre la misma Diputacion
+         de entre loss restantes individuos que la componen.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-113"><head>Articulo 113.</head>
+      <p>En esta primera Junta presentarán todos los Diputados sus poderes,
+         y se nombrarán á pluralidad de votos dos comisiones, una de cinco
+         individuos para que examine los poderes<pb n="30"/>
+         de todos los Diputados, y otra
+         de tres, para que examine los de estos cinco individuos de la 
+         comision.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-114"><head>Articulo 114.</head>
+      <p>El dia veinte del mismo Febebrero se celebrará tambien á puerta abierta
+         la segunda Junta preparatoria, en la que los dos comisiones informarán
+         sobre la legitimidad de los poderes, habiendo tenido presentes las actas
+         de las elecciones Provinciales</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-115"><head>Articulo 115.</head>
+      <p>En esta Junta y en los demas que sean necesarias hasta el
+         dia veinte y cinco, se resolverán definitivamente y á pluralidad de
+         votos las dudas que se susciten sobre la legitimidad de los poderes
+         y calidades de los Diputados.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-116"><head>Articulo 116.</head>
+      <p>En el año siguiente al de la renovacion de los Diputados,
+         se tendrá la primer Junta preparatoria el dia 20 de Febrero, y hasta
+         el veinte y cinco las que se crean necesarias para resolver en el modo
+         y forma que se ha expresado en los tres articulos precedentes,
+         sobre la legitimidad de los poderes de los Diputados que de nuevo
+         se presenten.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-117"><head>Articulo 117.</head>
+      <p>En todos los años el dia veinte y cinco de Febrero se celebrará la
+         última Junta preparatoria, en la que se hará por todos los Diputados,
+         poniendo la mano sobre los Santos<pb n="31"/> Evangelios, el juramento siguiente:
+         "¿Jurais defender y conservar la  Religion católica, apostólica, rommana,
+         sin admitir otra alguna en el Reyno?=R.=Si juro.=
+         ¿Jurais guardar y hacer guardar religiosamente la Constitucion
+         plítica de la Monarquia Española, sancionada por las Córtes generales y
+         extraordinarias de la Nacion en el año de mil ochocientos y doce? 
+         =R.=Si juro.=¿Jurais haberos bien y fielmente en el encargo que la
+         Nacion os ha encomendado, mirando en todo por el bien y prosperidad de
+         la misma Nacion?=R.=Sí juro."Si asi lo hiciéreis, Dios os lo
+         premie, y si no os lo demande.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-118"><head>Articulo 118.</head>
+      <p>En seguida se procederá á elegir de entre los mimos Diputados,
+         por escrutinio secreto y á pluralidad absoluta de votos un Presidente,
+         un Vice-Presidente y quatro Secretarios, con lo que se tendrán por
+         constituidas y formadas las Córtes, y la Diputacion permanente cesará
+         en todas su funciones.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-119"><head>Articulo 119.</head>
+      <p>Se nombrará en el mismo dia una Diputacion de veinte y dos individuos,
+         y dos de los Secretarios, para que pase á dar parte al Rey de hallarse
+         constituidas las Córtes, y del Presidente que han elegido, á fin de que
+         manifieste si asistirá á la apertura de las Córtes, que se celebrará el
+         dia primero de Marzo.</p>
+    </div>
+<pb n="32"/>
+    <div type="articulo" xml:id="art-03-06-120"><head>Articulo 120.</head>
+      <p>Si el Rey se hallare fuera de la Capital se le hará esta
+         participacion por escrito, y el Rey contestrará del mismo modo.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-121"><head>Articulo 121.</head>
+      <p>El Rey asistirá por sí mismo á la apertura de las Córtes, y si
+      tubiere impedimento, la hará el Presidente el dia señalado sin que por
+      ningun motivo pueda diferirse por otro. Las mismas formalidades se
+      observarán paara el acto de cerrarse las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-122"><head>Articulo 122.</head>
+      <p>En la sala de Córtes entrará el Rey sin guardia, y solo le acompañarán
+         las personas que determine el ceremonial para el recibimiento y
+         despedida del Rey prescriba en el reglamento del gobierno interior de
+         las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-123"><head>Articulo 123.</head>
+      <p>El Rey hará un discurso en el que propondra á las Córtes lo que crea
+         conveniente; y al que el Presidente contextará en términos generales.
+         Si no asistiere el Rey, remitirá su discurso al Presidente, para que
+         por este se lea en las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-124"><head>Articulo 124.</head>
+      <p>Las Córtes no podrán deliberar en la presencia del Rey.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-125"><head>Articulo 125.</head>
+      <p>En los casos en que los Secretarios del Despacho hagan á las Córtes
+         algunas propuestas á nombre del Rey, asistirán á<pb n="33"/> las discusiones 
+         quando y del modo que las Córtes determinen, y hablarán en ellas;
+         pero no podrán estar presentes á la votacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-126"><head>Articulo 126.</head>
+      <p>Las Sesiones de las Córtes serán publicas, y solo en los casos que  
+         exijan reserva podrá celebrrarse sesion secreta.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-127"><head>Articulo 127.</head>
+      <p>En las discusiones de las Córtes, y en todo lo demas que pertenezca
+         á su gobierno y orden interior, se observará el reglamento que se forme
+         estas Córtes generales y extraordinarias, sin perjuicio de las reformas
+         que las succesivas tubieren por conveniente hacer en él.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-06-128"><head>Articulo 128.</head>
+      <p>Los Diputados serán inviolables por sus opiniones, y en ningun tiempo
+         ni caso, ni por ninguna autoridad podrán ser reconvenidos por ellas.
+         En las causas criminales, que contra ellos se intentaren, no podrán
+         ser juzgados sino por el tribunal de Córtes en el modo y forma
+         que se prescriba en el reglamento del gobierno interior de las mismas.
+         Durante las sesiones de las Córtes, y un mes despues, los Diputados
+         no podrán ser demandados civilmente, ni executados por deudas.</p>
+    </div>
+   <div type="articulo" xml:id="art-03-06-129"><head>Articulo 129.</head>
+      <p>Durante el tiempo de su Diputacion contado para este efecto<pb n="34"/> desde
+         que el nombramiento conste en la permanente de Córtes, no podrán los
+         Diputados admitir para si, ni solicitar para otro empleo alguno de
+         provision del Rey, ni aun ascenso, como no sea de escala en su
+         respectiva carrera.</p>
+    </div><div type="articulo" xml:id="art-03-06-130"><head>Articulo 130.</head>
+      <p>Del mismo modo no podrán, durante el tiempo de su diputacion, y un año
+         despues del último acto de sus funciones, obtener para sí, ni solicitar
+         para otro, pension ni condecoracion alguna que sea tambien de provision
+         del Rey.</p>
+    </div> 
+  </div>
+  <div type="capitulo" xml:id="art-03-07">
+    <head>De las facultades las Córtes.</head>
+    <div type="articulo" xml:id="art-03-07-131"><head>Articulo 131.</head>
+       <p>Las facultades de las Córtes son --
+      <list rend="runon" type="ordered">
+      <item n="1">1.ª..Proponer y decretar las leyes, é interpretarlas,
+              y derogarlas en caso necesario.</item>
+      <item n="2">2.ª..Recibir el juramento al Rey, al Principe de Asturias
+              y á la Regencia, como se previene en sus lugares.</item>
+      <item n="3">3.ª..Resolver qualquiera duda de hecho ó de derecho,
+              que ocurra en órden á la succesion á la Corona.</item>
+      <item n="4">4.ª..Elegir Regencia ó Regente del Reyno quando lo 
+              previene la Constitucion, y señalar las limitaciones con que la
+              Regencia ó el Regente han de exercer la autoridad real.</item>
+      <item n="5">5.ª..Hacer el reconocimiento público del Principe de
+              Asturias.</item>
+      <item n="6">6.ª..Nombrar tutor al Rey menor, quando lo previene la
+              Cons<pb n="35"/>titucion.</item>
+      <item n="7">7.ª..Aprobar antes de su ratificacion los tratados de 
+              alianza ofensiva, los subsidios, y los especiales de comercio.</item>
+      <item n="8">8.ª..Conceder ó negar la admisiion de Tropas extrangeras
+              en el Reyno.</item>
+      <item n="9">9.ª..Decretar  la creacion y supresion de plazas en los
+              Tribunales que establece la Constitucion;  é igualmente la
+              creacion y supresion de los oficios públicos.</item>
+      <item n="10">10.ª..Fixar todos los años, á propuesta del Rey, las
+              fuerzas de tierra y de mar, determinando las que se hayan de
+              tener en pie en tiempo de paz, y su aumento en tiempo de guerra.</item>
+      <item n="11">11.ª..Dar  ordenanzas  al Exército, Armada y  Milicia
+              Nacional en todos los ramos que los constituyen.</item>
+      <item n="12">12.ª..Fixar los gastos de la administracion  pública.</item>
+      <item n="13">13.ª..Establecer anualmente las contribuciones
+              é impuestos. </item>
+      <item n="14">14.ª..Tomar Caudales á préstamo en casos de
+              necesidad sobre el crédito de la Nacion.</item>
+      <item n="15">15.ª..Aprobar el repartimiento de las contribuciones
+              entre las Provincias.</item>      
+      <item n="16">16.ª..Examinar y aprobar las cuentas de la inversión
+              de los Caudales públicos.  </item>
+      <item n="17">Décimaséptima. Establecer las aduanas y aranceles de
+              derechos.</item>
+      <item n="18">17,ª..Disponer lo conveniente para la administración,
+              conservacion y enagenacion de los bienes nacionales. </item>
+<pb n="36"/>
+      <item n="19">19.ª..Determinar el valor, peso, ley, tipo, y
+              denominacion de las monedas.</item>
+      <item n="20">20.ª..Adoptar el sistema que se juzgue mas cómodo y
+              justo de pesos y medidas.</item>
+      <item n="21">21.ª..Promover y fomentar toda especie de
+              industria, y remover los obstáculos que la entorpezcan.</item>
+      <item n="22">22.ª..Establecer el plan general de ensenanza
+              pública en toda la Monarquía, y aprobar el que se forme para la
+              educacion del Principe de Asturias.</item>
+      <item n="23">23.ª..Aprobar los reglamentos generales para la
+              polcía y sanidad del Reyno.</item>
+      <item n="24">24.ª..Proteger la libertad política de la imprenta.</item>
+      <item n="25">14.ª..Hacer efectiva la responsabilidad de los
+              Secretarios del Despacho, y demás empleados públicos.</item>
+      <item n="26">26.ª..Por último pertenece á las Córtes dar ó negar
+              su consentimiento en todos aquellos casos y actos para los que se
+              previene en la Constitucion ser necesario.</item>
+      </list></p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-08">
+    <head>De la formacion de las leyes, y de la sancion Real.</head>
+    <div type="articulo" xml:id="art-03-08-132"><head>Articulo 132.</head>
+      <p>Todo Diputado tiene la facultad de proponer á las Córtes
+         los proyectos de ley, haciéndolo por escrito y exponiendo las razones
+         en que se funde.</p>
+    </div>
+<pb n="37"/>
+    <div type="articulo" xml:id="art-03-08-133"><head>Articulo 133.</head>
+      <p>Dos dias á lo menos despues de presentado y leido el proyecto de ley,
+         se leerá por segunda vez, y las Córtes deliberarán si se admite
+         ó no á discusion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-134"><head>Articulo 134.</head>
+      <p>Admitido á discussion, si la gravedad del asunto requiriese á juicio
+         de las Córtes, que pase previamente á una comision, se executará así.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-135"><head>Articulo 135.</head>
+      <p>Quatro dias á lo menos despues de admitido á discusion el proyecto,
+         se leerá tercera vez, y se podrá señalar dia para abrir la discusion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-136"><head>Articulo 136.</head>
+      <p>Llegado el dia señalado para la discusion abrazará esta el proyecto
+         en su totalidad, y en cada uno de sus artículos.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-137"><head>Articulo 137.</head>
+      <p>Las Córtes decidirán quando la materia está suficientemente discutida,
+         y decidido que lo está, se resolverá si ha lugar ó no á la votacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-138"><head>Articulo 138.</head>
+      <p>Decidido que ha lugar á la votacion, se procederá a ella
+         inmediatamente, admitiendo ó desechando en todo ó en parte el proyecto,
+         ó variándole y modificándole, segun las observaciones que se hayan
+         hecho en la discusion.</p>
+    </div>
+<pb n="38"/>
+    <div type="articulo" xml:id="art-03-08-139"><head>Articulo 139.</head>
+      <p>La votacion se hará á pluralidad absoluta de votos y para proceder á
+         ella, será necesario que se hallen presentes á lo menos la mitad y uno
+         mas de la totalidad de los Diputados que deben componer las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-140"><head>Articulo 140.</head>
+      <p>Si las Córtes desecharen un proyecto de ley, en qualquier estado
+         de su examan, ó resolvieren que no debe procederse á la votacion,
+         en el mimo año.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-141"><head>Articulo 141.</head>
+      <p>Si hubiere sido adoptado, se extenderá por duplicado en forma de ley,
+         y se leerá en las Córtes, hecho lo qual, y firmadas ambos originales
+         por el Presidente y dos Secretarios, serán presentados inmediatamente
+         al Rey por una Diputacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-142"><head>Articulo 142.</head>
+      <p>El Rey tiene la sancion de las leyes.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-143"><head>Articulo 143.</head>
+      <p>Da el Rey la sancion por esta formula, firmada de su mano=Publiquese
+         como ley.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-144"><head>Articulo 144.</head>
+      <p>Niega el Rey la sancion por esta formula, igualmente firmada de su mano= 
+         Vuelva á las Córtes =; acompañando al mismo tiempo una exposicion de
+         las razones que ha tenido para negarla.</p>
+    </div>
+<pb n="39"/>
+    <div type="articulo" xml:id="art-03-08-145"><head>Articulo 145.</head>
+      <p>Tendrá el Rey treinta dias para usar de esta prerogativa si dentro de
+         ellos no hubiere dado ó negado la sancion, por el mismo  hecho se 
+         entenderáa que la ha dado, y  la dará en efcto.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-146"><head>Articulo 146.</head>
+      <p>Dada ó negada la sancion por el Rey devolverá á las Córtes uno de los
+         originales con la fórmula respectiva, para darse cuenta en ellas.
+         Este original se conserverá en el Archibo de las Córtes, y el duplicado
+         quedará del Rey.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-147"><head>Articulo 147.</head>
+      <p>Si el Rey negare la sancion, no se volverá á tratar del mismo asunto
+         en las Córtes de aquel año: pero podrá hacerse en las del siguiente.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-148"><head>Articulo 148.</head>
+      <p>Si en las Córtes del siguiente año fuere de nuevo propuesto,
+         admitido y aprobado el mismo proyecto, presentado que sea al Rey,
+         podra dar la sancion, ó negarla segunda vez en los términos de
+         los artículos 143 y 144; y en el ultimo caso, no se tratará del mismo
+         asunto en aquel año.
+      </p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-149"><head>Articulo 149.</head>
+      <p>Si de nuevo fuere por tercera vez propuesto, admitido y aprobado el
+         mismo proyecto en las Córtes del siguiente año, por el mismo hecho se
+         entiende que el Rey da la sancion, y presen<pb n="40"/>tándosele,
+         la dará en efecto
+         por medio de la fórmula expresada en el artículo 143.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-150"><head>Articulo 150.</head>
+      <p>Si ántes de que expire el termino de treinta dias en que el Rey ha de
+         dar ó negar la sancion, llegare el dia en que las Córtes han de
+         terminar sus sesiones, el Rey la dará ó negará en los ocho primeros
+         dias de las sesiones de las siguientes Córtes: y si este término pasare
+         sin haberla dado, por esto mismo hecho se entenderá dada, y la dará en
+         efecto en la forma prescrita: pero si el Rey negare la sancion, podrán
+         estas Córtes tratar del mismo proyecto.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-151"><head>Articulo 151.</head>
+      <p>Aunque despues de haber negado el Rey la sancion á un proyecto
+         de ley, se pasen alguno ú algunos años sin que se proponga el mismo
+         proyecto, como vuelva á suscitarse en el tiempo de la misma Diputacion
+         que le adoptó por la primera vez, ó en el de las dos Diputaciones que
+         inmediatamente la subsigan, se entenderá siempre el mismo proyecto para
+         los efectos de la sancion del Rey de que tratan los tres articulos
+         precedentes; pero si en la duracion de las tres Diputaciones expresadas
+         no volviere á proponerse, aunque despues se reproduzca en los propios
+         términos, se tendrá por proyecto nuevo para los efectos indicados.</p>
+    </div>
+<pb n="41"/>
+    <div type="articulo" xml:id="art-03-08-152"><head>Articulo 152.</head>
+      <p>Si la segunda ó tercera vez que se propone el proyecto dentro del
+         termino que prefixa el artículo precedente, fuere desechado por las
+         Córtes, en qualquiera tiempo que se reproduzca despues, se tendrá por
+         nuevo proyecto.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-08-153"><head>Articulo 153.</head>
+      <p>Las leyes se derogan con las mismas formalidades y por los mismos
+         trámites que se establecen.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-09">
+    <head>De la promulgacion de las leyes.</head>
+    <div type="articulo" xml:id="art-03-09-154"><head>Articulo 154.</head>
+      <p>Publicada la ley en las Córtes se dara de ello aviso al Rey para
+         que procedea inmediatamente á su promulgacion solemne.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-09-155"><head>Articulo 155.</head>
+      <p>El Rey, para promulgar las leyes, usará de la formula siguiente:="
+         N. (el nombre de Rey) por la gracia de Dios y por la Constitucion
+         de la Monarquia Española, Rey de las Españas, á todos los que las
+         presentes vieren y entendieren; sabed: Que las Córtes han decretado y
+         Nos sancionamoso lo siguiente (aquí  el texto  literal de la ley):
+         Por tanto mandamos á todos los Tribunales, Justicias, Gefes,
+         Gobernadores y demas Autoridades, asi civiles como militares
+         y eclesiásticas, de qualquiera clase y dignidad, que guarden y hagan
+         guardar,<pb n="42"/>
+         cumplir y executar la presente ley en todas sus partes.
+         Tendréislo entendido, para su cumplimiento y dispondreis se imprima,
+         publique y circule."
+         (Va dirigida al Secretario del Despacho respectivo.)</p>
+    </div>
+    <div type="articulo" xml:id="art-03-09-156"><head>Articulo 156.</head>
+      <p>Todas las leyes se circularán de mandato del Rey por los respectivos
+         Secretarios del Despacho directamente á todos y cada uno de los
+         Tribunales supremos y de las Provincias, y demas Gefes y autoridades
+         superiores, que las circularán a las subalternas.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-10">
+    <head>De la diputacion permanente de Córtes.</head>
+    <div type="articulo" xml:id="art-03-10-157"><head>Articulo 157.</head>
+      <p>Antes de separarse las Córtes nombrarán una Diputacion, que se llamará
+         diputacion permanente de Córtes, compuesta de siete individuos de su
+         seno, tres de las Provincias de Europa y tres de las de Ultramar,
+         y el séptimo saldrá por suerte entre un Diputado de Europa y otro de
+         Ultramar.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-10-158"><head>Articulo 158.</head>
+      <p>Al mismo tiempo nombrarán las Córtes dos Suplentes para esta Diputacion, 
+         uno de Europeo, y otro de Ultramar.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-10-159"><head>Articulo 159.</head>
+      <p>
+         La diputacion permanente durará de unas Córtes ordinarias á otras.
+      </p>
+    </div>
+<pb n="43"/>
+    <div type="articulo" xml:id="art-03-10-160"><head>Articulo 160.</head>
+      <p>Las facultades de esta Diputacion son:</p>
+      <list rend="runon" type="ordered">
+         <item n="1">1.ª..Velar sobre la observancia de la Constitucion
+                   y de las leyees, para dar cuenta á las próximas Córtes de las
+                   infracciones que hayan notado.</item>
+         <item n="2">2.ª..Convocar á Córtes extraordinarias en los casos
+                   prescritos por la Constitucion.</item>
+         <item n="3">3.ª..Desempeñar las funciones que se señalan en
+                   los artículos 111 y 112.</item>
+         <item n="4">4.ª..Pasar aviso á los Diputados suplentes para que
+                   concurran en lugar de los propietarios; y si ocurriere el
+                   fallecimiento ó imposibilidad absoluta de propietarios y
+                   suplentes de una Provincia, comunicar las correspondientes
+                   órdenes á la misma, para que proceda á nueva eleccion.</item>
+      </list>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-03-11">
+    <head>De las Córtes extraordinarias.</head>
+    <div type="articulo" xml:id="art-03-11-161"><head>Articulo 161.</head>
+      <p>Las Córtes extraordinarias se compondrán de los mismos Diputados que
+         forman las Córtes ordinarias durante los dos años de su Diputacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-11-162"><head>Articulo 162.</head>
+      <p>La diputacion permanente de Córtes las convocará con señalamiento
+         de dia en los tres casos siguientes:</p>
+      <list rend="runon" type="ordered">
+      <item n="1">1.º..Quando vacare la Corona.</item><pb n="44"/>
+      <item n="2">2.º..Quando el Rey se imposibilitare de qualquiera modo
+                  para el Gobierno, ó quisiere abdicar la Corona en el sucesor;
+                  estando autorizada en el primer caso la Diputacion para tomar
+                  todas las medidas que estime convenientes, á fin de 
+                  asegurarse de la inhabilidad del Rey.</item>  
+      <item n="3">3.º..Quando en circunstancias críticas y por negocios
+                  árduos tubiere el Rey por conveniente que se congreguen,
+                  y lo participare así á la Diputacion permaente de Córtes.</item>
+      </list>
+    </div>
+    <div type="articulo" xml:id="art-03-11-163"><head>Articulo 163.</head>
+      <p>Las Córtes extraordinarias no entenderán sino en el objeto para que han
+         sido convocadas.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-11-164"><head>Articulo 164.</head>
+      <p>Las sesiones de las Córtes extraordinarias comenzarán y se terminarán
+         con las mismas formalidades que las ordinarias.</p>
+    </div><div type="articulo" xml:id="art-03-11-165"><head>Articulo 165.</head>
+      <p>La celebracion de las Córtes extraordinarias no estorbará la eleccion
+         de nuevos Diputados en el tiempo prescrito.
+      </p>
+    </div>
+    <div type="articulo" xml:id="art-03-11-166"><head>Articulo 166.</head>
+      <p>Si las Córtes extraordinarias no hubieren concluido sus sesiones
+         en el dia señalado para la reunion de las ordinarias, cesarán las
+         primeras en sus funciones y las ordinarias continuarán el negocio para
+         que aquellas fueron convocadas.</p>
+    </div>
+    <div type="articulo" xml:id="art-03-11-167"><head>Articulo 167.</head>
+      <p>La Diputacion permanente de Córtes continuará en las<pb n="45"/>
+         funciones que la están señaladas en los artículos 111 y 112, en el caso 
+         comprehendido en el artículo precedente.
+      </p>
+    </div>
+  </div>
+  </div> <!-- titulo -->
+  <div type="titulo" xml:id="art-04">
+    <head>Del Rey.</head>
+  <div type="capitulo" xml:id="art-04-01">
+    <head>De la inviolabilidad del Rey y su autoridad.</head>
+    <div type="articulo" xml:id="art-04-01-168"><head>Articulo 168.</head>
+      <p>La Persona del Rey es sagrada é inviolable, y no está sujeta á 
+         responsabilidad.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-01-169"><head>Articulo 169.</head>
+       <p>El  Rey tendrá el tratamiento de Magestad Católica.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-01-170"><head>Articulo 170.</head>
+      <p>La potestad de hacer executar las leyes reside exclusivamente en el Rey,
+         y su autoridad del Rey se extiende á todo quanto conduce á la
+         conservacion del órden público en lo interior, y á la seguridad del
+         Estado en lo exterior, conforme á la Constitucion y á las leyes.
+      </p>
+    </div>
+    <div type="articulo" xml:id="art-04-01-171"><head>Articulo 171.</head>
+           <p>Ademas de la prerrogativa que compete al Rey de sancionar las
+           leyes y promulgarlas, le corresponden como principales las facultades
+         siguientes:</p>
+      <list rend="runon" type="ordered">
+      <item n="1">1.ª..Expedir los Decretos, reglamentos, é instrucciones 
+              que crea conducentes para la execucion de las leyes.</item> 	 
+      <item n="2">2.ª..Cuidar de que en todo el Reyno se administre pronta
+              y cum<pb n="46"/>plidamente la Justicia. </item>
+      <item n="3">3.ª..Declarar la guerra y hacer y ratifiar la paz, dando
+              despues cuenta documentada á las Córtes.</item>
+      <item n="4">4.ª..Nombrar los Magistrados de todos los Tribunales
+              civiles y criminaales á propuesta del Consejo del Estado.</item>
+      <item n="5">5.ª..Proveer todos los empleos civiles y militares.</item>
+      <item n="6">6.ª..Presentar para todos los obispados, y para todas las
+              dignidades y beneficios eclesiásticos de Real Patronato, á 
+              propuesta del Consejo del Estado.</item>
+      <item n="7">7.ª..Conceder honores y distinciones de toda clase, con
+      	      arreglo á las leyes.</item>
+      <item n="8">8.ª..Mandar los Exércitos y Armadas, y nombrar los
+              Generales.</item>
+      <item n="9">9.ª..Disponer de la fuerza armada, distribuyendola
+              como mas convega.</item>         
+      <item n="10">10.ª..Dirigir las relaciones diplomáticas y comerciales con
+              las demas Potencias, y nombrar los Embaxadores, Ministros y
+              Cóncules.</item>
+      <item n="11">11.ª..Cuidar de la fabricacion de la moneda, en la que
+              se ponen su busto y su nombre.</item>
+      <item n="12">12.ª..Decretar la inversion de los fondos destinados
+              á cada uno de los ramos de la administracion pública.</item>
+      <item n="13">13.ª..Indultar á los delinqüentes con arreglo á
+              las leyes.</item>
+      <item n="14">14.ª..Hacer á las Córtes las propuestas de leyes ó
+              de reformas que crea conducentes al bien de la Nacion, para que
+              deliberen en la forma prescrita.</item><pb n="47"/> 
+      <item n="15">15.ª..Conceder el pase, ó retener los Decretos
+              conciliares y bulas pontificias con el consentimiento de las
+              Córtes, si contienen disposiciones generales; oyendo al Consejo
+              de Estado, si versan sobre negocios particulares ó gubernativos,
+              y si contienen puntos contenciosos, pasando su conocimiento
+              y decision al Supremo Tribunal de Justicia, para que resuelvaa con
+              areglo á las leyes.</item>
+      <item n="16">16.ª..Nombrar y separar libremente los Secretarios
+      	      de Estado y del Despacho.</item>         
+    </list>
+    </div>
+    <div type="articulo" xml:id="art-04-01-172"><head>Articulo 172.</head>
+      <p>Las restricciones de la autoridad del Rey son las siguientes:</p>
+      <list rend="runon" type="ordered">
+      <item n="1">1.ª..No puede el Rey impoedir baxo ningun pretexto la 
+              celebracion de las Córtes en las épocas y casos señalados por la
+              Constitucion, ni suspenderlas  ni disolverlaas, ni en manera
+              alguna embarazar sus sesiones y deliberaciones. Los que le
+              aconsejasen ó auxiliasen en qualquiera tentativa para estos
+              actos, son declarados traydores, y serán perseguidos como tales.</item>
+      <item n="2">2.ª..No puede el Rey ausentarse del Reyno sin
+              consentimiento de las Córtes; y si lo hiciere, se entiende que
+              ha abdicado la Corona.</item>  
+      <item n="3">3.ª..No puede el Rey enanegar, ceder, renunciar ó en 
+              qualquiera manera traspasar á otro la autoridad Real, ni alguna
+              de sus prerogativas. Si por qualquiera causa quisiere abdicar el
+              Trono en el inmediato sucesor, no lo podrá hacer sin el consentimiento 
+              de las Córtes.</item><pb n="48"/>
+      <item n="4">4.ª..No puede el Rey enanegar, ceder, ó permutar Provincia,
+                Ciudad, Villa ó Lugar, ni parte alguna por pequeña que sea del
+                territorio Español.</item>          
+      <item n="5">5.ª..No puede el Rey hacer alianza ofensiva ni tratado 
+                especial de comercio con ninguna Potencia extrangera sin
+                consentimiento de las Córtes.</item>
+      <item n="6">6.ª..No puede tampoco obligarse por ningun tratado á dar
+                subsidios á ninguna Potencia extrangera sin el consentimiento 
+                de las Córtes.</item>
+      <item n="7">7.ª..No puede el Rey ceder, ni enagenar los bienes
+                Nacionales sin consentimiento de las Córtes.</item>
+      <item n="8">8.ª..No puede el Rey imponer por sí directa ni indirectamente
+                contribuciones, ni hacer pedidos baxo qualquiera nombre
+                ó para qualquier objeto que sea, sino que siempre los han de
+                decretar las Córtes.</item>
+      <item n="9">9.ª..No puede el Rey conceder privilegio exclusivo á persona
+                ni corporacion alguna.</item>
+      <item n="10">10.ª..No puede el Rey tomar la propiedad de ningun particular
+              ni corporacion, ni turbarle en la posesion, uso y aprovechamiento
+              de ella; y si en algun caso fuere necesario para un obgeto
+              de conocida utilidad común tomar la propiedad de un particular,
+              no lo podrá hacer, sin que al mismo tiempo sea indemnizado 
+              y se le dé el buen cambio á bien vista de hombres buenos.</item>
+      <item n="11">11.ª..No puede el Rey privar á ningun individuo de su
+              libertad, ni<pb n="49"/> imponerle por sí pena alguna.
+              El Secretario del Despacho
+              que firme la órden, y el Juez que la execute, serán
+              responsables á la Nacion, y castigados como reos de atentado
+              contra la libertad individual. Solo en el caso de que el bien
+              y seguridad del Estado exijan el arresto de alguna persona, 
+              podrá el Rey expedir órdenes al efecto, pero con la condicion
+              de que dentro de quarenta y ocho horas, deberá hacerla entregar 
+              á disposicion del Tribunal ó Juez competente.</item>
+     <item n="12">12.ª..No puede el Rey antes de contraer matrimonio
+              dará parte á las Córtes para obtener su consentimiento, y si no
+              hiciere, entiéndase que abdica la Corona.</item>
+      </list>      
+    </div>
+    <div type="articulo" xml:id="art-04-01-173"><head>Articulo 173.</head>
+      <p>El Rey en su advenimiento al Trono y si fuere menor quando
+         entre á gobernar el Reyno prestará juramento ante las Córtes baxo
+         la formula siguiente:</p>
+      <q>"N.(aqui su nombre) por la Gracia de Dios y la Constitucion de la
+         Monarquia Española, Rey de las Españas, juro por Dios y por los Santos
+         Evangelios que defenderé y conservaré la religion catolica,
+         apostolica, romana, sin permitir otra alguna en el Reino: Que
+         guardaré y haré guardar la Constitucion política y leyes de la
+         Monarquia Española, no mirando en quanto hiciere sino al bien y
+         provecho de ella: que no enagenaré, cederé, ni desmembraré parte alguna
+         del Reino; que no exigiré jamas cantidad alguna de frutos, dinero, ni
+         otra cosa, sino las que hubieren decretado las<pb n="50"/> Córtes:
+         que no tomaré jamas á nadie su propiedad;
+         y que respetaré sobre todo la libertad
+         política de la Nacion y la personal de cada individuo; y si en lo que
+         he jurado, ó parte de ello, lo contrario hiciere, no debo ser 
+         obedecido; ántes aquello en que contraviniere sea nulo y de ningun
+         valor. Asi Dios me ayude, y sea en mi defensa, y si no me lo demande.</q>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-04-02">
+    <head>De la sucesion á la Corona.</head>    
+  <div type="articulo" xml:id="art-04-02-174"><head>Articulo 174.</head>
+      <p>El Reino de las Españas es indivisible, y solo se sucederá en el Trono
+      perpetuamente desde la promulgacion de la Constitucion por el orden 
+      regular de primogenitura y representacion, entre los descendientes 
+      legítimos, varones y hembras, de las lineas que se expresarán.</p> 
+    </div> 
+  <div type="articulo" xml:id="art-04-02-175"><head>Articulo 175.</head>
+      <p>No pueden ser Reyes de las Españas sino los que sean hijos 
+      legitimos habidos en constante y legítimo matrimonio.</p> 
+  </div>  
+  <div type="articulo" xml:id="art-04-02-176"><head>Articulo 176.</head>
+      <p>En el mismo grado y línea los varones prefieren á las hembras.
+         y siempre el mayor al menor: pero las hembras de mejor línea o de
+         mejor grado en la misma línea prefieren á los varones de línea o
+         grado posterior.</p> 
+  </div>     
+  <div type="articulo" xml:id="art-04-02-177"><head>Articulo 177.</head>
+      <p>El hijo o hija del primogénito del Rey, en el caso de morir su<pb n="51"/>
+         Padre sin haber entrado en la sucesion del Reino, prefiere á los tios,
+         y sucede inmediatamente al Abuelo por derecho de representacion.</p> 
+  </div>       
+  <div type="articulo" xml:id="art-04-02-178"><head>Articulo 178.</head>
+      <p>Mientras no se extingue la  línea en que está radicada la  sucesion,
+         no entra la inmediata.</p> 
+  </div>     
+  <div type="articulo" xml:id="art-04-02-179"><head>Articulo 179.</head>
+      <p>.El Rey de las Españas es el Señor Don Fernando  septimo de  Borbon, que
+          actualmente reina.</p> 
+  </div> 
+  <div type="articulo" xml:id="art-04-02-180"><head>Articulo 180.</head>
+      <p>A falta del Señor Don Fernando  septimo de Borbon, sucederán sus des-
+         cendientes legitimos, así varones como hembras; á falta de estos
+         sucederán sus hermanos, y tios hermanos de su padre, así varones como
+         hembras, y los descendientes legitimos de estos por el orden que queda
+         prevenido, guardando en todo el derecho de representación y la 
+         preferencia de las líneas anteriores á las posteriores.</p> 
+  </div>     
+  <div type="articulo" xml:id="art-04-02-181"><head>Articulo 181.</head>
+      <p>Las Cortes deberán excluir de la Sucesión aquella persona ó
+         personas que sean incapaces para gobernar, o hayan hecho cosa por que
+         merezcan perder la Corona.</p> 
+  </div>  
+  <div type="articulo" xml:id="art-04-02-182"><head>Articulo 182.</head>
+      <p>Si llegaren á extinguirse todas las líneas que aquí se señalan, las
+         Córtes harán nuevos llamamientos, como vean que mas<pb n="52"/>
+         importa á la Nacion,
+         siguiendo siempre el orden y reglas de suceder aquí establecias.</p> 
+  </div>   
+  <div type="articulo" xml:id="art-04-02-183"><head>Articulo 183.</head>
+      <p>Quando la Corona haya de recaer inmediatamente o haya recaido en
+         hembra, no podrá esta elegir marido sin consentimiento de las Córtes,
+         y si lo contrario hiciere, se entiende que abdica la Corona.</p> 
+    </div>     
+    <div type="articulo" xml:id="art-04-02-184"><head>Articulo 184.</head>
+      <p>En el caso de que llegue á reinar una hembra, su marido no tendrá 
+         autoridad ninguna respecto del Reino, ni parte alguna en el gobierno.</p> 
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-04-03">
+    <head>De la menor edad del Rey, y de la Regencia.</head>
+    <div type="articulo" xml:id="art-04-03-185"><head>Articulo 185.</head>
+      <p>El Rey es menor de edad hasta los diez y ocho años cumplidos.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-186"><head>Articulo 186.</head>
+      <p>Durante la menor edad del Rey será gobernado el Reino por una
+         Regencia.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-187"><head>Articulo 187.</head>
+      <p>Lo será igualmente, quando el Rey se halle imposibilitado de exercer
+         su autoridad por qualquiera causa física ó moral.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-188"><head>Articulo 188.</head>
+      <p>Si el impedimento del Rey pasare de dos años, y el succesor<pb n="53"/>
+         inmediato fuese mayor de diez y ocho,
+         las Córtes podrán nombrarle Regente del
+         Reino en lugar de la Regencia.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-189"><head>Articulo 189.</head>
+      <p>En los casos en que vacare la Corona, siendo el Príncipe de Asturias 
+         menor de edad, hasta que se junten las Cortes extraordinarias, si no se
+         hallaren reunidas las ordinarias; la Regencia provisional se compondrá
+         de la Reina Madre, si la hubiere, de dos Diputados de la Diputación
+         permanente de las Córtes, los mas antiguos por orden de su elección en
+         la Diputación, y de dos Consejeros del Consejo de Estado los mas
+         antiguos; á saber: el Decano y el que le siga: Si no hubiere Reina
+         Madre, entrará en la Regencia el Consejero de Estado tercero en
+         antigüedad.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-190"><head>Articulo 190.</head>
+      <p>La Regencia provisional será presidida por la Reina Madre,
+         si la hubiere, y  en su defecto por el individuo de la Diputacion
+         permanente de Córtes que sea primer nombrado en ella.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-191"><head>Articulo 191.</head>
+      <p>La Regencia provisional no despachará otros negocios que los que no
+      admitan dilacion, y no removerá ni nombrará empleados sino interinamente.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-192"><head>Articulo 192.</head>
+      <p>Reunidas las Córtes extraordinarias nombrarán una Regencia
+         compuesta de tres ó de cinco personas.</p>
+    </div>
+<pb n="54"/>
+    <div type="articulo" xml:id="art-04-03-193"><head>Articulo 193.</head>
+      <p>Para poder ser individuo de la Regencia se requiere ser Ciudadano en
+         el exercicio de sus derechos; quedando excluidos los extrangeros,
+         aunque tengan carta de Ciudadanos.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-194"><head>Articulo 194.</head>
+      <p>La Regencia será presidida por aquel de sus individuos que las Córtes
+         designaren; tocando á estas establecer en caso necesario,
+         si ha de haber ó no turno en la presidencia, y en qué términos.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-195"><head>Articulo 195.</head>
+      <p>La Regencia exercerá la autoridad del Rey en los términos
+         que estimen las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-196"><head>Articulo 196.</head>
+      <p> Una y otra Regencia prestarán juramento segun la fórmula 
+          prescrita en el articulo 173; añadiendo la cláusula de que
+          serán fieles al Rey; y la Regencia permanente añadirá ademas, que
+          observará las condiciones que le hubieren impuesto las Córtes para el
+          exercicio de su autoridad, y que quando llegue el Rey á ser mayor, ó
+          cese la imposibilidad, le entregará el gobierno del Reino baxo la pena,
+          si un momento lo dilata, de ser sus individuos habidos y
+          castigados como traydores.</p>
+    </div><div type="articulo" xml:id="art-04-03-197"><head>Articulo 197.</head>
+      <p>Todos los actos de la Regencia se publicarán en nombre del Rey.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-198"><head>Articulo 198.</head>
+      <p>Será tutor del Rey menor la persona que el Rey difunto<pb n="55"/> hubiere
+         nombrado en su testamento. Si no le hubiere nombrado, sera tutora la
+         Reina Madre, mientras permanezca viuda. En su defecto, será nombrado
+         el tutor por las Córtes. En el primero y tercere caso el tutor deberá
+         ser natural del Reino.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-199"><head>Articulo 199.</head>
+      <p>La Regencia cuidará de que la educacion del Rey menor sea la mas
+         conveniente al grande obgeto de su alta dignidad, y que se desempeñe
+         conforme al plan que aprobaren las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-03-200"><head>Articulo 200.</head>
+      <p>Estas señalarán el Sueldo que hayan de gozar los individuos
+         de la Regencia.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-04-04">
+    <head>De la familia Real, y del reconocimiento del Principe de Asturias.</head>
+    <div type="articulo" xml:id="art-04-04-201"><head>Articulo 201.</head>
+      <p>El hijo primogénito del Rey se titulará Principe de Asturias.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-202"><head>Articulo 202.</head>
+      <p>Los demas hijos é hijas del Rey serán y se llamarán Infantes de las
+         Españas.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-203"><head>Articulo 203.</head>  
+      <p>Asímismo serán y se llamarán Infantes de las Españas los hijos é hijas
+         de Principe de Asturias.</p>
+    </div>
+<pb n="56"/>
+    <div type="articulo" xml:id="art-04-04-204"><head>Articulo 204.</head>  
+      <p>A estas personas precisamente estará limitada la calidad de Infante
+         de las Españas, sin que pueda extenderse á otras.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-205"><head>Articulo 205.</head>
+      <p>Los Infantes de las Españas gozarán de las distinciones y honores
+         que han tenido hasta aquí, y podrán ser nombrados para toda clase de
+         destinos, exeptuados los de judicatura, y la Diputacion de Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-206"><head>Articulo 206.</head>
+      <p>El Príncipe de Asturias no podrá salir del Reino sin consentimiento
+         de las Córtes, y si saliere sin él, quedará por el mismo hecho
+         excluido del llamamiento á la Corona.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-207"><head>Articulo 207.</head> 
+      <p>Lo mismo se entenderá, permaneciendo fuera del Reino por mas tiempo
+         que el prefixado en el permiso, si requerido para que vuelva, no lo
+         verificare dentro del término que las Córtes señalen.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-208"><head>Articulo 208.</head>
+      <p>El Príncipe de Asturias, los Infantes é Infantas y sus hijos
+          y descendientes que sean súbditos del Rey, no podrán contraher
+          matrimonio sin su conocimiento y el de las Córtes, baxo la pena de ser
+          excluidos del llamamiento á la Corona.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-209"><head>Articulo 209.</head>
+      <p>De las partidas de nacimiento, matrimonio y muerte de todas<pb n="57"/>
+         las personas de la familia Real, se remitirá una copia auténtica a las
+         Córtes, y en su defecto á la Diputacion permanente, para que se 
+         custodie en su Archivo.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-210"><head>Articulo 210.</head>
+      <p>El Príncipe de Asturias será reconocido por las Córtes con las
+         formalidades que prevendrá el reglamento del gobierno interior de ellas.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-211"><head>Articulo 211.</head> 
+      <p>Este reconocimiento se hará en las primeras Córtes que se celebren
+         despues de su nacimiento.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-04-212"><head>Articulo 212.</head>
+      <p>El Príncipe de Asturias, llegando á la edad de catorce años, prestará
+         juramento ante las Córtes baxo la formula siguiente:="N. (aquí el nombre)
+         Principe de Asturias, juro por Dios y por los Santos Evangelios, que
+         defenderé y conservaré la religión católica, apostolica, romana, sin
+         permitir otra alguna en el Reino: Que guardaré la Constitucion 
+         política de la Monarquia Española, y que seré fiel y obediente al Rey.
+         Así Dios me ayude.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-04-05">
+    <head>De la dotation de la familia Real.</head>
+    <div type="articulo" xml:id="art-04-05-213"><head>Articulo 213.</head>
+      <p>Las Córtes señalarán al Rey la dotacion anual de su casa,
+         que sea correspondiente á la alta dignidad de su Persona.</p>
+    </div>
+<pb n="58"/>
+    <div type="articulo" xml:id="art-04-05-214"><head>Articulo 214.</head>
+      <p>Pertenecen al Rey todos los Palacios Reales que han disfrutado
+         sus predecesares, y las Córtes señalarán los terrenos que tengan por
+         conveniente reservar para el recreo de su Persona.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-05-215"><head>Articulo 215.</head>
+      <p>Al Príncipe de Asturias desde el dia de su nacimiento,
+         y á los Infantes é Infantas desde que cumplan siete años de edad,
+         se asignará por las Córtes para sus alimentos la cantidad anual
+         correspondiente á su respectiva dignidad.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-05-216"><head>Articulo 216.</head>
+      <p>A las Infantas para quando casaren, señalarán las Córtes
+         la cantidad que estimen en calidad de dote, y entregada esta,
+         cesarán los alimentos anuales.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-05-217"><head>Articulo 217.</head>
+      <p>A las Infantes si casaren mientras residan en las Españas, se les
+         continuarán los alimentos que les estén asignados; y si casaren y 
+         residieren fuera, cesarán los alimentos y se les entregará por una
+         vez la cantidad que las Córtes señalen.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-05-218"><head>Articulo 218.</head>
+      <p>Las Córtes señalarán los alimentos anuales que hayan de darse á la
+         Reyna viuda.</p>
+    </div>
+<pb n="59"/>
+    <div type="articulo" xml:id="art-04-05-219"><head>Articulo 219.</head>
+      <p>Los sueldos de los individuos de la Regencia se tomarán de la dotacion
+         señalada á la casa del Rey.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-05-220"><head>Articulo 220.</head>
+      <p>La dotacion de la Casa del Rey y los alimentos de su familia,
+         de que hablan los articulos precedentes, se señalarán, por las Córtes
+         al principio de cada Reinado, y por no se podrán alterar durante él.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-05-221"><head>Articulo 221.</head>
+      <p>Todas estas asignaciones son de cuenta de la tesoreria nacional,
+         por la que serán satisfechas al administrador que el Rey nombrare,
+         con el qual se entenderán las acciones activas y pasivas que por razón
+         de intereses puedan promoverse.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-04-06">
+    <head>De los Secretarias de Estado y del Despacho.</head>
+    <div type="articulo" xml:id="art-04-06-222"><head>Articulo 222.</head>
+      <p>Los Secretarios del Despacho seran siete, á saber:</p>
+      <list type="simple">
+         <item>El Secretario del Despacho de Estado.</item>
+         <item>El Secretario del Despacho de la Gobernacion del Reino para la
+             Peninsula é Islas adyacentes.</item>
+         <item>El Secretario del Despacho de la Gobernacion del Reino para 
+             Ultramar.</item> 
+         <item>El Secretario del Despacho de Gracia y Justicia.</item><pb n="60"/>
+         <item>El Secretario del Despacho de Hacienda.</item>
+         <item>El Secretario del Despacho de Guerra.</item>
+         <item>El Secretario del Despacho de Marina.</item> 
+      </list>
+      <p>Las Córtes succesivas harán en este sistema de Secretarías del
+         Despacho la variacion que la experiencia, ó las circunstancias
+         exijan.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-06-223"><head>Articulo 223.</head>
+      <p>Para ser Secretario del Despacho se requiere ser Ciudadano en
+         el exercicio de sus derechos, quedando excluidos los extrangeros,
+         aunque tengan carta de Ciudadanos.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-06-224"><head>Articulo 224.</head>
+      <p>Por un reglamento particular, aprobado por las Córtes, se señalarán
+         á cada Secrtaría los negocios que deban pertenecerle.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-06-225"><head>Articulo 225.</head>
+      <p>Todas las órdenes del Rey deberan ir firmadas por el Secretario del
+        Despacho del ramo á que el asunto corresponda. Ningun tribunal ni        
+        persona pública dará cumplimiento á la orden que carezca de este requisito.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-06-226"><head>Articulo 226.</head>
+      <p>Los Secretarios del Despacho serán responsables á las Córtes
+         de las ordenes que autorizen contra la Constitucion ó las leyes,
+         sin que les sirva de excusa haberlo mandado el Rey.</p>
+    </div>
+<pb n="61"/>
+    <div type="articulo" xml:id="art-04-06-227"><head>Articulo 227.</head>
+      <p>Los Secretarios del Despacho formarán los presupuestos anuales
+         de los gastos de la administracion pública, que se estime deban hacerse
+         por su respectivo ramo, y rendirán cuentas de los que se hubieren hecho
+         en el modo que se expresará.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-06-228"><head>Articulo 228.</head>
+      <p>Para hacer efectiva la responsabilidad de los Secretarios del Despacho,
+         decretarán ante todas cosas las Córtes que há lugar á la formacion de
+         causa.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-06-229"><head>Articulo 229.</head>
+      <p>Dado este decreto, qedará suspenso el Secretario del  Despacho y
+         las Córtes remitirán al Tribunal supremo de Justicia todos los
+         documentos concernientes á la causa que haya de formarse por el mismo
+         Tribunal, quien la substanciará y decidirá con arreglo á las leyes.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-06-230"><head>Articulo 230.</head>
+      <p>Las Córtes señalaran el sueldo que deban gozar los Secretarios del
+         Despacho durante su encargo.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-04-07">
+    <head>Del Consejo de Estado.</head>
+    <div type="articulo" xml:id="art-04-07-231"><head>Articulo 231.</head> 
+      <p>Habrá un Consejo de Estado compuesto de quarenta individuos, que
+         sean Ciudadanos en el exercicio de sus derechos, quedando excluidos los
+         extrangeros, aunque tengan carta de Ciudadanos.</p>
+    </div>
+<pb n="62"/>
+    <div type="articulo" xml:id="art-04-07-232"><head>Articulo 232.</head>
+      <p>Estos serán precisamente en la forma siguiente; á saber: Quatro
+         Eclesiásticos, y no mas, de conocida y probada ilustración y
+         merecimiento, de los quales dos serán obispos: Quatro Grandes de España,
+         y no mas, adornados de las virtudes, talento y conocimientos necesarios;
+         y los restantes serán elegidos de entre los sujetos, que mas se hayan
+         distinguido por su ilustracion y conocimientos, ó por sus señalados
+         servicios en alguno de los principales ramos de la administración y 
+         gobierno del Estado. Las Cortes no podrán proponer para estas plazas á
+         ningun individuo  que sea Diputado de Cortes al tiempo de hacerse la
+         elección. De los individuos  del Consejo de Estado, doce á lo menos 
+         serán nacidos en las Provincias de Ultramar.
+      </p>
+    </div>
+    <div type="articulo" xml:id="art-04-07-233"><head>Articulo 233.</head>
+      <p>Todos los consejeros de Estado serán nombrados por el Rey á propuesta
+         de las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-07-234"><head>Articulo 234.</head>
+      <p>Para la formacion de este Consejo, se dispondrá en las Córtes,
+         comprometiéndose una lista triple de todas las clases referidas en la
+         proporcion indicada de la qual el Rey elegira los quarenta individuos
+         que han de componer el Consejo de Estado, tomando los Eclesiásticos de
+         la lista de su clase; los Grandes de la suya, y así de los demas.</p>
+    </div>
+<pb n="63"/>
+    <div type="articulo" xml:id="art-04-07-235"><head>Articulo 235.</head>
+      <p>Quando ocurriere alguna vacante en el Consejo de Estado, las Córtes
+         primeras que se celebren presentarán al Rey tres personas de la clase
+         en que se hubiere verificado, para que elija la que le pareciere.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-07-236"><head>Articulo 236.</head>
+       <p>El Consejo de Estado es el único Consejo del Rey, que oirá en
+          los asuntos graves gubernativos, y  señaladamente para dar ó negar la
+          sancion á las leyes, declarar la guerra y hacer los tratados.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-07-237"><head>Articulo 237.</head>
+      <p>Pertenecerá á este Consejo hacer al Rey la propuesta por ternas 
+         para la presentacion de todos los beneficios eclesiásticos, y para la
+         provision de las plazas de judicatura.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-07-238"><head>Articulo 238.</head>
+      <p>El Rey formará un reglamento para el gobierno del Consejo de Estado,
+         oyendo previamente al mismo, y se presentará á las Córtes para su
+         aprobacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-07-239"><head>Articulo 239.</head>
+      <p>Los Consejeros de Estado no podrán ser removidos sin causa justificada
+         en el Tribunal supremo de Justicia.</p>
+    </div>
+    <div type="articulo" xml:id="art-04-07-240"><head>Articulo 240.</head>
+      <p>Las Córtes señalarán el Sueldo que deban gozar los Consejeros
+         de Estado.</p>
+    </div>
+<pb n="64"/>
+    <div type="articulo" xml:id="art-04-07-241"><head>Articulo 241.</head>
+      <p>Los Consejeros de Estado al tomar posesion de sus plazas,
+         harán en manos del Rey juramento de guardar la Constitucion,
+         ser fieles al Rey, y aconsejarle lo que entendieren ser conducente
+         al bien de la Nacion, sin mira particular, ni interes privado.</p>
+    </div>
+  </div>
+  </div> <!-- titulo -->
+  <div type="titulo" xml:id="art-05">
+    <head>De los Tribunales y de la administracion de
+    Justicia en lo civil y criminal.</head>
+  <div type="capitulo" xml:id="art-05-01">
+    <head>De los Tribunales.</head>
+    <div type="articulo" xml:id="art-05-01-242"><head>Articulo 242.</head>
+      <p>La potestad de aplicar las leyes en las causas civiles
+         y criminales pertenece exclusivamente á los Tribunales.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-243"><head>Articulo 243.</head>
+      <p>Ni las Córtes ni el Rey podrán exercer en ningun caso las funciones
+         judiciales, judiciales, avocar causas pendientes, ni mandar abrir los juicios
+         fenecidos.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-244"><head>Articulo 244.</head>
+      <p>Las leyes señalarán el órden y las formalidades del proceso 
+         que serán unfiformes en todos los Tribunales y
+         ni las Córtes ni el Rey podrán dispensarlas.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-245"><head>Articulo 245.</head>
+      <p>Los Tribunales no podrán exercer otras funciones que las de<pb n="65"/>
+         juzgar y hacer que se execute lo juzgado.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-246"><head>Articulo 246.</head>
+      <p>Tampoco podrán suspender la execucion de las leyes ni hacer reglamento
+         alguno para la administracion de Justicia.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-247"><head>Articulo 247.</head>
+      <p>Ningun Español podrá ser juzgado en causas civiles, ni criminales
+         por ninguna comision, sino por el tribunal competente determinado
+         con anteroridad por la ley.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-248"><head>Articulo 248.</head>
+      <p>En los negocios comunes civiles y crriminales no habrá mas
+         que un solo fuero para toda clase de personas.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-249"><head>Articulo 249.</head>
+      <p>Los Eclesiásticos continuarán gozando del fuero de su estado,
+         en los terminos que prescriben las leyes ó que en adelante prescribieren.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-250"><head>Articulo 250.</head>
+      <p>Los Militares gozarán tambien de su fuero particular, en las términos
+      que previene la ordenanza ó en adelante previniere.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-251"><head>Articulo 251.</head>
+      <p>Para ser nombrado Magistrado o Juez se requiere haber nacido en el
+         territorio Español, y ser mayor de veinte y cinco años. Las demas
+         calidades que respectivamente deban estos tener, serán determinadas
+         por las leyes.</p>
+    </div>
+<pb n="66"/>
+    <div type="articulo" xml:id="art-05-01-252"><head>Articulo 252.</head>
+      <p>Los Magistrados y Jueces no podrán ser depuesto de sus destinos,
+         sean temporales ó perpetuos, sino por causa legalmente probada y 
+         sentenciada, ni suspendidos, sino por acusacion legalmente intentada.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-253"><head>Articulo 253.</head>
+      <p>Si al Rey llegaren quejas contra algun Magistrado, y formado expediente,
+         parecieren fundadas, podrá, oído el consejo de Estado, suspenderle, 
+         haciendo pasar inmediatamente el expediente al Supremo Tribunal de
+         Justicia, para que juzgue con arreglo á las leyes.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-254"><head>Articulo 254.</head>
+      <p>Toda falta de observancia de las leyes que arreglan el proceso
+         en lo civil y en lo criminal, hace responsables personalmente á los
+         Jueces que la cometieren.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-255"><head>Articulo 255.</head>
+      <p>El soborno, el cohecho y la prevaricacion de los Magistrados y Jueces
+         producen accion popular contra los que los cometieren.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-256"><head>Articulo 256.</head>
+      <p>Las Córtes señalarán á los Magistrados y Jueces de letras una
+         dotacion competente.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-257"><head>Articulo 257.</head>
+      <p>La Justicia se administrará en nombre del Rey, y las executorias y
+         provisiones de los Tribunales superiores se encabezarán<pb n="67"/>
+         tambien en su nombre.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-258"><head>Articulo 258.</head>
+      <p>El codigo civil, y criminal, y el de comercio serán unos mismos
+         para toda la Monarquía, sin perjuicio de las variaciones, que por
+         particulares circunstancias podrán hacer las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-259"><head>Articulo 259.</head>
+      <p>Habrá en la Corte un Tribunal, que se llamará Supremo tribunal de
+         Justica.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-260"><head>Articulo 260.</head>
+      <p>Las Córtes determinarán el número de Magistrados que han de componerle,
+         y las Salas en que han de distribuirse.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-261"><head>Articulo 261.</head>
+      <p>Toca á este supremo tribunal:</p>
+      <list rend="runon" type="ordered">
+         <item n="1">1.º..Dirimir todas las competencias de las Audiencias
+                   entre sí en todo el territorio Español, y las de las
+                   Audiencias con los Tribunales especiales, que existan en la
+                   Peninsula é Islas adyacentes. En Ultramar se dirimirán estas
+                   ultimas, segun lo determinaren  las leyes.</item>
+         <item n="2">2.º..Juzgar á los Secretarios de Estado y del Despacho,
+         	   quando las Córtes decretaren haber lugar á la formacion
+         	   de causa.</item>
+         <item n="3">3.º..Conocer de todas las causas de separacion y
+         	   suspension de los Consejeros de Estado y de los Magistrados
+         	   de las Audiencias.</item>
+         <item n="4">4.º..Conocer de las causas criminales de los Secretarios
+                   de Estado y del Despacho de los Consejeros de Estado, y de 
+                   los Magistrados de las<pb n="68"/> Audiencias,
+                   perteneciendo al Gefe
+                   político mas autorizado la instruccion del proceso para
+                   remitirlo á este Tribunal.</item>
+         <item n="5">5.º..Conocer de todas las causas criminales que se
+         	   promovieren contra los individuos de este Supremo tribunal.
+         	   Si llegare el caso en que sea necesario hacer efectiva la 
+         	   responsabilidad de este Supremo Tribunal, las Cortes, prévia
+         	   la  formalidad establecida  en el artículo  228, procederán
+         	   á nombrar para este fin un Tribunal compuesto de nueve
+         	   Jueces, que serán elegidos por suerte de un número doble.</item>
+         <item n="6">6.º..Conocer de la residencia de todo empleado público,
+                   que esté sujeto á ella por disposicion de las leyes.</item>
+         <item n="7">7.º..Conocer de todos los asuntos contentiosos
+         	   pertenecientes al real patronato.</item>
+         <item n="8">8.º..Conocer de los recursos de fuerza de todos los
+         	   Tribunales Eclesiásticos superiores de la Córte.</item>
+         <item n="9">9.º..Conocer de los recursos de nulidad que se interpongan
+                   contra las sentencias dadas en última instancia para el
+                   preciso efecto de reponer el proceso, devolviendolo, y hacer
+                   efectiva la responsibilidad de que trata el Articulo 254.
+                   Por lo relativo á Ultramar, de estos recursos se conocerá
+                   en las Audiencias, en la forma que se dirá en su lugar.</item>
+         <item n="10">10.º..Oir las dudas de los demas Tribunales sobre la
+         	   inteligencia de alguna ley, y consultar sobre ellas al Rey
+         	   con los fundamentos que hubiere, para que promueva la
+         	   conveniente declaracion en<pb n="69"/> las Córtes.</item>
+         <item n="11">11.º..Examinar las listas de las causas civiles
+                    y criminales que deben remitirle las Audiencias,
+                    para promover la pronta administracion de Justicia,
+                    pasar copia de ellas para el mismo efecto al Gobierno,
+                    y disponer su publicacion por medio de la imprenta.</item>
+      </list>
+   </div>
+    <div type="articulo" xml:id="art-05-01-262"><head>Articulo 262.</head>
+      <p>Todas las causas civiles y criminales se fenecerán dentro
+         del territorio de cada Audiencia.</p>
+    </div>    
+    <div type="articulo" xml:id="art-05-01-263"><head>Articulo 263.</head>
+      <p>Pertenecerá á las Audiencias conocer de todas las causas civiles de 
+         los juzgados inferiores de su demarcacion en segunda, y tercera
+         instancia, y lo mismo de las criminales, según lo determinen las leyes; 
+         y también de las causas de suspensión y separación de los Jueces 
+         inferiores de su territorio en el modo que prevengan las leyes, dando
+         cuenta al Rey. 
+       </p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-264"><head>Articulo 264.</head>
+      <p>Los magistrados que hubieren fallado en la segunda instancia, no podrán
+         asistir á la vista del mismo pleyto en la tercera.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-265"><head>Articulo 265.</head>
+      <p>Pertenecerá tambien á las audiencias conocer de las competencias entre
+         todos los jueces subalternos de su territorio.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-266"><head>Articulo 266.</head>
+      <p>Les pertenecerá asimismo conocer de los recursos de fuerza que se
+         introduzcan, de los Tribunales y autoridades eclesiásticas<pb n="70"/>
+         de su territorio.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-267"><head>Articulo 267.</head>
+      <p>Les corresponderá también recibir de todos los Jueces subalternos de
+         su territorio  avisos  puntuales de las causas que se formen por
+         delitos, y listas de las causas civiles y criminales pendientes en
+         su juzgado, con expresión de estado de unas y otras, á fin de promover
+         la mas pronta administración de Justicia.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-268"><head>Articulo 268.</head>
+      <p>A las Audiencias de Ultramar les corresponderá además el cono-
+         cer de los recursos de nulidad, debiendo estos interponerse
+         en aquellas Audiencias que tengan suficiente número para la formación
+         de tres Salas, en la que no haya conocido de la causa en ninguna
+         instancia. En las Audiencias que no consten de este número de Ministros,
+         se interpondrán estos recursos de una á otra de las comprehendidas en
+         el distrito de una misma gobernación superior; y en el caso de que en
+         este no hubiere mas que una Audiencia, irán á la mas inmediata de otro
+         distrito.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-269"><head>Articulo 269.</head>
+      <p>Declarada la nulidad, la Audiencia que ha conocido de ella dará cuenta,
+         con testimonio que contenga los insertos convenientes, al Supremo
+         Tribunal de Justicia, para hacer efectiva la responsabilidad de que
+         trata el artículo 254.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-270"><head>Articulo 270.</head>
+      <p>Las Audiencias remitirán cada año al Supremo Tribunal de<pb n="71"/>
+         Justicia listas exactas de las causas civiles, y cada seis meses de las
+         criminales, así fenecidas como pendientes, con expresion del estado
+         que estas tengan, incluyendo las que hayan recibido de los Juzgados
+         inferiores.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-271"><head>Articulo 271.</head>
+      <p>Se determinará por leyes y reglamentos especiales el número
+         de los Magistrados de las Audiencias, que no podrán ser menos de siete,
+         la forma de estos Tribunales, y el lugar de su residencia.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-272"><head>Articulo 272.</head>
+      <p>Quando llegue el caso de hacerse la conveniente division del
+         territorio Español, indicada en el artículo 11, se determinará con
+         respecto á ella el número de Audiencias que han de establecerse, y se
+         les señalará territorio</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-273"><head>Articulo 273.</head>
+      <p>Se establecerán Partidos proporcionalmente iguales, y en cada caveza
+         de Partido habrá un juez de letras, con un Juzgado correspondiente.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-274"><head>Articulo 274.</head>
+      <p>Las facultades de estos Jueces se limitarán precisamente á lo
+         contencioso, y las leyes determinarán las que han de pertenecerles
+         en la capital y pueblos de su Partido, como tambien hasta de que
+         cantidad podrán conocer en los negocios civiles sin apelacion.</p>
+    </div>
+<pb n="72"/>
+    <div type="articulo" xml:id="art-05-01-275"><head>Articulo 275.</head>
+      <p>En todos los Pueblos se establecerán Alcaldes, y las leyes determinarán
+         la extension de sus facultades, asi en lo contencioso como en lo
+         económico.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-276"><head>Articulo 276.</head>
+      <p>Todos los Jueces de los Tribunales inferiores deberán dar cuenta
+         á mas trardar dentro de tercero dia á su respectiva Audiencia,
+         de las causas que formen por delitos cometidos en su territorio,
+         y despues continuarán dando cuenta de su estado en las épocas
+         que la Audiencia les prescriva.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-277"><head>Articulo 277.</head>
+      <p>Deberán asimismo remitir á la Audiencia respectiva listas generales
+         cada seis meses de las causas civiles, y cada tres de las criminales,
+         que pendieren en sus Juzgados, con expresion de su estado.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-01-278"><head>Articulo 278.</head>
+      <p>Las leyes decidirán si ha de haber Tribunales especials para 
+         conocer de determinados negocios.</p>
+    </div>
+  <div type="articulo" xml:id="art-05-01-279"><head>Articulo 279.</head>
+      <p>Los Magistrados y Jueces al tomar posesión de sus plazas, jurarán
+         guardar la Constitucion, ser fieles al Rey, observar las leyes y 
+         administrar imparcialmente la Justicia.</p>
+    </div>
+  </div>
+<pb n="73"/>
+  <div type="capitulo" xml:id="art-05-02">
+    <head>De la administracion de justicia en lo civil.</head>
+    <div type="articulo" xml:id="art-05-02-280"><head>Articulo 280.</head>
+      <p>No se podrá privar á ningun Español del derecho de terminar sus
+        diferencias por medio de Jueces árvitros elegidos por ámbas partes.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-02-281"><head>Articulo 281.</head>
+      <p>La sentencia que dieren los árvitros se executará, si las partes
+        al hacer el compromiso no se hubieren reservado el derecho de apelar.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-02-282"><head>Articulo 282.</head>
+      <p>El Alcalde de cada  Pueblo exercerá en el el oficio de conciliador,
+         y el que tenga que demandar por negocios civiles o por injurias,
+         deberá presentarse á él con este objeto.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-02-283"><head>Articulo 283.</head>
+      <p>El Alcalde con dos hombres buenos, nombrados uno por cada parte,
+         oirá al demandante y demandado, se enteraráde las razones en
+         que respectivamente apoyen su intencion, y tomará, oído el dictamen
+         de los dos asociados, la providencia que le parezca propia para el fin
+         de terminar el litigio sin mas progreso, como se terminará en efecto si
+         las partes se aquietan con esta decision extrajudicial.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-02-284"><head>Articulo 284.</head>
+      <p>Sin hacer constar que se ha intentado el medio de la conciliacion,<pb n="74"/>
+         no se entablará pleito ninguno.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-02-285"><head>Articulo 285.</head>
+      <p>En todo negocio, qualquiera que sea su quantia, habrá á lo mas tres
+         instancias, y tres sentencias definitivas pronunciadas en ellas. Quando
+         la tercera instancia se interponga de dos sentencias conformes, el
+         número de Jueces que haya de decidirla, deberá ser mayor que el que
+         asistió á la vista de la segunda, en la forma que lo disponga la ley.
+         A esta toca también determinar, atendida la entidad de los negocios, y
+         la naturaleza y calidad de los diferentes juicios, qué sentencia ha de
+         ser la que en cada uno deba causa executoria.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-05-03">
+    <head>De la administracion de justicia en lo criminal.</head>
+    <div type="articulo" xml:id="art-05-02-286"><head>Articulo 286.</head>
+      <p>Las leyes arreglarán la administracion de Justicia en lo criminal,
+         de manera que el proceso sea formado con brevedad y sin vicios,
+         á fin de que los delitos sean prontamente castigados.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-02-287"><head>Articulo 287.</head>
+      <p>Ningun Español podrá ser preso sin que preceda informacion sumaria
+         de hecho, por el que merezca según la ley, ser castigado con pena corporal,
+         y asi mismo un mandamiento del Juez por escrito, que se le notificará
+         en el acto mismo de la prision.</p>
+    </div>
+<pb n="75"/>
+    <div type="articulo" xml:id="art-05-03-288"><head>Articulo 288.</head>
+      <p>Toda persona deberá obedecer estos mandamientos; qualquiera resistencia
+      será reputada por delito grave.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-289"><head>Articulo 289.</head>
+      <p>Quando hubiere resistencia ó se temiere la fuga, se podrá usar de la
+         fuerza para asegurar la persona.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-290"><head>Articulo 290.</head>
+      <p>El arrestado, ántes de ser puesto en prision, será presentado al Juez,
+        siempre que no haya cosa que lo estorbe para que le reciba declaracion;
+        mas si esto no pudiere verificarse, se le conducirá á la Cárcel en
+        calidad de detenido y el Juez le recibirá la declaracion dentro de las
+        veinte y quatro horas.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-291"><head>Articulo 291.</head>
+      <p>La declaracion del arrestado será sin juramento, que á nadie ha de
+         tomarse en materias criminales sobre hecho propio.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-292"><head>Articulo 292.</head>
+      <p>En fraganti todo delinqüente puede ser arrestado, y todos pueden
+         arrestarle y conducirle á la presencia del Juez:  presentado, ó
+         puesto en custodia se procederá en todo, como se previene en los dos
+         artículos precedentes.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-293"><head>Articulo 293.</head>
+      <p>Si se resolviere que al arrestado se le ponga en la Cárcel, ó que
+         permanezca en ella en calidad de preso, se provebrerá auto motivado,
+         y de el se entregará copia al Alcaide, para que la<pb n="76"/> inserte
+         en el libro de presos; sin cuyo requisito no admitirá el Alcaide
+         á ningun preso en calidad de tal, baxo la mas estrecha responsabilidad.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-294"><head>Articulo 294.</head>
+      <p>Solo se hará embargo de bienes, quando se proceda por delitos
+         que lleven consigo responsabilidad pecuniaria, y en proporcion á la
+         cantidad á que esta pueda extenderse.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-295"><head>Articulo 295.</head>
+      <p>No será llevado á la Cárcel el que dé fiador en los casos en
+         que la ley no prohíba expresamente que se admita la fianza.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-296"><head>Articulo 296.</head>
+      <p>En qualquier estado de la causa que aparezca que no puede imponerse
+         al preso pena corporal, se le pondrá en libertad dando fianza.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-297"><head>Articulo 297.</head>
+      <p>Se dispondrán las Cárceles de manera que sirvan para asegurar
+         y no para molestar á los presos: Asi el Alcaide tendrá á estos en buena
+         custodia, y separados los que el Juez mande tener sin comunicacion,
+         pero nunca en calabozos subterráneos ni mal sanos.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-298"><head>Articulo 298.</head>
+      <p>La ley determinará la frecuencia con que ha de hacerse la visita
+         de cárceles, y no habrá preso alguno, que dexe de presentarse á ella
+         baxo ningun pretexto.</p>
+    </div>
+<pb n="77"/>
+    <div type="articulo" xml:id="art-05-03-299"><head>Articulo 299.</head>
+      <p>El juez y el Alcaide que faltaren á lo dispuesto en los artículos
+         precedentes, serán castigados como reos de detencion arbitraria,
+         la que será comprehendida como delito en el código criminal.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-300"><head>Articulo 300.</head>
+      <p>Dentro de las veinte y quatro horas se manifestará al tratado como reo
+         la causa de su prision, y el nombre de su acusador, si lo hubiere.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-301"><head>Articulo 301.</head>
+      <p>Al tomar la confesion al tratado como reo se le leerán íntegramente
+         todos los documentos y las declaraciones de los testigos con los
+         nombres de estos; y si por ellos no los conociere, se le darán
+         quantas noticias pida para venir en conocimiento de quienes son.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-302"><head>Articulo 302.</head>
+      <p>El proceso de allí en adelante será público en el modo y forma
+         que determinan las leyes.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-303"><head>Articulo 303.</head>
+      <p>No se usará nunca del tormento y de los apremios.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-304"><head>Articulo 304.</head>
+      <p>Tampoco se impondrá la pena de confiscacion de bienes.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-305"><head>Articulo 305.</head>
+      <p>Ninguna pena que se imponga, por qualquiera delito que sea, ha de
+         ser trascendental por término ninguno á la<pb n="78"/>
+         familia del que la sufre,
+         sino que tendrá todo su efecto presisamente sobre el que la mereció </p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-306"><head>Articulo 306.</head>
+      <p>No podrá ser allanada la casa de ningun Español, sino en los casos
+         que determine la ley para el buen órden y seguridad del Estado.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-307"><head>Articulo 307.</head>
+       <p>Si con el tiempo creyeren las Córtes que conviene haya distinción
+          entre los Jueces del  hecho y del derecho, la establecerán
+          en la forma que juzguen conducente.</p>
+    </div>
+    <div type="articulo" xml:id="art-05-03-308"><head>Articulo 308.</head>
+       <p>Si en circunstancias extraordinarias la seguridad del Estado
+          exigiese, en toda Monarquía ó en parte de ella, la suspensión de
+          algunas de las formalidades prescritas en este Capitulo para el 
+          arresto de los delinqüentes, podrán las Córtes decretarla por un
+          tiempo determinado</p>
+    </div> 
+  </div>
+  </div> <!-- titulo -->
+  <div type="titulo" xml:id="art-06">
+    <head>Del gobierno interior de las Provincias y de los Pueblos.</head>
+  <div type="capitulo" xml:id="art-06-01">
+    <head>De los Ayuntamientos.</head>
+    <div type="articulo" xml:id="art-06-01-309"><head>Articulo 309.</head>
+      <p>Para el gobierno interior de los Pueblos habrá Ayuntamientos
+         compuestos del Alcalde ó Alcaldes, los Regidorers, y Procurador Síndico,
+         y presididos por el Gefe político donde lo hu<pb n="79"/>biere,
+         y en su defecto por
+         el Alcalde ó el primer nombrado entre estos, si hubbiere dos.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-310"><head>Articulo 310.</head>
+      <p>Se pondrá Ayuntamiento en los Pueblos que no lo tengan y en que 
+         convenga le haya, no pudiendo dexar de hablarle en los que por si ó con
+         su comarca lleguen á mil almas, y tambien se les señalará el termino  
+         correspondiente.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-311"><head>Articulo 311.</head>
+      <p>Las leyes determinarán el número de Indivíduos de toda clase,
+         de que han de componerse las Ayuntamientos de los Pueblos
+         con respecto á su vecindario.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-312"><head>Articulo 312.</head>
+      <p>Los Alcaldes, Regidores y Procuradores Síndicos se nombrarán
+         por eleccion en los Pueblos, cesando los Regidores y demas que sirvan
+         oficios perpetuos en los Ayuntamientos, qualquiera que sea su titulo
+         y denominacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-313"><head>Articulo 313.</head>
+      <p>Todos los años en el mes de Diciembre se reunirán los Ciudadanos
+         de cada Pueblo, para elegir á pluralidad de votos, con proporcion
+         á su vecindario, determinado numero de electores, que residan en el
+         mismo Pueblo y estén en el exercicio de los derechos de Ciudadano.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-314"><head>Articulo 314.</head>
+      <p>Los electores nombrarán en el mismo mes á pluralidad ab<pb n="80"/>soluta
+         de votos el Alcalde ó Alcaldes, Regidores y Procurador ó procuradores
+         sindicos, para que entren á exercer sus cargos el primerro de Enero del
+         siguiente año.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-315"><head>Articulo 315.</head>
+      <p>Los Alcalddes se mudarán todos los años; los Regidores por mitad
+         cada año, y lo mismo los Procuradores Sindicos donde haya dos:
+         si hubiere solo uno se mudará todos los años.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-316"><head>Articulo 316.</head>
+      <p>El que hubiere exercido qualquiera de estos cargos, no podrá volver
+         á ser elegido para ninguno de ellos, sin que pasen por
+         lo menos dos años, donde el vecindario lo permita.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-317"><head>Articulo 317.</head>
+      <p>Para ser Alcalde, Regidor ó Procurador Sindico, ademas de ser Ciudadano
+         en el exercicio de sus derechos, se requiere ser mayor de veinte y
+         cinco años, con cinco, á lo menos de vecindad y residencia en el Pueblo.
+         Las leyes determinarán las demas calidades que han de tener estos
+         empleados.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-318"><head>Articulo 318.</head>
+      <p>No podra ser Alcalde, Regidor, ni Procurador Síndico ningun empleado
+         público de nombramiento del Rey, que esté en exercicio,
+         no entendiéndose comprehendidos en esta regla los que sirvan
+         en las Milicias nacionales.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-319"><head>Articulo 319.</head>
+      <p>Todos los empleos municipales referidos serán carga concegil,<pb n="81"/>
+         de que nadie podrá excusarse sin causa legal.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-320"><head>Articulo 320.</head>
+        <p>Habrá un Secretario en todo Ayuntamiento, elegido por este
+         á pluralidad absoluta de votos, y dotado de los fondos del común.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-321"><head>Articulo 321.</head>
+      <p>Estará á cargo de los Ayuntamientos:
+      <list rend="runon" type="ordered">
+      <item n="1">1.º..La Policía de salubridad y comididad.</item>
+      <item n="2">2.º..Auxiliar al Alcalde en todo lo que pertenezca á la
+      	        seguridad de las personas y bienes de los vecinos, y á la
+      	        conservacion del órden publico. </item>
+      <item n="3">3.º..La administracion é inversion de los caudales de
+                Propios y Arbitrios conforme á las leyes y reglamentos, con el
+                cargo de nombrar depositario baxo responsabilidad de los que le          
+                nombran.</item>
+      <item n="4">4.º..Hacer el repartimiento y recaudacion de las
+      	        contribuciones, y remitirles á la tesoreria respectiva.</item>
+      <item n="5">5.º..Cuidar de todas las Escuelas de primeras letras,
+                y de los damas establecimientos de educacion que se paguen
+                de los fondos del comun.</item>
+      <item n="6">6.º..Cuidar de los Hospitales, Hospicios, casas de expósitos
+                y demas establecimientos de beneficencia, baxo las reglas que se
+                prescriban.</item>
+      <item n="7">7.º..Cuidar de la construccion y reparacion de caminos,
+                cal<pb n="82"/>zadas, canales, puentes y cárceles,
+                de los montes y plantios del comun,
+                y de todas las obras públicas de necesidad,
+                utilidad y ornato.</item>
+      <item n="8">8.º..Formar las ordenanzas municipales del Pueblo,
+                y presentarlas á las Córtes para su aprobacion por medio
+                de la Diputacion Provincial, que las acompañará
+                con su informe.</item>
+       <item n="9">9.º..Promover la agricultura, la industria y el comercio
+                segun la localidad y circunstancias de los Pueblos, y quanto
+                les sea útil y beneficioso.</item>
+      </list></p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-322"><head>Articulo 322.</head>
+      <p>Si se ofrecieren obras ú otros objetos de utilidad común, y por
+         no  ser  suficientes los Caudales de Propios fuere necesario recurrir
+         á arbitrios, no podrán imponerse estos, sino obteniendo por medio de
+         la Diputación Provincial la aprobación de las Córtes. En el caso de ser
+         urgente la obra ú objeto á que se destinen, podrán los Ayuntamientos
+         usar interinamente de ellos con el consentimiento de la misma
+         Diputacion, mientras recae la resolución de las Córtes. Estos arbitrios
+         se administrarán en todo como los Caudales de Propios.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-01-323"><head>Articulo 323.</head>
+      <p>Los Ayuntamientos desempeñaran todos estos encargos baxo la inspección
+         de la Diputacion Provincial, á quien rendirán cuenta justificada cada
+         año de los caudales públicos que hayan recaudado é invertido.</p>
+    </div>
+  </div>
+<pb n="83"/>
+  <div type="capitulo" xml:id="art-06-02">
+    <head>Del gobierno político de las Provincias, y de las Diputationes Provinciales.</head>
+    <div type="articulo" xml:id="art-06-02-324"><head>Articulo 324.</head>
+      <p>El Gobierno político de las Provincias reside en el Gefe superior 
+         nombrado por el Rey en cada una de ellas.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-325"><head>Articulo 325.</head>
+      <p>En cada Provincia habrá una Diputacion llamada Provincial, para      
+         promover la prosperidad, presidida por el Gefe superior.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-326"><head>Articulo 326.</head>
+      <p>Se compondrá esta Diputacion del Presidente, Intendente y 
+         siete Individuos elegidos en la forma que se dirá, sin perjuicio de que
+         las Córtes en lo sucesivo varíen este número como lo crean conveniente,
+         ó lo exijan las circunstancias, hecha que sea la nueva division de
+         Provincias de que trata el artículo 11.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-327"><head>Articulo 327.</head>
+      <p>La Diputacion Provincial se renovará cada dos años por mitad, saliendo
+         la primera vez el mayor numero, y la segunda el menor; y asi
+         sucesivamente.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-328"><head>Articulo 328.</head>
+      <p>La eleccion de estos Individuos se  hará por los electores de Partido
+         al otro dia de haber nombrado los Diputados de Córtes, por el mismo
+         órden con que estos se nombran.</p>
+    </div>
+<pb n="84"/>
+    <div type="articulo" xml:id="art-06-02-329"><head>Articulo 329.</head>
+      <p>Al mismo tiempo y en la misma forma se elegirán tres Suplentes
+         para cada diputacion.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-330"><head>Articulo 330.</head>
+      <p>Para ser individuo de la Diputacion Provincial se require ser
+         Ciudadano en el exercicio de sus derechos, mayor de veinte y cinco años,
+         natural ó vecino de la Provinccia con residencia al menos de siete años,
+         y que tenga lo suficiene para mantenerse con decencia; y no podrá
+         serlo ninguno de los empleados de nombramiento del Rey, de que trata 
+         el artículo 318.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-331"><head>Articulo 331.</head>
+      <p>Para que una misma persona pueda ser elegida segunda vez, deberá
+         haber pasado á lo menos el tiempo de quatro años despues de haber
+         cesado en sus funciones.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-332"><head>Articulo 332.</head>
+      <p>Quando el Gefe superior de la Provincia no pudiere presidir la
+         Diputacion, la presidirá el Intendente, y en su defecto el vocal que
+         fuere primer nombrado.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-333"><head>Articulo 333.</head>
+      <p>La diputacion nombrará un Secretario, dotado de los fondos públicos de
+         la Provincia.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-334"><head>Articulo 334.</head>
+      <p>Tendrá la Diputacion en cada año á lo mas noventa dias de sesiones
+         distribuidas en las épocas que mas convenga.
+         En la Penin<pb n="85"/>sula deberán
+         hallarse reunidas las Diputaciones para el primero de Marzo, y en
+         Ultramar para el primero de Junio.</p>
+    </div>
+    <div type="articulo" xml:id="art-06-02-335"><head>Articulo 335.</head>
+      <p>Tocara á estas Diputaciones:</p>
+      <list rend="runon" type="ordered">
+        <item n="1">1.º..Intervenir y aprobar el repartimiento hecho
+                 á las Pueblos de las contribuciones que hubieren cabido á
+                 la Provincia.</item>
+        <item n="2">2.º..Velar sobre la buena inversion de los fondos
+                 públicos de los Pueblos, y examinar sus cuentas, para que con
+                 su visto bueno recayga la aprobacion superior, cuidando de
+                 que enn todo se observen las leyes y reglamentos.</item>
+        <item n="3">3.º..Quidar de que se establezcan Ayuntamientos donde 
+                 corresponda los haya, conforrme á lo prevenido en el artículo
+                 310.</item> 
+        <item n="4">4.º..Si se ofrecieren obras nuevas de utilidad común de
+        	 la Provincia, ó la reparacion de las antiguas, proponer al
+        	 Gobierno los arbitrios que crean mas convenientes para su 
+        	 execucion, á fin de obtener el correspondiente permiso de las 
+        	 Córtes. En Ultramar, si la urgencia de las obras públicas no
+        	 permitiese esperar la resolución de las Córtes, podrá la
+        	 Diputacion con expreso asenso del Gefe de la Provincia usar
+        	 desde luego de los arbitrios, dando inmediatamente cuenta  al
+        	 Gobierno para la aprobación de las Córtes.Para  la  recaudación
+        	 de los arbitrio la Diputacion, baxo su responsabilidad, nombrará
+        	 depositario, y las cuentas de la inversion examinadas por la
+        	 Diputacion, se remitarán al Gobierno para que las haga reconocer
+        	 y glosar, y finalmente las pase á las Córtes<pb n="86"/>
+        	 para su aprobación.</item> 
+        <item n="5">5.º..Promover la educación de la juventud conforme á los
+        	 planes aprobados, y fomentar la agricultura, la industria y el
+        	 comercio; protegiendo á los inventores de nuevos descubrimientos 
+        	 en qualquiera de estos ramos.</item>                 
+        <item n="6">6.º..Dar parte al Gobierno de los abusos que noten en la
+                 administración de las rentas públicas.</item>      
+        <item n="7">7.º..Formar el Censo y la estadística de las
+        	 Provincias.</item>      
+        <item n="8">8.º..Cuidar de que los establecimientos piadosos y de
+        	 beneficiencia llenen su respectivo objeto, proponiendo al
+        	 Gobierno las reglas que estimen conducentes para la reforma
+        	 de los abusos que observaren.</item>     
+        <item n="9">9.º..Dar parte á las Córtes de las infracciones de la
+        	 Constitucion que se noten en la Provincia.</item>    
+        <item n="10">10.º..Las Diputaciones de las Provincias de Ultramar
+        	 velarán  sobre la economía, órden y progreso de las misiones 
+        	 para la conversión de los Indios infieles, cuyos encargados les
+        	 darán razon de sus operaciones en este ramo, para que se eviten
+        	 los abusos todo lo que las Diputaciones pondrán en noticia        	 
+        	 del Gobierno.</item>                  
+      </list>
+    </div>
+    <div type="articulo" xml:id="art-06-02-336"><head>Articulo 336.</head>
+      <p>Si alguna Diputacion abusare de sus facultades, podrá el Rey suspender
+         á los Vocales que la componen, dando parte á las Córtes de esta
+         disposicion y de los motivos de ella para la determinacion que
+         corresponda: durante la suspension entrarán en funciones los suplentes.</p>
+    </div>
+<pb n="87"/>
+    <div type="articulo" xml:id="art-06-02-337"><head>Articulo 337.</head>
+      <p>Todos los individuos de los Ayuntamientos y de las Diputaciones
+         de Provincia, al entrar en el exercicio de sus funciones, prestarán
+         juramento aquellos en manos del Gefe político, donde le hubiere, ó en
+         su defecto del Alcalde que fuere nombrado, y estos en las del Gefe
+         superior de la Provincia, de guardar la Constitucion política de la
+         Monarquía Española, observar las leyes, ser fieles al Rey, y cumplir
+         religiosamente las obligaciones de su cargo.</p>
+    </div>
+  </div>
+  </div>
+  <div type="titulo" xml:id="art-07">
+    <head>De las contribuciones.</head>
+  <div type="capitulo" xml:id="art-07-01">
+     <div type="articulo" xml:id="art-07-01-338"><head>Articulo 338.</head>
+      <p>Las Córtes establecerán ó confirmarán anualmente las contribuciones,
+       sean directas ó indirectas, generales, Provinciales ó municipales,
+       subsistiendo las antiguas, hasta que se publiqe su derogacion ó la
+       imposicion de otras.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-339"><head>Articulo 339.</head>
+    <p>Las contribuciones se repartirán entre todos los Españoles con
+       proporcion á sus facultades, sin excepcion ni previlegio alguno.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-340"><head>Articulo 340.</head>
+      <p>Las contribuciones seran proporcionadas á los gastos que se decreten
+         por las Córtes para el servicio público en todos los ramos.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-341"><head>Articulo 341.</head>
+      <p>Para que las Córtes puedan fixar los gastos en todos los ramos<pb n="88"/>
+         del servico público, y las contribuciones que deban cubrirlos,
+         el Secretario del Despacho de Hacienda las presentará luego que estén
+         reunidas, el presupuesto general de los que se estimen precisos,
+         recogiendo de cada uno de los demas Secretarios del Despacho
+         el respectivo á su ramo.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-342"><head>Articulo 342.</head>
+      <p>El mismo Secretario del Despacho de Hacienda presentará con el
+         prespuesto de los gastos el plan de contribuciones que deban imponerse
+         para llenarlos.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-343"><head>Articulo 343.</head>
+      <p>Si al Rey pareciere gravoso ó perjudicial alguna contribucion,
+         lo manifestará á las Córtes por el Secretario del Despacho
+         de Hacienda, presentando al mismo tiempo la que crea mas conveniente
+         sustituir.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-344"><head>Articulo 344.</head>
+      <p>Fixada la qüota de la contribucion directa, las Córtes aprobarán
+         el repartimiento de ella entre las Provincias, á cada una de las quales
+         se asignará el cupo correspondiente á su riqueza, para lo que el
+         Secretario del Despacho de Hacienda presentará tambien los presupuestos
+         necesarios.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-345"><head>Articulo 345.</head>
+      <p>Habrá una tesorería general para toda la Nacion, á la
+         que tocará disponer de todos los productos de qualquiera
+         renta destinada al servicio del Estado.</p>
+    </div>
+<pb n="89"/>
+    <div type="articulo" xml:id="art-07-01-346"><head>Articulo 346.</head>
+      <p>Habrá en cada Provincia una tesorería, en la que estarán todos
+         los caudales que en ella se recauden para el Erario público.
+         Estas tesorerías estarán en correspondencia con la general,
+         á cuya disposicion tendrán todos sus fondos.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-347"><head>Articulo 347.</head>
+      <p>Ningun pago se admitirá en cuenta al tesorero general,
+         si no se hiciere en virtud de decreto del Rey, refrendado por
+         el Secretario del Despacho de Hacienda, en el que se expresen
+         el gasto á que se destina su importe, y el decreto de las Córtes
+         con que este se autoriza.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-348"><head>Articulo 348.</head>
+      <p>Para que la tesorería general lleve su cuenta con la pureza
+         que corresponde, el cargo y la data deberán ser intervenidos
+         respectivamente por las Contadurias de valores y de distribucion
+         de la renta pública.</p>
+    </div><div type="articulo" xml:id="art-07-01-349"><head>Articulo 349.</head>
+      <p>Una instruccion particular arreglará estas oficinas de manera que
+         sirvan para los fines de su instituto.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-350"><head>Articulo 350.</head>
+      <p>Para el examen de todas las cuentas de caudales públicos
+         habrá una Contaduria mayor de cuentas que se organizará
+         por una ley especial.</p>
+    </div>
+<pb n="90"/>
+    <div type="articulo" xml:id="art-07-01-351"><head>Articulo 351.</head>
+      <p>La cuenta de la tesorería general, que comprehenderá el rendimiento
+         anual de todas las contribuciones y rentas, y su inversion, luego que
+         reciva la aprobacion final de las Córtes, se imprimiriá, publicará y
+         circulará á las Diputaciones de Provincia y á los Ayuntamientos.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-352"><head>Articulo 352.</head>
+      <p>Del mismo modo se imprimirán, publicarán y circularán las cuentas
+         que rindan los Secretarios del Despacho de los gastos hechos en sus
+         respectivos ramos.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-353"><head>Articulo 353.</head>
+      <p>El manejo de la Hacienda pública estará siempre independiente
+         de toda otra autoridad que aquella á la que está encomendado.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-354"><head>Articulo 354.</head>
+      <p>No habrá Aduanas sino en los Puertos de Mar y en las Fronteras;
+         bien que esta disposicion no tendrá efecto hasta que las Córtes lo
+         determinen.</p>
+    </div>
+    <div type="articulo" xml:id="art-07-01-355"><head>Articulo 355.</head>
+      <p>La deuda pública reconocida será una de las primeras atenciones
+         de las Córtes, y estas podrán el mayor cuidado en que se vaya
+         verificando su progresiva extincion, y siempre el pago de los réditos
+         en la parte que los devengue, arreglando todo lo concerniente á la
+         direccion de este importante ramo, tanto respecto á los arbitrios que
+         se establecieren, los quales se manejarán<pb n="91"/>
+         con absoluta separacion de la tesoreria general,
+         como respecto á las oficinas de cuenta y razon.</p>
+    </div>
+  </div>
+  </div>
+  <div type="titulo" xml:id="art-08">
+    <head>De la fuerza militar.</head>
+  <div type="capitulo" xml:id="art-08-01">
+    <head>De las tropas de continuo servicio.</head>
+    <div type="articulo" xml:id="art-08-01-356"><head>Articulo 356.</head>
+      <p>Habrá una fuerza militar nacional permanente, de tierra y de mar, para la
+         defensa exterior del Estado y la conservacion del órden interior.</p>
+    </div>
+    <div type="articulo" xml:id="art-08-01-357"><head>Articulo 357.</head>
+      <p>Las Córtes fixarán anualmente el numero de tropas que fueren necesarias
+         segun las circunstancias, y el modo de levantarlas que fuere mas
+         conveniente.</p>
+    </div>
+    <div type="articulo" xml:id="art-08-01-358"><head>Articulo 358.</head>
+      <p>Las Córtes fixarán asímismo anualmente el número de Buques de la
+         Marina militar que han de armarse ó conservarse armados.</p>
+    </div>
+    <div type="articulo" xml:id="art-08-01-359"><head>Articulo 359.</head>
+      <p>Establecerán las Córtes por medio de las respectivas ordenanzas todo
+         lo relativo á la disciplina, orden de ascensos, sueldos, administracion
+         y quanto corresponda á la buena constitucion del Exército y Armada.</p>
+    </div>
+<pb n="92"/>
+    <div type="articulo" xml:id="art-08-01-360"><head>Articulo 360.</head>
+      <p>Se establecerán escuelas militares para la enseñanza é instruccion de
+         todas las diferentes armas del Exército y Armada.</p>
+    </div>
+    <div type="articulo" xml:id="art-08-01-361"><head>Articulo 361.</head>
+      <p>Ningun Español podrá excusarse del servicio militar, quando y en la
+         forma que fuere llamado por la ley.</p>
+    </div>
+  </div>
+  <div type="capitulo" xml:id="art-08-02">
+    <head>De las Milicias nacionales.</head>
+    <div type="articulo" xml:id="art-08-02-362"><head>Articulo 362.</head>
+      <p>Habrá en cada Provincia Cuerpos de milicias nacionales, compuestos
+         de habitantes de cada una de ellas, con proporcion á su poblacion y
+         circunstancias.</p>
+    </div>
+    <div type="articulo" xml:id="art-08-02-363"><head>Articulo 363.</head>
+      <p>Se arreglará por una ordenanza particular el modo de su formacion,
+         su número, y especial constitucion en todos sus ramos.</p>
+    </div>
+    <div type="articulo" xml:id="art-08-02-364"><head>Articulo 364.</head>
+    <p>El servicio de estas milicias no será continuo, y solo tendrá lugar
+       quando las circunstancias lo requieren.</p>
+    </div>
+    <div type="articulo" xml:id="art-08-02-365"><head>Articulo 365.</head>
+    <p>En caso necesario podrá el Rey disponer de esta fuerza dentro
+       de la respectiva Provincia: pero no podrá emplearla fuera sin
+       otorgamiento de las Córtes.</p>
+    </div>
+  </div>
+  </div>
+<pb n="93"/>
+  <div type="titulo" xml:id="art-09">
+    <head>De la instruccion pública.</head>
+  <div type="capitulo" xml:id="art-09-01">
+    <div type="articulo" xml:id="art-09-01-366"><head>Articulo 366.</head>
+      <p>En todos los Pueblos de la Monarquia se establecerán escuelas
+         de primeras letras, en las que se enseñará á los niños á leer,
+         escribir y contar, y el catecismo de la religion católica,
+         que comprehenderá tambien una breve exposicion de las obligaciones
+         civiles.</p>
+    </div>
+    <div type="articulo" xml:id="art-09-01-367"><head>Articulo 367.</head>
+      <p>Asímismo se arreglará y creará el numero competente de Universidades
+         y de otros establecimientos de instruccion, que se juzguen convenientes
+         para la enseñanza de todas las ciencias, literatura y bellas artes.</p>
+    </div>
+    <div type="articulo" xml:id="art-09-01-368"><head>Articulo 368.</head>
+      <p>El plan general de ensañanza sera uniforme en todo el Reyno,
+         debiendo explicarse la Constitucion política de la Monarquía
+         en todas las universidades y establecimientos literarios,
+         donde se enseñen las ciencias eclesiásticas y políticas.</p>
+    </div>
+    <div type="articulo" xml:id="art-09-01-369"><head>Articulo 369.</head>
+      <p>Habrá una direccion general de estudios, compuesta de personas
+         de conocida instruccion, á cuyo cargo estará, baxo la autoridad del
+         Gobierno, la inspeccion de la enseñanza pública.</p>
+    </div>
+<pb n="94"/>
+    <div type="articulo" xml:id="art-09-01-370"><head>Articulo 370.</head>
+      <p>Las Córtes por medio de planes y estatutos especiales arreglarán
+         quanto pertenezca al importante obgeto de la instruccion pública.</p>
+    </div>
+    <div type="articulo" xml:id="art-09-01-371"><head>Articulo 371.</head>
+      <p>Todos los Españoles tienen libertad de escribir, imprimir y publicar
+         sus ideas políticas sin necesidad de licencia, revision, ó aprobacion
+         alguna anterior á la publicacion, baxo las restricciones y
+         responsabilidad que establezcan las leyes.</p>
+    </div>
+  </div>
+  </div> <!-- titulo -->
+    <div type="titulo" xml:id="art-10">
+    <head>De la observancia de la Constitucion, y modo de proceder para hacer
+    	variaciones en ella.</head>
+  <div type="capitulo" xml:id="art-10-01">
+    <div type="articulo" xml:id="art-10-01-372"><head>Articulo 372.</head>
+      <p>Las Córtes en sus primeras Sesiones tomarán en consideracion
+         las infracciones de la Constitucion, que se les hubieren hecho
+         presentes, para poner el conveniente remedio, y hacer efectiva
+         la responsabilidad de los que hubieren contravenido á ella.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-373"><head>Articulo 373.</head>
+    <p>Todo Español tiene derecho de representar á las Córtes ó al Rey
+       para reclamar la observancia de la Constitucion.
+      </p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-374"><head>Articulo 374.</head>
+      <p>Toda persona que exerza cargo público, civil, militar ó eclesiástico,
+         prestará Juramento, al tomar posesion de su destino, de<pb n="95"/>
+         guardar la Constitucion,
+         ser fiel al Rey y desempeñar debidamente su encargo.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-375"><head>Articulo 375.</head>
+      <p>Hasta pasados ocho años despues de hallarse puesta en práctica
+         la Constitucion en todas sus partes, no se podrá proponer alteracion,
+         adicion ni reforma en ninguno de sus articulos.</p> 
+    </div>
+    <div type="articulo" xml:id="art-10-01-376"><head>Articulo 376.</head>
+    <p>Para hacer qualquiera alteracion, adicion ó reforma en la Constitucion,
+       será necesario que la Diputacion que haya de decretarla definitivamente,
+       venga autorizada con poderes especiales para este objeto.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-377"><head>Articulo 377.</head>
+      <p>Qualquiera proposicion de reforma en algun artículo de la
+         Constitucion deberá hacerse por escrito, y ser apoyada y firmada al
+         menos por veinte Diputados.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-378"><head>Articulo 378.</head>
+      <p>La proposicion de reforma se leerá por tres veces, con el intervalo
+         de seis dias de una á otra lectura; y despues de la tercera se
+         deliberará si ha lugar á admitirla á discusion.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-379"><head>Articulo 379.</head>
+      <p>Admitida á discusion, se procedará en ella baxo las mismas formalidades
+         y trámites que se prescriben para la formacion de las leyes, despues de
+         los quales se propondrá á la votacion=
+         <hi rend="underline">si há lugar á tratarse de nuevo
+         en la siguiente diputacion<pb n="96"/> general:</hi>
+         y para que así quede declarado
+         deberán convenir las dos terceras partes de los votos.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-380"><head>Articulo 380.</head>
+      <p>La Diputacion general siguiente, prévias las mismas formalidades
+         en todas sus partes, podrá declarar en qualquiera de los dos años
+         de sus sesiones, conveniendo en ellos las dos terceras partes de votos,
+         que ha lugar al otorgamiento de poderes especiales para hacer la
+         reforma.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-381"><head>Articulo 381.</head>
+      <p>Hecha esta declaracion, se publicará y comunicará á todas
+         las Provincias, y segun el tiempo en que se hubiere hecho,
+         determinarán las Córtes se ha de ser la Diputacion proximamente
+         inmediata o la siguiente á esta, la que ha de traer los poderes
+         especiales.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-382"><head>Articulo 382.</head>
+      <p>Estos serán otorgados por las Juntas electorales de Provincia añadiendo
+         á los poderes ordinarios la clausula siguiente= 
+          "Asímismo les otorgan poder especial para hacer en la Constitucion
+          la reforma de que trata el Decreto de las Córtes, cuyo tenor es el
+          siguiente(aquí el Decreto literal.) Todo con arreglo á lo prevenido
+          por la misma Constitucion. Y se obligan á reconocer y tener por
+          constitucional lo que en su virtud establecieren."</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-383"><head>Articulo 383.</head>
+      <p>La reforma propuesta se discutirá de nuevo; y si fuere aprobada<pb n="97"/>
+         por las dos terceras partes de Diputados,
+         pasará á ser ley constitucional,
+         y como tal se publicará en las Córtes.</p>
+    </div>
+    <div type="articulo" xml:id="art-10-01-384"><head>Articulo 384.</head>
+      <p>Una diputacion presentará el decreto de reforma al Rey, para que le
+         haga publicar y circular á todas las autoridades y Pueblos de la
+         Monarquía.</p>
+    </div>
+  </div>
+</div> <!-- titulo -->
+<div type="firmas" xml:id="art-11">
+  <head>firmas </head>
+    <p>Cadiz <date when="1812-03-18">diez y ocho de Marzo del año de mil ochocientos y doce</date>.</p>
+
+    <p><name ref="gente.xml#Vic.te Pascual">Vic.te Pascual</name>,  Diputado por la <name ref="lugar.xml#Ciudad de Teruel" type="place">Ciudad de Teruel</name>, Presidente </p>
+
+    <p><name ref="gente.xml#Antonio Joaq. Perez">Antonio Joaq. Perez</name>, Dip.to por la <name ref="lugar.xml#Prov.a de  la Puebla de los Ang.es" type="place">Prov.a de  la Puebla de los Ang.es</name></p>
+    <p><name ref="gente.xml#Benito Ram de Hermida">Benito Ram de Hermida</name>, Diputado por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#Antonio Sampér">Antonio Sampér</name>,  Diputado por la <name ref="lugar.xml#Valencia." type="place">Valencia.</name></p>
+    <p><name ref="gente.xml#José Simeon	de Uría">José Simeon de Uría</name>, Diputado de <name ref="lugar.xml#Guadalax.a" type="place">Guadalax.a  Capital del nuevo Reyno de la Galicia</name></p>
+    <p><name ref="gente.xml#Fran.co Garcés y Barea">Fran.co Garcés y Barea</name>, Diputado por la <name ref="lugar.xml#Serranía de Ronda" type="place">Serranía de Ronda.</name></p>
+    <p><name ref="gente.xml#Pedro Gonz de Llamas">Pedro Gonz de Llamas</name>, Diputado por la <name ref="lugar.xml#Reyno de Murcia" type="place">el Reyno de Murcia.</name></p>
+<pb n="98"/>
+    <p><name ref="gente.xml#Cárlos Andres">Cárlos Andres</name>, Diputado por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Juan Bernardo  O-Gavan">Juan Bernardo  O-Gavan</name>, Diputado por la <name ref="lugar.xml#Cuba" type="place">Cuba</name></p>
+    <p><name ref="gente.xml#Fran.co Xavier Borull i Vilanova">Fran.co Xavier Borull i Vilanova</name>, Diputado por la <name ref="lugar.xml#Valencia." type="place">Valencia.</name></p>
+    <p><name ref="gente.xml#Joaquin Lorenzo Villanueva">Joaquin Lorenzo Villanueva</name>, Diputado por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Fran.co de Sales Rodriguez de la Barcena">Fran.co de Sales Rodriguez de la Barcena</name>, Diputado por la <name ref="lugar.xml#Sevilla" type="place">Sevilla</name></p>
+    <p><name ref="gente.xml#Luis Rez del Monte">Luis Rez del Monte</name>, Dip.o por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#José Joaq.n Ortiz">José Joaq.n Ortiz</name>, Diputado por la <name ref="lugar.xml#Panamá" type="place">Panamá</name></p>
+    <p><name ref="gente.xml#Santiago Key y Muñoz">Santiago Key y Muñoz</name>, Diput.do por la <name ref="lugar.xml#Canarias" type="place">Canarias</name></p>
+    <p><name ref="gente.xml#Diego Muñoz Torrero">Diego Muñoz Torrero</name>, Diputado por la <name ref="lugar.xml#Extremad.a" type="place">Extremad.a</name></p>
+    <p><name ref="Andres Morales de los Rios">Andres Morales de los Rios</name> por la <name ref="lugar.xml#Ciudad de Cádiz" type="place">Ciudad de Cádiz</name></p>
+    <p><name ref="gente.xml#Antonio Jph Ruiz de Padron">Antonio Jph Ruiz de Padron</name>, Diputado por la <name ref="lugar.xml#Canarias" type="place">Canarias</name></p>
+    <p><name ref="gente.xml#José Miguel	Guridi Alcocer">José Miguel Guridi Alcocer</name>, Dip.o por la <name ref="lugar.xml#Tlaxcala" type="place">Tlaxcala</name></p>
+<pb n="99"/>
+    <p><name ref="gente.xml#Pedro Ribera">Pedro Ribera</name>, Diput.o por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#José Mexía Lequerica">José Mexía Lequerica</name>, Dip.o por la <name ref="lugar.xml#el Nuevo Reyno de Granada ." type="place">el Nuevo Reyno de Granada .</name></p>
+    <p><name ref="gente.xml#José Mig.l Gordoa y Barrios">José Mig.l Gordoa y Barrios</name>, Diput.o por la <name ref="lugar.xml#Provincia de Zacatecas" type="place">Provincia de Zacatecas</name></p>
+    <p><name ref="gente.xml#Isidoro Martinez Fortun">Isidoro Martinez Fortun</name>, Diputado por la <name ref="lugar.xml#Murcia" type="place">Murcia</name></p>
+    <p><name ref="gente.xml#Florencio Castillo">Florencio Castillo</name>, Dip.o por la <name ref="lugar.xml#Costa-Rica" type="place">Costa-Rica</name></p>
+    <p><name ref="gente.xml#Felipe Vazquez">Felipe Vazquez</name>, Dip.do por la <name ref="lugar.xml#el Principado de Asturias." type="place">el Principado de Asturias.</name></p>
+    <p><name ref="gente.xml#Bernardo Obispo de Mallorca">Bernardo Obispo de Mallorca</name>, Diputado por la <name ref="lugar.xml#ciudad de Palma" type="place">ciudad de Palma</name>.</p>
+    <p><name ref="gente.xml#Juan de Salas">Juan de Salas</name>, Diputado por la <name ref="lugar.xml#Serranía de Ronda" type="place">Serranía de Ronda</name></p>
+    <p><name ref="gente.xml#Alonso Cañedo">Alonso Cañedo</name>, Diput.do por la <name ref="lugar.xml#Junta de Asturias" type="place">Junta de Asturias</name></p>
+    <p><name ref="gente.xml#Geronimo Ruiz">Geronimo Ruiz</name>, Diputado por la <name ref="lugar.xml#Segovia" type="place">Segovia</name></p>
+    <p><name ref="gente.xml#Manuel de Rojas Cortés">Manuel de Rojas Cortés</name>, Dip.o por la <name ref="lugar.xml#Cuenca" type="place">Cuenca</name></p>
+    <p><name ref="gente.xml#Alfonso Rovira">Alfonso Rovira</name>, Diput.do por la <name ref="lugar.xml#Murcia" type="place">Murcia</name></p>
+<pb n="100"/>
+    <p><name ref="gente.xml#José María Rocafull">José María Rocafull</name>, Diput.do por la <name ref="lugar.xml#Murcia" type="place">Murcia</name></p>
+    <p><name ref="gente.xml#Manuel García Herreros">Manuel García Herreros</name>, D.do por la <name ref="lugar.xml#Prov.a de Soria" type="place">Prov.a de Soria</name></p>
+    <p><name ref="gente.xml#Manuel de Aróstegui">Manuel de Aróstegui</name>, Dipp.do por la <name ref="lugar.xml# Alava" type="place"> Alava</name></p>
+    <p><name ref="gente.xml#Antonio Alcayna">Antonio Alcayna</name>, Dip.do por la <name ref="lugar.xml#Granada." type="place">Granada.</name></p>
+    <p><name ref="gente.xml#Juan de Lera y Cano">Juan de Lera y Cano</name>, Diput.do por la <name ref="lugar.xml#Mancha" type="place">Mancha</name></p>
+    <p><name ref="gente.xml#Francisco Obpo de Calahorra i la Calzada">Francisco Obpo de Calahorra i la Calzada</name>, Diputado por la <name ref="lugar.xml#Junta superior de Burgos" type="place">Junta superior de Burgos</name></p>
+    <p><name ref="gente.xml#Antonio de Parga">Antonio de Parga</name>, Dip.do por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#Antonio Payan">Antonio Payan</name>, Dip.do por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#José Ant.Lopez de la Plata">José Ant.Lopez de la Plata</name>, Dip.do por la <name ref="lugar.xml#Nicaragua." type="place">Nicaragua.</name></p>
+    <p><name ref="gente.xml#Juan Bern.do Quiroga y Uria">Juan Bern.do Quiroga y Uria</name>, Diputado por la <name ref="lugar.xml#Galicia." type="place">Galicia.</name></p>
+    <p><name ref="gente.xml#Manuel Ros">Manuel Ros</name>, Dip.do por la <name ref="lugar.xml#Galicia." type="place">Galicia.</name></p>
+    <p><name ref="gente.xml#Fran.co Pardo">Fran.co Pardo</name>, Diput.o por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+<pb n="101"/>
+    <p><name ref="gente.xml#Agustin Rodriguez Baham.de">Agustin Rodriguez Baham.de</name>, Diputado por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#Manuel de Luxan">Manuel de Luxan</name>, Diputado por la <name ref="lugar.xml#Extremadura" type="place">Extremadura</name></p>
+    <p><name ref="gente.xml#Antonio Oliveros">Antonio Oliveros</name>, Dip.do por la <name ref="lugar.xml#Extrem.ra" type="place">Extrem.ra</name></p>
+    <p><name ref="gente.xml#Manuel Goyanes">Manuel Goyanes</name>, Dip.o por la <name ref="lugar.xml#Leon." type="place">Leon.</name></p>
+    <p><name ref="gente.xml#Domingo Dueñas y Castro">Domingo Dueñas y Castro</name>, Dip.do por la <name ref="lugar.xml#el Reyno en Granada" type="place">el Reyno en Granada</name></p>
+    <p><name ref="gente.xml#Vic.te Terrero">Vic.te Terrero</name>, Diput.o por la <name ref="lugar.xml#Prov. de Cádiz" type="place">Prov. de Cádiz</name></p>
+    <p><name ref="gente.xml#Fran.co Gonzalez Peinado">Fran.co Gonzalez Peinado</name>, Diputado por la <name ref="lugar.xml#el Reino de Jaen." type="place">el Reino de Jaen.</name></p>
+    <p><name ref="gente.xml#Joseph Cerero">Joseph Cerero</name>, Diputado por la <name ref="lugar.xml#Prov.ca de Cá.z" type="place">Prov.ca de Cá.z</name></p>
+    <p><name ref="gente.xml#Luis Gonz. Colombres">Luis Gonz. Colombres</name>, Diputado por la <name ref="lugar.xml#Leon" type="place">Leon</name></p>
+    <p><name ref="gente.xmlFernando de Llarena y Franchy">Fernando de Llarena y Franchy</name>, Diputado por la <name ref="lugar.xml#Canarias" type="place">Canarias</name></p>
+    <p><name ref="gente.xml#Agustín de Argüelles">Agustín de Argüelles</name>, Dip.do por la <name ref="lugar.xml#Princip.do de Asturias" type="place">Princip.do de Asturias</name></p>
+    <p><name ref="gente.xml#José Ign.o Beye Cisneros">José Ign.o Beye Cisneros</name>, Diputado por la <name ref="lugar.xml#Mégico" type="place">Mégico</name></p>
+<pb n="102"/>
+    <p><name ref="gente.xml#Guillermo Moragues">Guillermo Moragues</name>, Dip.do por la <name ref="lugar.xml#junta de Mallorca" type="place">junta de Mallorca</name></p>
+    <p><name ref="gente.xml#Antonio Valcarce y Peña">Antonio Valcarce y Peña</name>, Diputado por la <name ref="lugar.xml#Leon" type="place">Leon</name></p>
+    <p><name ref="gente.xml#Fran.co de Mosquera y Cabrera">Fran.co de Mosquera y Cabrera</name>, Dip.o por la <name ref="lugar.xml#Santo Domingo" type="place">Santo Domingo</name></p>
+    <p><name ref="gente.xml#Evaristo Perez de Castro">Evaristo Perez de Castro</name>, Diput.do por la <name ref="lugar.xml#la	Provincia de Valladolid" type="place">la	Provincia de Valladolid</name></p>
+    <p><name ref="gente.xml#Octaviano Obregon">Octaviano Obregon</name>, Diputado por la <name ref="lugar.xml#Guanaxuato" type="place">Guanaxuato</name></p>
+    <p><name ref="gente.xml#Fran.co Fernz Munilla">Fran.co Fernz Munilla</name>, Dipu.do por la <name ref="lugar.xml# N.E." type="place"> N.E.</name></p>
+    <p><name ref="gente.xml#Juan José Guereña">Juan José Guereña</name>, Diput.do por la <name ref="lugar.xml#Durango  Capital del Reyno de la nueva Vizcaya" type="place">Durango  Capital del Reyno de la nueva Vizcaya</name></p>
+    <p><name ref="gente.xml#Alonso Nuñez de Haro">Alonso Nuñez de Haro</name>, Dip.do por la <name ref="lugar.xml#Cuenca" type="place">Cuenca</name></p>
+    <p><name ref="gente.xml#José Aznarez">José Aznarez</name>, Dip.do por la <name ref="lugar.xml#Aragon" type="place">Aragon</name></p>
+    <p><name ref="gente.xml#Miguel Alfonso Villagomez">Miguel Alfonso Villagomez</name>, Dip.do por la <name ref="lugar.xml#Leon" type="place">Leon</name></p>
+    <p><name ref="gente.xml#Simon Lopez">Simon Lopez</name>, Diputado por la <name ref="lugar.xml#Murcia" type="place">Murcia</name></p>
+    <p><name ref="gente.xml#Vicente Tomas Traver">Vicente Tomas Traver</name>, Dip.do por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+<pb n="103"/>
+    <p><name ref="gente.xml#Baltasar Esteller">Baltasar Esteller</name>, Dip.do por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Antonio Lloret y Marti">Antonio Lloret y Marti</name>, Diputado por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#José de Torres y Machy">José de Torres y Machy</name>, Dip.do por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#José Martinez">José Martinez</name>, Diput.do por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Ramon Giraldo de Arquellada">Ramon Giraldo de Arquellada</name>, Dip.do por la <name ref="lugar.xml#La Mancha." type="place">La Mancha.</name></p>
+    <p><name ref="gente.xml#Baron de casablanca">Baron de casablanca</name>, Diputado por la <name ref="lugar.xml#ciu.d  de Peniscola." type="place">ciu.d  de Peniscola.</name></p>
+    <p><name ref="gente.xml#José Ant.o Sombiela">José Ant.o Sombiela</name>, Dip.do por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Fran.co Santalla y Quindós">Fran.co Santalla y Quindós</name>, Dip.do por la <name ref="lugar.xml#Junta Sup.or de Leon" type="place">Junta Sup.or de Leon</name></p>
+    <p><name ref="gente.xml#Fran.co Gutierrrez de la Huerta">Fran.co Gutierrrez de la Huerta</name>, Dip.do por la <name ref="lugar.xml#Burgos" type="place">Burgos</name></p>
+    <p><name ref="gente.xml#José Eduardo de Cárdenas">José Eduardo de Cárdenas</name>, Diputado por la <name ref="lugar.xml#Tabasco" type="place">Tabasco</name></p>
+    <p><name ref="gente.xml#Raf.l  de Zufriategui">Raf.l  de Zufriategui</name>, Dip.do por la <name ref="lugar.xml#Montev.o" type="place">Montev.o</name></p>
+    <p><name ref="gente.xml#José Morales Gallego">José Morales Gallego</name>, Diput.d por la <name ref="lugar.xml#Junta de Sevilla" type="place">Junta de Sevilla</name></p>
+    <p><name ref="gente.xml#Antonio de Capmany">Antonio de Capmany</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+<pb n="104"/>
+    <p><name ref="gente.xml#Andres de Jauregui">Andres de Jauregui</name>, Dip.do por la <name ref="lugar.xml#Havana" type="place">Havana</name></p>
+    <p><name ref="gente.xml#Antonio Larrazabal">Antonio Larrazabal</name>, Diputado por la <name ref="lugar.xml#Goatemala" type="place">Goatemala</name></p>
+    <p><name ref="gente.xml#José de Vega y Sentmanat">José de Vega y Sentmanat</name>, Dip.o por la <name ref="lugar.xml#Ciu.d  de Cervera" type="place">Ciu.d  de Cervera</name></p>
+    <p><name ref="gente.xml#El Conde de Toreno">El Conde de Toreno</name>, Dip.do por la <name ref="lugar.xml#Asturias" type="place">Asturias</name></p>
+    <p><name ref="gente.xml#Juan Nicasio Gallego">Juan Nicasio Gallego</name>, Diputado por la <name ref="lugar.xml#Zamora" type="place">Zamora</name></p>
+    <p><name ref="gente.xml#Josef Becerra">Josef Becerra</name>, Diput.do por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#Diego de Parada">Diego de Parada</name>, Dip.do por la <name ref="lugar.xml#P.a de Cuenca" type="place">P.a de Cuenca</name></p>
+    <p><name ref="gente.xml#Pedro Ant.o de Aguirre">Pedro Ant.o de Aguirre</name>, Dip.o por la <name ref="lugar.xml#J.ta de Cádiz" type="place">J.ta de Cádiz</name></p>
+    <p><name ref="gente.xml#Mariano Mendiola">Mariano Mendiola</name>, Dip.o por la <name ref="lugar.xml# Queretaro" type="place"> Queretaro</name></p>
+    <p><name ref="gente.xml#Ramon Power">Ramon Power</name>, Dip.do por la <name ref="lugar.xml#P.toRico" type="place">P.toRico</name></p>
+    <p><name ref="gente.xml#José Ign.o Avila">José Ign.o Avila</name>, Dip.o por la <name ref="lugar.xml#Prov.a de S.n Salvador" type="place">Prov.a de S.n Salvador</name></p>
+<pb n="105"/>
+    <p><name ref="gente.xml#José María Couto">José María Couto</name>, Dip.do de <name ref="lugar.xml#N.Esp.a" type="place">"N.Esp.a</name></p>
+    <p><name ref="gente.xml#José Alonso y Lopez">José Alonso y Lopez</name>, Dip.o por la <name ref="lugar.xml#J.ta de Galicia" type="place">J.ta de Galicia</name></p>
+    <p><name ref="gente.xml#Fernando Navarro">Fernando Navarro</name>, D.o por la <name ref="lugar.xml#C.d de Tortosa" type="place">C.d de Tortosa </name></p>
+    <p><name ref="gente.xml#Manuel de Villafañe">Manuel de Villafañe</name>, Diputado por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Andres Ang.l de la Vega Infanzon">Andres Ang.l de la Vega Infanzon</name>, D.o por la <name ref="lugar.xml# Asturias" type="place"> Asturias</name></p>
+    <p><name ref="gente.xml#Maximo Maldanado">Maximo Maldanado</name>, Dip.do por la <name ref="lugar.xml#N.E." type="place">N.E.</name></p>
+    <p><name ref="gente.xml#Joaq.n  Maniau">Joaq.n  Maniau</name>, Dip.do por la <name ref="lugar.xml#Veracruz" type="place">Veracruz</name></p>
+    <p><name ref="gente.xml#Andres Savariego">Andres Savariego</name>, Dip.do p.r <name ref="lugar.xml#N.España" type="place">N.España</name></p>
+    <p><name ref="gente.xml#Josef de Castelló">Josef de Castelló</name>, Diputado por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Juan Quintano">Juan Quintano</name>, Diput.o por la <name ref="lugar.xml#Palencia" type="place">Palencia</name></p>
+    <p><name ref="gente.xml#Juan Polo y Catalina">Juan Polo y Catalina</name>, Dip.do por la <name ref="lugar.xml#Aragon" type="place">Aragon</name></p>
+    <p><name ref="gente.xml#Juan María Herrera">Juan María Herrera</name>, Dip.do por la <name ref="lugar.xml#Extremadura" type="place">Extremadura</name></p>
+<pb n="106"/>
+    <p><name ref="gente.xml#Josef María Calatrava">Josef María Calatrava</name>, Dip.do por la <name ref="lugar.xml#Extrem.ra" type="place">Extrem.ra</name></p>
+    <p><name ref="gente.xml#Mariano Blas Garóz y Peñalver">Mariano Blas Garóz y Peñalver</name>, Dip.do por la <name ref="lugar.xml#Mancha" type="place">Mancha</name></p>
+    <p><name ref="gente.xml#Fran.co de Papiol">Fran.co de Papiol</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Ventura de los Reyes">Ventura de los Reyes</name>, Diputado por la <name ref="lugar.xml#Filipinas" type="place">Filipinas</name></p>
+    <p><name ref="gente.xml#Miguel Ant.o de Zumalacarregui">Miguel Ant.o de Zumalacarregui</name>, Diputado por la <name ref="lugar.xml#Guipúzcoa" type="place">Guipúzcoa</name></p>
+    <p><name ref="gente.xml#Francisco Serra">Francisco Serra</name>, Diputado por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Fran.co Gomez Fernz">Fran.co Gomez Fernz</name>, Diputado por la <name ref="lugar.xml#Sevilla" type="place">Sevilla</name></p>
+    <p><name ref="gente.xml#Nicolas Martinez Fortun">Nicolas Martinez Fortun</name>, Diputado por la <name ref="lugar.xml#Murcia" type="place">Murcia</name></p>
+    <p><name ref="gente.xml#Fran.co Lopez Lisperguer">Fran.co Lopez Lisperguer</name>, Diput.do por la <name ref="lugar.xml#B.s-Ay.s" type="place">B.s-Ay.s</name></p>
+    <p><name ref="gente.xml#Salvador Samartin">Salvador Samartin</name>, Diputado por la <name ref="lugar.xml#Nueva España" type="place">Nueva España</name></p>
+    <p><name ref="gente.xml#Fernando Melgarejo">Fernando Melgarejo</name>, Diputado por la <name ref="lugar.xml#Mancha" type="place">Mancha</name></p>
+    <p><name ref="gente.xml#José Domingo Rus">José Domingo Rus</name>, Diputado por la <name ref="lugar.xml#Maracaybo" type="place">Maracaybo</name></p>
+<pb n="107"/>
+    <p><name ref="gente.xml#Francisco Calvet y Rubalcaba">Francisco Calvet y Rubalcaba</name>, Diputado por la <name ref="lugar.xml# Ciudad de Gerona" type="place"> Ciudad de Gerona</name></p>
+    <p><name ref="gente.xml#Dionisio Inca Yupangui">Dionisio Inca Yupangui</name>, Diputado por la <name ref="lugar.xml#el Perú" type="place">el Perú</name></p>
+    <p><name ref="gente.xml#Francisco Ciscar">Francisco Ciscar</name>, Dip.do por la <name ref="lugar.xml#Valencia" type="place">Valencia</name></p>
+    <p><name ref="gente.xml#Antonio Zuazo">Antonio Zuazo</name>, Dip.do por la <name ref="lugar.xml#Perú" type="place">Perú</name></p>
+    <p><name ref="gente.xml#José Lorenzo Bermudez">José Lorenzo Bermudez</name>, Dip.o por la <name ref="lugar.xml#Prov.a de Tarma del Perú" type="place">Prov.a de Tarma del Perú</name></p>
+    <p><name ref="gente.xml#Pedro García Coronel">Pedro García Coronel</name>, Dip.do por la <name ref="lugar.xml#Trux.o del Perú" type="place">Trux.o del Perú</name></p>
+    <p><name ref="gente.xml#Fran.co de Paula Escudero">Fran.co de Paula Escudero</name>, Dip.do por la <name ref="lugar.xml#Navarra" type="place">Navarra</name></p>
+    <p><name ref="gente.xml#José de Salas y Bojadors">José de Salas y Bojadors</name>, Diput.do por la <name ref="lugar.xml#Mallorca" type="place">Mallorca</name></p>
+    <p><name ref="gente.xml#Fran.co Fernz. Golfin">Fran.co Fernz. Golfin</name>, Dip.do por la <name ref="lugar.xml#Extremad.a" type="place">Extremad.a</name></p>
+    <p><name ref="gente.xml#Manuel M.a Martinez">Manuel M.a Martinez</name>, Dip.do por la <name ref="lugar.xml#Extremad.ra" type="place">Extremad.ra</name></p>
+    <p><name ref="gente.xml#Pedro María Ric">Pedro María Ric</name>, Dip.do por la <name ref="lugar.xml#Junta de Aragon" type="place">Junta de Aragon</name></p>
+    <p><name ref="gente.xml#Juan Bautista Serrés">Juan Bautista Serrés</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+<pb n="108"/>
+    <p><name ref="gente.xml#Jayme Creus">Jayme Creus</name>, Dip.do por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Josef Obispo Prior de Leon">Josef Obispo Prior de Leon</name>, Diputado por la <name ref="lugar.xml#Extremadura." type="place">Extremadura.</name></p>
+    <p><name ref="gente.xml#Ramon Lázaro de Dou">Ramon Lázaro de Dou</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Fran.co de la Serna">Fran.co de la Serna</name>, Diputado por la <name ref="lugar.xml#Prov.a de Avila" type="place">Prov.a de Avila</name></p>
+    <p><name ref="gente.xml#José Valcarcel Dato">José Valcarcel Dato</name>, Dip.do por la <name ref="lugar.xml#Prov.a de Salamanca." type="place">Prov.a de Salamanca.</name></p>
+    <p><name ref="gente.xml#José de Cea">José de Cea</name>, Dip.do por la <name ref="lugar.xml#Cordova" type="place">Cordova</name></p>
+    <p><name ref="gente.xml#José Roa y Fabian">José Roa y Fabian</name>, Dip.do por la <name ref="lugar.xml#Molina" type="place">Molina</name></p>
+    <p><name ref="gente.xml#José Ribas">José Ribas</name>, Dip.do por la <name ref="lugar.xml#Mallorca" type="place">Mallorca</name></p>
+    <p><name ref="gente.xml#José Salvador Lopez del Pan">José Salvador Lopez del Pan</name>, Diputado por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#Alonso M.a de la Vera y Pantoja">Alonso M.a de la Vera y Pantoja</name>, Diputado por la <name ref="lugar.xml#Ciudad de Mérida" type="place">Ciudad de Mérida</name></p>
+    <p><name ref="gente.xml#Antonio Llaneras">Antonio Llaneras</name>, Diputado por la <name ref="lugar.xml#Mallorca" type="place">Mallorca</name></p>
+    <p><name ref="gente.xml#José de Espiga y Gadea">José de Espiga y Gadea</name>, Dip.o por la <name ref="lugar.xml#Junta de Cat.a" type="place">Junta de Cat.a</name></p>
+<pb n="109"/>
+    <p><name ref="gente.xml#Mig.l Gon.z y Lastiri">Mig.l Gon.z y Lastiri</name>, Diputado por la <name ref="lugar.xml#Yucatan" type="place">Yucatan</name></p>
+    <p><name ref="gente.xml#Manl Rodrigo">Manl Rodrigo</name>, Dip.do por la <name ref="lugar.xml#Buenos-Ayres" type="place">Buenos-Ayres</name></p>
+    <p><name ref="gente.xml#Ramon Feliu">Ramon Feliu</name>, Diputado por la <name ref="lugar.xml#Perú" type="place">Perú</name></p>
+    <p><name ref="gente.xml#Vic.te Morales Duarez">Vic.te Morales Duarez</name>, Diput.o por la <name ref="lugar.xml#el Perú" type="place">el Perú</name></p>
+    <p><name ref="gente.xml#José Joaq.n de Olmedo">José Joaq.n de Olmedo</name>, Diputado por la <name ref="lugar.xml#Guayaquil" type="place">Guayaquil</name></p>
+    <p><name ref="gente.xml#José Francisco Morejon">José Francisco Morejon</name>, Diputado por la <name ref="lugar.xml#Honduras" type="place">Honduras</name></p>
+    <p><name ref="gente.xml#José Miguel Ramos de Arispe">José Miguel Ramos de Arispe</name>, Dip.do por la <name ref="lugar.xml#Prov.a de Cohahuila" type="place">Prov.a de Cohahuila</name></p>
+    <p><name ref="gente.xml#Gregorio Laguna=">Gregorio Laguna=</name>, Diput.do por la <name ref="lugar.xml#Ciudad de Badajoz" type="place">Ciudad de Badajoz</name></p>
+    <p><name ref="gente.xml#Fran.co de Eguia">Fran.co de Eguia</name>, Dip.do por la <name ref="lugar.xml#Vizcaya" type="place">Vizcaya</name></p>
+    <p><name ref="gente.xml#Joaq.n Fernz de Leyva">Joaq.n Fernz de Leyva</name>, Dip.do por la <name ref="lugar.xml#Chile" type="place">Chile</name></p>
+    <p><name ref="gente.xml#Blas Ostolaza">Blas Ostolaza</name>, Diputado por la <name ref="lugar.xml#Reyno del Perú" type="place">Reyno del Perú</name></p>
+    <p><name ref="gente.xml#Rafael Manglano">Rafael Manglano</name>, Diputado por la <name ref="lugar.xml#Toledo" type="place">Toledo</name></p>
+<pb n="110"/>
+
+    <p><name ref="gente.xml#Fran.co Salazar">Fran.co Salazar</name>, Dip.o por la <name ref="lugar.xml#Perú" type="place">Perú</name></p>
+    <p><name ref="gente.xml#Alonso de Torres y Guerra">Alonso de Torres y Guerra</name>, Dip.do por la <name ref="lugar.xml#Cádiz" type="place">Cádiz</name></p>
+    <p><name ref="gente.xml#M. El Marques de Villafranca y los Velez">M. El Marques de Villafranca y los Velez</name>, Diputado por la <name ref="lugar.xml#Junta de Murcia" type="place">Junta de Murcia</name></p>
+    <p><name ref="gente.xml#Benito María Mosquera y Lera">Benito María Mosquera y Lera</name>, Diputado por la <name ref="lugar.xml#las siete Ciudades del Reino de Galicia" type="place">las siete Ciudades del Reino de Galicia</name></p>
+    <p><name ref="gente.xml#Bernardo Martinez">Bernardo Martinez</name>, Dip.do por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#Felipe Anér de Esteve">Felipe Anér de Esteve</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Pedro Inguanzo">Pedro Inguanzo</name>, Diput.do por la <name ref="lugar.xml#Asturias" type="place">Asturias</name></p>
+    <p><name ref="gente.xml#Juan de Balle">Juan de Balle</name>, Dip.do por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Ramon Utgés">Ramon Utgés</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#José M.a Beladiez y Herrera">José M.a Beladiez y Herrera</name>, Diputado por la <name ref="lugar.xml#Guadalajara" type="place">Guadalajara</name></p>
+    <p><name ref="gente.xml#Pedro Gordillo">Pedro Gordillo</name>, Diputado por la <name ref="lugar.xml#Gran-Canarias" type="place">Gran-Canarias</name></p>
+    <p><name ref="gente.xml#Felix Aytés">Felix Aytés</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+<pb n="111"/>
+
+    <p><name ref="gente.xml#Ramon de Llados">Ramon de Llados</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Fran.co María Riesco">Fran.co María Riesco</name>, Diputado por la <name ref="lugar.xml#Junta de Extremadura" type="place">Junta de Extremadura</name></p>
+    <p><name ref="gente.xml#Francisco Morrós">Francisco Morrós</name>, Diput.o por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Ant.o Vazq.ez de Parga y Vahamo.de">Ant.o Vazq.ez de Parga y Vahamo.de</name>, Diputado por la <name ref="lugar.xml#Galicia" type="place">Galicia</name></p>
+    <p><name ref="gente.xml#El Marq.s de Tamarit">El Marq.s de Tamarit</name>, Diputado por la <name ref="lugar.xml#Cataluña" type="place">Cataluña</name></p>
+    <p><name ref="gente.xml#Pedro Aparici y Ortiz">Pedro Aparici y Ortiz</name>, Diputado por la <name ref="lugar.xml#Val.a" type="place">Val.a</name></p>
+    <p><name ref="gente.xml#Joaquin Martinez">Joaquin Martinez</name>, Diputado por la <name ref="lugar.xml#Ciudad de Valencia" type="place">Ciudad de Valencia</name></p>
+    <p><name ref="gente.xml#Fran.co José Sierra y Llanes">Fran.co José Sierra y Llanes</name>, Dip.do por la <name ref="lugar.xml#el Princ.do de Asturias" type="place">el Princ.do de Asturias</name></p>
+    <p><name ref="gente.xml#El Conde de Buenavista-Cerro">El Conde de Buenavista-Cerro</name>, Diputado por la <name ref="lugar.xml#Cuenca" type="place">Cuenca</name></p>
+    <p><name ref="gente.xml#Ant.o Vazq.z de Aldana">Ant.o Vazq.z de Aldana</name>, Diputado por	Toro </p>
+    <p><name ref="gente.xml#Esteban de Palacios">Esteban de Palacios</name>, Dip.do por la <name ref="lugar.xml#Venezuela" type="place">Venezuela</name></p>
+    <p><name ref="gente.xml#el Conde de Puñonrostro">el Conde de Puñonrostro</name>, Diputado por la <name ref="lugar.xml#Nuevo Reyno de Granada" type="place">Nuevo Reyno de Granada</name></p>
+<pb n="112"/>
+
+    <p><name ref="gente.xml#Miguel Riesco y Puente">Miguel Riesco y Puente</name>, Diputado por la <name ref="lugar.xml#Chile" type="place">Chile</name></p>
+    <p><name ref="gente.xml#Fermin de Clemente">Fermin de Clemente</name>, Diput.do por la <name ref="lugar.xml#Venezuela" type="place">Venezuela</name></p>
+    <p><name ref="gente.xml#Luis de Velasco">Luis de Velasco</name>, Dip.do por la <name ref="lugar.xml#Buenos-Ayres" type="place">Buenos-Ayres</name></p>
+    <p><name ref="gente.xml#Manuel de Llano">Manuel de Llano</name>, Diput.o por la <name ref="lugar.xml#Chiapa" type="place">Chiapa</name></p>
+    <p><name ref="gente.xml#José Cayetano de Foncerrada">José Cayetano de Foncerrada</name>, Diputado de la <name ref="lugar.xml#Provincia de Valladolid de Mechoacan" type="place">Provincia de Valladolid de Mechoacan</name></p>
+    <p><name ref="gente.xml#José María  Gutierrez de Teran">José María  Gutierrez de Teran</name>, Dip.do por la <name ref="lugar.xml#N.E. Secrtario" type="place">N.E. Secrtario</name></p>
+    <p><name ref="gente.xml#José Ant.o Navarrete">José Ant.o Navarrete</name>, Diput.do por la <name ref="lugar.xml#el Perú Secretario" type="place">el Perú Secretario</name></p>
+    <p><name ref="gente.xml#José de Zorraquin">José de Zorraquin</name>, Dip.o por la <name ref="lugar.xml#Madrid Secretario" type="place">Madrid Secretario</name></p> 
+    <p><name ref="gente.xml#Joaquin Diaz Caneja">Joaquin Diaz Caneja</name>, Diputado por la <name ref="lugar.xml#Leon Secret.o" type="place">Leon Secret.o</name></p>   
+  </div> <!-- firmas -->
+</body>
+</text>
+</TEI>
